@@ -1,0 +1,21 @@
+# some information about you
+name: "DongjuSon"
+nickname: "Codex"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Welcome"
+image: "images/author/pigeon.gif"
+# image: "images/default-avatar.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "codex.devlab@gmail.com"
+  # phone: "+0123456789"
+  github: https://github.com/ehdwn1991
+  linkedin: dongju-son
+
+# some summary about what you do
+summary:
+  - Continuous Integration and Improvement!
+  - I am a Sofware Developer
+  - Also DevOps Engineering 
+  - I work on open-source projects
+  - I like to work with some fun projects
