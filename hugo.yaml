@@ -1,8 +1,7 @@
 baseURL: https://codex-devlab.github.io
-languageCode: ko
+languageCode: en
 title: "CodeXlog"
 
-disablePathToLower: true
 # Use Hugo modules to add theme
 module:
   imports:
@@ -100,13 +99,9 @@ params:
         facebook: true
         twitter: true
         linkedin: true
-        reddit: true
-        # whatsapp: false
+        # reddit: true
         email: true
-        # tumblr: false
-        # pocket: false
-        # diaspora: false
-        # mastodon: false
+
 
     # Enable & configure "Notes" features
     notes:
@@ -152,7 +147,7 @@ params:
       services:
         # Google Analytics
         google:
-          id: G-H4LBG7NDFZ
+          id: G-FSLRPDG57K
         # # CounterDev
         # counterDev:
         #   id: <your counterdev id>
@@ -167,17 +162,6 @@ params:
     # Enable Support
     support:
       enable: false
-      services:
-        kofi:
-          user: hossainemruz
-          text: Tip Me
-          textColor: '#f9fafc'
-          backgroundColor: '#248aaa'
-        # buymeacoffee:
-        #   user: <your buymeacoffee.com user>
-        #   text: Support me on Buy me a coffee!
-        #   info: Buy me a coffee!
-        #   color: '#FFDD00'
 
     # specify whether you want to show Table of Contents in reading page
     toc:
@@ -190,11 +174,8 @@ params:
 
     # Specify whether to show flag in the language selector. Default is true.
     flags:
-      enable: true
-      # # If you want to use different country flag for a language, specify them here.
-      # flagOverwrites:
-      #   - languageCode: en
-      #     countryCode: us
+      enable: false
+
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:
