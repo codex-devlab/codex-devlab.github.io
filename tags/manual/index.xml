@@ -1,5 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Manual on CodeXlog</title><link>https://codex-devlab.github.io/tags/manual/</link><description>Recent content in Manual on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 08:06:25 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/manual/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo</title><link>https://codex-devlab.github.io/posts/hugo/</link><pubDate>Wed, 01 Jan 2025 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/hugo/</guid><description>&lt;p>&lt;a href="https://github.com/hugo-toha/hugo-toha.github.io" target="_blank" rel="noopener">https://github.com/hugo-toha/hugo-toha.github.io&lt;/a>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Manual on CodeXlog</title><link>https://codex-devlab.github.io/tags/manual/</link><description>Recent content in Manual on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 08:06:25 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/manual/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo</title><link>https://codex-devlab.github.io/posts/blog-migration/sub-hugo/</link><pubDate>Wed, 01 Jan 2025 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/blog-migration/sub-hugo/</guid><description>&lt;p>&lt;a href="https://github.com/hugo-toha/hugo-toha.github.io" target="_blank" rel="noopener">https://github.com/hugo-toha/hugo-toha.github.io&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://toha-guides.netlify.app/" target="_blank" rel="noopener">https://toha-guides.netlify.app/&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://github.com/hugo-toha/guides" target="_blank" rel="noopener">https://github.com/hugo-toha/guides&lt;/a>&lt;/p>
 &lt;h3 id="creating-sub-category">Creating Sub Category&lt;/h3>
-&lt;p>&lt;a href="https://toha-guides.netlify.app/posts/writing-posts/organizing/sub-category/example/" target="_blank" rel="noopener">https://toha-guides.netlify.app/posts/writing-posts/organizing/sub-category/example/&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>&lt;a href="https://toha-guides.netlify.app/posts/writing-posts/organizing/sub-category/example/" target="_blank" rel="noopener">https://toha-guides.netlify.app/posts/writing-posts/organizing/sub-category/example/&lt;/a>&lt;/p></description></item><item><title>Jekyll</title><link>https://codex-devlab.github.io/posts/blog-migration/sub-jekyll/</link><pubDate>Mon, 11 Jun 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/blog-migration/sub-jekyll/</guid><description>&lt;h2 id="working-in-hydejack">Working in Hydejack&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>_config.yml, Gemfile 의 초기 설정&lt;/p>
+&lt;p>jekyll을 시작하기 전에 필요한플러그 인이나 기본 설정을 완료해야한다.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>_config.yml&lt;/p>
+&lt;p>블로그의 URL, Name, DIsqus, Collection, Markdown Converter&amp;hellip;등&lt;/p>
+&lt;p>jekyll이 동작하고 블로그에 필요한 초기 정보를 담고 있다.&lt;/p>
+&lt;p>주로 플러그인과 블로그의 설정.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Gemfile&lt;/p>
+&lt;p>주로 해당 블로그에 적용되는 플러그인이 gem으로 동작할수있게 명시해줌&lt;/p>
+&lt;p>테마에 대한 remote나 jekyll의 버전 에 대한 정보를 담고있음&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>루트 폴더에서 index.md를 찾아서 가장 먼저 보여준다&lt;/p>
+&lt;p>index.md에 있는 Fornt matter의 layout에 해당 하는 html문서를 템플릿처럼&lt;/p></description></item></channel></rss>

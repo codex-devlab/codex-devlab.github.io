@@ -1,0 +1,377 @@
+<!doctype html><html lang=en><head><title>Jekyll</title>
+<meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=X-UA-Compatible content="ie=edge"><link rel=stylesheet href=/application.ebdf1708425812742f06026e9c6504d6d04f47c35c98bf525d317b7a6ec6263a.css integrity="sha256-698XCEJYEnQvBgJunGUE1tBPR8NcmL9SXTF7em7GJjo="><link rel=icon type=image/png href=/images/site/favicon_hu_a7920c91965714cb.png><meta property="og:url" content="https://codex-devlab.github.io/posts/blog-migration/sub-jekyll/"><meta property="og:site_name" content="CodeXlog"><meta property="og:title" content="Jekyll"><meta property="og:description" content="jekyll의 hydejack 테마를 적용하면서 이해한것과 발생한 문제점들."><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2018-06-11T08:12:43+05:00"><meta property="article:modified_time" content="2018-06-11T08:12:43+05:00"><meta property="article:tag" content="Jekyll"><meta property="article:tag" content="Hydejack Theme"><meta property="article:tag" content="Manual"><meta name=twitter:card content="summary"><meta name=twitter:title content="Jekyll"><meta name=twitter:description content="jekyll의 hydejack 테마를 적용하면서 이해한것과 발생한 문제점들."><meta name=description content="jekyll의 hydejack 테마를 적용하면서 이해한것과 발생한 문제점들."><script async src="https://www.googletagmanager.com/gtag/js?id=G-FSLRPDG57K"></script><script>var dnt,doNotTrack=!1;if(null&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-FSLRPDG57K")}</script><script>theme=localStorage.getItem("theme-scheme")||localStorage.getItem("darkmode:color-scheme")||"light",theme=="system"&&(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?theme="dark":theme="light"),document.documentElement.setAttribute("data-theme",theme)</script></head><body class="type-posts kind-page" data-bs-spy=scroll data-bs-target=#TableOfContents data-bs-offset=80><div class="container-fluid bg-secondary wrapper"><nav class="navbar navbar-expand-xl top-navbar shadow" id=top-navbar><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button>
+<i data-feather=sidebar></i>
+</button>
+<a class=navbar-brand href=/><img src=/images/site/main-logo_hu_77a6e5ea6e57520b.png id=logo alt=Logo>
+CodeXlog</a>
+<button class="navbar-toggler navbar-light" id=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#top-nav-items aria-label=menu>
+<i data-feather=menu></i></button><div class="collapse navbar-collapse dynamic-navbar" id=top-nav-items><ul class="nav navbar-nav ms-auto"><li class=nav-item><a class=nav-link href=/#home>Home</a></li><li class=nav-item><a class=nav-link href=/#recent-posts>Recent Posts</a></li><div id=top-navbar-divider></div><li class=nav-item><a class=nav-link id=blog-link href=/posts>Posts</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href=# id=themeSelector role=button data-bs-toggle=dropdown aria-haspopup=true aria-expanded=false><img id=navbar-theme-icon-svg class=theme-icon src=/icons/moon-svgrepo-com.svg width=20 alt="Dark Theme"></a><div id=themeMenu class="dropdown-menu dropdown-menu-icons-only" aria-labelledby=themeSelector><a class="dropdown-item nav-link" href=# data-scheme=light><img class=theme-icon src=/icons/sun-svgrepo-com.svg width=20 alt="Light Theme">
+</a><a class="dropdown-item nav-link" href=# data-scheme=dark><img class=theme-icon src=/icons/moon-svgrepo-com.svg width=20 alt="Dark Theme">
+</a><a class="dropdown-item nav-link" href=# data-scheme=system><img class=theme-icon src=/icons/computer-svgrepo-com.svg width=20 alt="System Theme"></a></div></li></ul></div></div><img src=/images/site/main-logo_hu_77a6e5ea6e57520b.png class=d-none id=main-logo alt=Logo>
+<img src=/images/site/inverted-logo_hu_a7920c91965714cb.png class=d-none id=inverted-logo alt="Inverted Logo"></nav><section class=sidebar-section id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><form class=mx-auto method=get action=/search><input type=text name=keyword placeholder=Search data-search id=search-box></form><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=/posts/ data-filter=all>Posts</a></li><div class=subtree><li><i data-feather=minus-circle></i><a class="active list-link" href=/posts/blog-migration/> Blog-Migration</a><ul class=active><li><a class=list-link href=/posts/blog-migration/sub-hugo/ title=Hugo>Hugo</a></li><li><a class="active list-link" href=/posts/blog-migration/sub-jekyll/ title=Jekyll>Jekyll</a></li></ul></li><li><i data-feather=plus-circle></i><a class=list-link href=/posts/study/> Study</a><ul><li><i data-feather=plus-circle></i><a class=list-link href=/posts/study/sub-algorithms/> Algorithms</a><ul><li><a class=list-link href=/posts/study/sub-algorithms/backjoon/ title="Algorithms Problem">Algorithms Problem</a></li><li><a class=list-link href=/posts/study/sub-algorithms/data-structure/ title="Data Structure">Data Structure</a></li><li><i data-feather=plus-circle></i><a class=list-link href=/posts/study/sub-algorithms/programming-tips/> Programming Tips</a><ul><li><a class=list-link href=/posts/study/sub-algorithms/programming-tips/the-meaning-of-scanf-in-c-language/ title="C언어 Scanf 의 의미">C언어 Scanf 의 의미</a></li></ul></li><li><a class=list-link href=/posts/study/sub-algorithms/any-problems/ title="Etc Problem">Etc Problem</a></li></ul></li><li><i data-feather=plus-circle></i><a class=list-link href=/posts/study/sub-computer-science/> Computer Science</a><ul><li><a class=list-link href=/posts/study/sub-computer-science/system-programming-ftw-implementation/ title="시스템프로그래밍 FTW 구현">시스템프로그래밍 FTW 구현</a></li></ul></li><li><i data-feather=plus-circle></i><a class=list-link href=/posts/study/sub-programming-language/> Programming Language</a><ul><li><a class=list-link href=/posts/study/sub-programming-language/system-programming-ftw-implementation/ title="C언어 스터디">C언어 스터디</a></li></ul></li></ul></li><li><i data-feather=plus-circle></i><a class=list-link href=/posts/os/> OS</a><ul><li><a class=list-link href=/posts/os/sub-bsd-based/ title="BSD-Based OS">BSD-Based OS</a></li><li><i data-feather=plus-circle></i><a class=list-link href=/posts/os/sub-linux/> Linux</a><ul><li><i data-feather=plus-circle></i><a class=list-link href=/posts/os/sub-linux/debian-bases/> Debain-Based OS</a><ul><li><a class=list-link href=/posts/os/sub-linux/debian-bases/ubuntu-setting/ title="Ubuntu & OSX setting">Ubuntu & OSX setting</a></li></ul></li><li><a class=list-link href=/posts/os/sub-linux/rhel-based/ title="RHEL-Based OS">RHEL-Based OS</a></li></ul></li><li><a class=list-link href=/posts/os/sub-macos/ title="Mac OS">Mac OS</a></li><li><a class=list-link href=/posts/os/sub-window/ title="Window OS">Window OS</a></li></ul></li></div></ul></div></div></div></section><section class=content-section id=content-section><div class=content><div class="container p-0 read-area"><div class="hero-area col-sm-12" id=hero-area style=background-image:url(/images/default-hero.jpg)></div><div class=page-content><div class="author-profile ms-auto align-self-lg-center"><img class=rounded-circle src=/images/author/pigeon.gif alt="Author Image"><h5 class=author-name>DongjuSon</h5><p class=text-muted>Monday, June 11, 2018 | 10 minutes</p></div><div class=title><h1>Jekyll</h1></div><div class=tags><ul style=padding-left:0><li class=rounded><a href=/tags/jekyll/ class="btn btn-sm btn-info">Jekyll</a></li><li class=rounded><a href=/tags/hydejack-theme/ class="btn btn-sm btn-info">Hydejack Theme</a></li><li class=rounded><a href=/tags/manual/ class="btn btn-sm btn-info">Manual</a></li></ul></div><div class=post-content id=post-content><h2 id=working-in-hydejack>Working in Hydejack</h2><ul><li><p>_config.yml, Gemfile 의 초기 설정</p><p>jekyll을 시작하기 전에 필요한플러그 인이나 기본 설정을 완료해야한다.</p><ul><li><p>_config.yml</p><p>블로그의 URL, Name, DIsqus, Collection, Markdown Converter&mldr;등</p><p>jekyll이 동작하고 블로그에 필요한 초기 정보를 담고 있다.</p><p>주로 플러그인과 블로그의 설정.</p></li><li><p>Gemfile</p><p>주로 해당 블로그에 적용되는 플러그인이 gem으로 동작할수있게 명시해줌</p><p>테마에 대한 remote나 jekyll의 버전 에 대한 정보를 담고있음</p></li></ul></li><li><p>루트 폴더에서 index.md를 찾아서 가장 먼저 보여준다</p><p>index.md에 있는 Fornt matter의 layout에 해당 하는 html문서를 템플릿처럼</p><p>사용해서 동작함</p></li><li><p>_layout 에 있는 layout 문서들은 _Include안에 문서들과 연동</p><p>_include 안에는 head.html, body.html&mldr; 등 다양한 기본 문서가 존재함</p><p>여기 있는 문서들은 전부 웹페이지의 한 부분을 보여주기 위해 필요한 요소 들이다.</p><p>만약 html만으로 웹페이지를 만들었다면 _include 안에 있는 문서들이 한곳에</p><p>통합 되어 있을것이다. 하지만 효율적으로 캡슐화 하여 필요한곳에 쓰이게</p><p>각 용도 별로 나눠져있다.</p></li><li><p>웹페이지가 돌아가기 이전에 _js폴더에서 자바 스크립트가 동작</p><p>웹알못이기 떄문에 이부분은 좀더 공부한 후에 작성</p></li><li><p>jekyll 에서 다양한 Collection이 있지만 기본적으로 구성된 Collection은 _post이다</p><p>만약 다른 Collection이 없다면 jekyll 은 _post에 있는 Markdown문서들은 나열할것이다.</p><p>하지만, _config.yml에 다른 Collection이 명시되어 있다면 해당 Collection은</p><p>_post Collection을 먼저 rendering 하여 보여준다.</p></li></ul><h2 id=jekyll-directory-structure>jekyll directory structure</h2><p>지킬 기본 디렉토리 구조는 이런식입니다.
+기본 구조를 알아두고 적용하고 싶은 테마에 구조와
+비교해보면서 알아가는게 이해가 빠를것 같습니다.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=display:flex><span>.
+</span></span><span style=display:flex><span>├── _config.yml <span style=color:#f92672>(</span>지킬 환경설정 정보<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>├── _drafts <span style=color:#f92672>(</span>아직 게시하지 않은 초안으로 파일명 형식에 날짜가 없음<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>|   ├── begin-with-the-crazy-ideas.textile
+</span></span><span style=display:flex><span>|   └── on-simplicity-in-technology.markdown
+</span></span><span style=display:flex><span>├── _includes <span style=color:#f92672>(</span>포스트 레이아웃이 들어 있는 폴더, 레이아웃의 헤더파일 같은것<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>|   ├── footer.html
+</span></span><span style=display:flex><span>|   └── header.html
+</span></span><span style=display:flex><span>├── _layouts <span style=color:#f92672>(</span>실제 레이아웃이 존재하는 폴더, Liquid 태그를 사용함<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>|   ├── default.html
+</span></span><span style=display:flex><span>|   └── post.html
+</span></span><span style=display:flex><span>├── _posts <span style=color:#f92672>(</span>게시한 포스트를 저장하는곳,날짜 명칭 형식을 반드시 맞춰야함<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>|   ├── 2007-10-29-why-every-programmer-should-play-nethack.textile
+</span></span><span style=display:flex><span>|   └── 2009-04-26-barcamp-boston-4-roundup.textile
+</span></span><span style=display:flex><span>├── _data <span style=color:#f92672>(</span>사이트에 사용될 데이터가 저장되어 있는곳<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>|   └── members.yml <span style=color:#f92672>(</span>site.data.members 라고 입력하면 해당 데이터 사용가능<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>├── _site <span style=color:#f92672>(</span>지킬이 변환작업을 마친 포스트가 저장되는곳<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>├── .jekyll-metadata <span style=color:#f92672>(</span>지킬이 동작하면서 빌드내역등에 대한 정보를 저장<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>└── index.html <span style=color:#f92672>(</span>yaml 머리말을 세션을 가진 모든 파일을 찾아 변환작업함<span style=color:#f92672>)</span>
+</span></span></code></pre></div><p>hydejack 구조</p><blockquote><p>지킬도 분명 <code>index.html</code>을 우선으로 보여줄것이다. 근데 지킬은 index.md를 우선시한다.</p><p>기본구조에서 <a href=#indexmd-of-location>index.md</a> 가 존재하는곳이 어딘지 보면 알기 쉽다.</p></blockquote><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=display:flex><span>├──_data
+</span></span><span style=display:flex><span>├──_featured_categories
+</span></span><span style=display:flex><span>├──_featured_tags
+</span></span><span style=display:flex><span>├──_includes
+</span></span><span style=display:flex><span>├──_js
+</span></span><span style=display:flex><span>├──_layouts
+</span></span><span style=display:flex><span>├──_posts
+</span></span><span style=display:flex><span>├──_sass
+</span></span><span style=display:flex><span>├──assets <span style=color:#f92672>(</span>이미지 문서등 자원폴더<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>├──_config.yml
+</span></span><span style=display:flex><span>├──404.md
+</span></span><span style=display:flex><span>├──about.md
+</span></span><span style=display:flex><span>└──index.html
+</span></span></code></pre></div><h2 id=config>Config</h2><blockquote><p>_config.yml</p></blockquote><ul><li><p>Github page
+깃허브 페이지에 호스팅 할때 url형식은 http://<username>.github.io 의기본형식을 따른다.
+(따로 도메인을 설정하지 안았을때)
+baseurl 은 당신이 호스팅한 페이지에 따라 달라진다.</p></li><li><p>Plugin
+_config 에서 다양한 플러그인과 현재 페이지의 각종 정보를 담고 있다.<br>예를 들어 <code>disqus</code>의 기능을 추가하려고 할때 여기에 명시해 주어야한다.<br>물론 <code>font</code>에 관한 내용도 여기에 들어가야한다. 일단은 그렇게만 알고 있고<br>블로그를 만들어 가면서 파악하면될듯.</p></li></ul><h2 id=post>Post</h2><blockquote><p>_post</p></blockquote><p>jekyll 는 다양한 collection을 생성할수 있다.</p><p>하지만 기본적으로 post라는 collection을 가지고 있고, _post폴더에 있는 post 들을 보여준다.</p><p><code>Issues</code></p><ol><li><a href=#show-the-mycollection-slug-in-any-post>포스트에 mycollection의 태그명을 추가해야함</a></li></ol><h2 id=page>Page</h2><blockquote><p>거의 모든 웹환경의 설정은 루트폴더에서 index.html 인 파일을 찾아 홈페이지로 보여줌
+물론 지킬도 이런 관례를 따름</p></blockquote><ul><li><p>페이지의 위치
+html을 생성하는 위치에 따라 두가지 방법있음.</p><ol><li>사이트의 루트 폴더에 각 페이지병 HTML을 만든다.</li><li>사이트의 루트 폴더에 각 페이지 별 폴더를 만들고, 각 폴더에 index.html 파일을 만든다.(이게 좋아 보임)</li></ol></li><li><p>HTML파일에 이름쓰기</p><p>루트 디렉토리에 생성하고자 하는 페이지 이름을 가진 HTML파일을 추가하는것</p></li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=display:flex><span> .
+</span></span><span style=display:flex><span> |-- _config.yml
+</span></span><span style=display:flex><span> |-- _includes/
+</span></span><span style=display:flex><span> |-- _layouts/
+</span></span><span style=display:flex><span> |-- _posts/
+</span></span><span style=display:flex><span> |-- _site/
+</span></span><span style=display:flex><span> |-- about.html    <span style=color:#75715e># =&gt; http://yoursite.com/about.html</span>
+</span></span><span style=display:flex><span> |-- index.html    <span style=color:#75715e># =&gt; http://yoursite.com/</span>
+</span></span><span style=display:flex><span> └── contact.html  <span style=color:#75715e># =&gt; http://yoursite.com/contact.html</span>
+</span></span></code></pre></div><ul><li><p>디렉토리에 이름을 짓고 인덱스 HTML파일 넣기</p><p>루트 폴더에 페이지마다 폴더를 만들고 그안에 index.html을 넣어주는것이 단순해 지고 관리가 쉬워짐</p></li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=display:flex><span>  .
+</span></span><span style=display:flex><span>├── _config.yml
+</span></span><span style=display:flex><span>├── _includes/
+</span></span><span style=display:flex><span>├── _layouts/
+</span></span><span style=display:flex><span>├── _posts/
+</span></span><span style=display:flex><span>├── _site/
+</span></span><span style=display:flex><span>├── about/
+</span></span><span style=display:flex><span>|   └── index.html  <span style=color:#75715e># =&gt; http://yoursite.com/about/</span>
+</span></span><span style=display:flex><span>├── contact/
+</span></span><span style=display:flex><span>|   └── index.html  <span style=color:#75715e># =&gt; http://yoursite.com/contact/</span>
+</span></span><span style=display:flex><span>└── index.html      <span style=color:#75715e># =&gt; http://yoursite.com/</span>
+</span></span></code></pre></div><h2 id=collection>Collection</h2><p><a href=https://jekyllrb.com/docs/collections/ target=_blank rel=noopener>Jekyll 에서 제공하는 Collection 정의 참고</a></p><p>Collection은 티스토리 같은 블로그의 tag와 category기능이랑 비슷하다고 보면됩니다.</p><p>물론 Jekyll 에서는 그런 기능들을 만들어줘야 할뿐입니다.</p><p>Hydejack에서 제공하는 Collections은 tag, category 이다.</p><p>하지만 사용자에 의해서 따로 Collection을 설정하여 사용할수도있다.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=display:flex><span><span style=color:#75715e># 다음은 jekyll 루트 폴더의 Collection구조입니다.</span>
+</span></span><span style=display:flex><span>./
+</span></span><span style=display:flex><span>...
+</span></span><span style=display:flex><span>├── _featured_categories
+</span></span><span style=display:flex><span>├── _featured_tags
+</span></span><span style=display:flex><span>├── _my_collection
+</span></span><span style=display:flex><span>...
+</span></span><span style=display:flex><span><span style=color:#75715e># Hydejack이 제공하는 tag와 categry가 있지만</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># 추가적으로 _my_collection을 만들었습니다.</span>
+</span></span></code></pre></div><p>my collection을 tag나 category같은 기능 으로 사용하면서</p><p>my collection안에 작성된 post들을 새로운 분류로 나열 하려고함.</p><ol><li>_config.yml 에 collection 추가</li></ol><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-markdown data-lang=markdown><span style=display:flex><span># _config.yml
+</span></span><span style=display:flex><span># Collections
+</span></span><span style=display:flex><span>collections:
+</span></span><span style=display:flex><span>  featured_categories:
+</span></span><span style=display:flex><span>    permalink:         /category/:name/
+</span></span><span style=display:flex><span>    output:            true
+</span></span><span style=display:flex><span>  featured_tags:
+</span></span><span style=display:flex><span>    permalink:         /tag/:name/
+</span></span><span style=display:flex><span>    output:            true
+</span></span><span style=display:flex><span>  my_collection:
+</span></span><span style=display:flex><span>    permalink:         /my_collection/:name/
+</span></span><span style=display:flex><span>    output: true
+</span></span></code></pre></div><ol start=2><li>루트 폴더에 카테고리명으로 폴더 생성</li></ol><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=display:flex><span>./
+</span></span><span style=display:flex><span>...
+</span></span><span style=display:flex><span>├── _featured_categories
+</span></span><span style=display:flex><span>├── _featured_tags
+</span></span><span style=display:flex><span>├── _my_collection  -&gt; 반드시 폴더명은 collection이름 앞에 <span style=color:#e6db74>`</span>_<span style=color:#e6db74>`</span>를 붙여줘야합니다.
+</span></span><span style=display:flex><span>...
+</span></span></code></pre></div><ol start=3><li>_my_collection 폴더 안에 index.md생성</li></ol><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-markdown data-lang=markdown><span style=display:flex><span>./
+</span></span><span style=display:flex><span>...
+</span></span><span style=display:flex><span>├── _my_collection
+</span></span><span style=display:flex><span>  ├── index.md
+</span></span><span style=display:flex><span>  ├── samplecollection.md
+</span></span><span style=display:flex><span>  ├── samplepost.md
+</span></span><span style=display:flex><span>...
+</span></span><span style=display:flex><span># index.md
+</span></span><span style=display:flex><span>---
+</span></span><span style=display:flex><span>layout: default
+</span></span><span style=display:flex><span>title: my collection list
+</span></span><span style=display:flex><span>description: &gt;
+</span></span><span style=display:flex><span>  my collection의 새로운 분류에 따른 카테고리 리스트를 보여주려 합니다.
+</span></span><span style=display:flex><span>menu: true
+</span></span><span style=display:flex><span>order: 1
+</span></span><span style=display:flex><span>---
+</span></span><span style=display:flex><span># samplecollection.md
+</span></span><span style=display:flex><span>---
+</span></span><span style=display:flex><span>layout: list
+</span></span><span style=display:flex><span>title: 새로 분류할 collection 입니다.
+</span></span><span style=display:flex><span>description: &gt;
+</span></span><span style=display:flex><span>slug: test -&gt; tag나 category의 slug같은것
+</span></span><span style=display:flex><span>---
+</span></span><span style=display:flex><span># samplepost.md
+</span></span><span style=display:flex><span>---
+</span></span><span style=display:flex><span>layout: post
+</span></span><span style=display:flex><span>title: sample post 입니다.
+</span></span><span style=display:flex><span>description: &gt;
+</span></span><span style=display:flex><span>my_collection: [test]
+</span></span><span style=display:flex><span>categories: [category_test]
+</span></span><span style=display:flex><span>tags: [tag_test]
+</span></span><span style=display:flex><span>---
+</span></span></code></pre></div><p>이제 기본 골격은 다 갖췄습니다.</p><p>my collection에서 보이고 싶은 포스트나 내용을 입맛에 맞게 바꾸면 됩니다.</p><p><code>Issues</code></p><ol><li><a href=#New-collection-listing>콜렉션에서 새로 분류한 카테고리별로 리스팅</a></li><li><a href=#New-collection-classifying-post>새로운 카테고리에서 해당 분류로 모아진 post listing</a></li><li><a href=#List-layout-can%27t-listing-post-in-mycollection>기존에 있던 list에서 my collection에 있는포스트를 못불러옴</a></li></ol><h2 id=adding-sidebar-in-jekyll>Adding Sidebar in jekyll</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-markdown data-lang=markdown><span style=display:flex><span>---
+</span></span><span style=display:flex><span>layout: page  =&gt;page 와 list중에 어울리는걸로 하면될듯 
+</span></span><span style=display:flex><span>title: test_page =&gt;사이드바에 표시될 이름
+</span></span><span style=display:flex><span>description: &gt;  =&gt; 해당 사이드바에 대한 설명
+</span></span><span style=display:flex><span>test sidebar =&gt; 여기부분부터 쓸때 반드시 스페이스바로 두칸 띄고 써야됨. 절대 탭이나 적거나 많게 띄면 에러남
+</span></span><span style=display:flex><span>menu: true =&gt;이 속성을 넣어줘야 사이드바에 나타남
+</span></span><span style=display:flex><span>order: 7 =&gt; 사이드 바에서 표시될 순서임
+</span></span><span style=display:flex><span>---
+</span></span><span style=display:flex><span>#사이드바에 추가하고 싶으면 폴더 이름은 아무거나 상관없음
+</span></span><span style=display:flex><span>#폴더 안에 index.md가 있어야 하고 위의 yaml 헤더가 있어야함.
+</span></span></code></pre></div><ol><li><p>_featured_tags
+anytitle.md 를 만들고 위의 내용 넣어주면됨.</p></li><li><p>폴더에 index.md 만들기
+anytitle.md 만들고 위의 내용 넣어주면됨.</p></li></ol><h2 id=sidebarpagelist-example>Sidebar&amp;page&amp;list example</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=display:flex><span><span style=color:#75715e>#먼저 testfolder를 사이드바에 추가하기 위해</span>
+</span></span><span style=display:flex><span><span style=color:#75715e>#루트 위치에 같은 폴더 명을 만들어줬습니다. 물론 폴더명을 동일하게 만든것은</span>
+</span></span><span style=display:flex><span><span style=color:#75715e>#그냥 보기 이쁘고 관리 하기 편할것 같아서 그런거지 굳이 일치 시킬필요는 없습니다.</span>
+</span></span><span style=display:flex><span>$ tree -L <span style=color:#ae81ff>2</span>
+</span></span><span style=display:flex><span>.
+</span></span><span style=display:flex><span>...
+</span></span><span style=display:flex><span>├── testfolder
+</span></span><span style=display:flex><span>    ├──index.md
+</span></span><span style=display:flex><span>├── _post
+</span></span><span style=display:flex><span>    ├──...
+</span></span><span style=display:flex><span>    ├──2018-05-05-testpost.md
+</span></span><span style=display:flex><span>    ├──2018-05-05-testpage.md
+</span></span><span style=display:flex><span>    ├──...
+</span></span><span style=display:flex><span>└── ...
+</span></span><span style=display:flex><span><span style=color:#75715e>#저는 사이드바에 추가된 testfolder에 testpost로 태그된 목록들을 보여주려합니다.</span>
+</span></span><span style=display:flex><span><span style=color:#75715e>#물론 _post폴더 안의 testpost 와 testpage도 testpost로 태그되어 있습니다.</span>
+</span></span></code></pre></div><p>그럼 이제 밑의 사진 처럼 구성이 되어 있을것입니다.</p><p><img src=https://raw.githubusercontent.com/ehdwn1991/Ubuntu/master/assets/fol.png alt=fol></p><p>이제 각 폴더와 파일들을 상세하게 살펴보면 될것같습니다.</p><ol><li>testfolder
+테스트 폴더 안에는 index.md가 있습니다. 테마의 내부설정에 의해서 index.md를 우선으로<br>읽어 오고 yaml헤더에 따라 용도와 방법이 구분됩니다.</li></ol><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=display:flex><span><span style=color:#75715e># index.md</span>
+</span></span><span style=display:flex><span>---
+</span></span><span style=display:flex><span>layout: list
+</span></span><span style=display:flex><span>title: testfolder
+</span></span><span style=display:flex><span>slug: testpost
+</span></span><span style=display:flex><span>description: &gt;
+</span></span><span style=display:flex><span>     test sidebar
+</span></span><span style=display:flex><span>menu: true
+</span></span><span style=display:flex><span>order: <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>---
+</span></span><span style=display:flex><span>테스트 리스트 입니다.
+</span></span><span style=display:flex><span>현재 리스트는 testpost가 태그되어 있는 포스트들만 보여주고 있습니다.
+</span></span></code></pre></div><ul><li>layout : list로 설정 하셔야 해당 태그로 연결된 포스트들을 보여줍니다.</li><li>slug : 슬러그에 설정된 이름으로 관련된 태그를 가져옵니다.</li><li>menu : sidebar에 추가 하기 위해선 true로 해줘야 합니다.</li><li>order : 사이드바에서 보여질 순위입니다. 위의 그림에서 보면 첫번째로 위치함.</li></ul><ol start=2><li><p>태그된 포스트들</p><p>현재는 두가지의 다른 포스트를 준비했습니다.</p></li></ol><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=display:flex><span><span style=color:#75715e># 2018-05-05-testpost.md</span>
+</span></span><span style=display:flex><span>---
+</span></span><span style=display:flex><span>layout: post
+</span></span><span style=display:flex><span>title:  test_post
+</span></span><span style=display:flex><span>date:   2018-05-10 16:06:59 +0900
+</span></span><span style=display:flex><span>tag: <span style=color:#f92672>[</span>testpost<span style=color:#f92672>]</span>
+</span></span><span style=display:flex><span>---
+</span></span><span style=display:flex><span>테스트 포스트입니다. 현재 태그는 testpost입니다.
+</span></span><span style=display:flex><span>   
+</span></span><span style=display:flex><span><span style=color:#75715e># 2018-05-05-testpage.md</span>
+</span></span><span style=display:flex><span>---
+</span></span><span style=display:flex><span>layout: page
+</span></span><span style=display:flex><span>title:  test_page
+</span></span><span style=display:flex><span>date:   2018-05-10 16:06:59 +0900
+</span></span><span style=display:flex><span>tag: <span style=color:#f92672>[</span>testpost<span style=color:#f92672>]</span>
+</span></span><span style=display:flex><span>---
+</span></span><span style=display:flex><span>테스트 페이지입니다. 현재 태그는 testpost입니다.   
+</span></span></code></pre></div><h2 id=authors>Authors</h2><p>about 페이지나 각 포스트들의 footer에 사용자의 사진과 정보가 표시될수있게함.</p><ul><li><p>_layout/about.html</p><p>about 페이지를 만들때 쓰임.</p></li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ruby data-lang=ruby><span style=display:flex><span>{<span style=color:#f92672>%</span> raw <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74># _layout/about.html
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>{% assign plugins = site.plugins | default:site.gems %}</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>&lt;</span>article class<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;page&#34;</span> role<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;article&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>  {<span style=color:#f92672>%</span> assign author <span style=color:#f92672>=</span> site<span style=color:#f92672>.</span>data<span style=color:#f92672>.</span>authors<span style=color:#f92672>[</span>page<span style=color:#f92672>.</span>author<span style=color:#f92672>]</span> <span style=color:#f92672>|</span> <span style=color:#e6db74>default</span>:site<span style=color:#f92672>.</span>data<span style=color:#f92672>.</span>authors<span style=color:#f92672>.</span>first<span style=color:#f92672>[</span><span style=color:#ae81ff>1</span><span style=color:#f92672>]</span> <span style=color:#f92672>|</span> <span style=color:#e6db74>default</span>:site<span style=color:#f92672>.</span>author <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>이부분이 _data안에 있는 authors.yml문서의 값을 불러옴
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  {% if author.picture %}</span>
+</span></span><span style=display:flex><span>    {<span style=color:#f92672>%</span> <span style=color:#66d9ef>include</span> srcset<span style=color:#f92672>-</span>img<span style=color:#f92672>.</span>html class<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;avatar&#34;</span> img<span style=color:#f92672>=</span>author<span style=color:#f92672>.</span>picture alt<span style=color:#f92672>=</span>author<span style=color:#f92672>.</span>name <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  {% elsif plugins contains &#39;jekyll-avatar&#39; %}</span>
+</span></span><span style=display:flex><span>    {<span style=color:#f92672>%</span> assign avatar <span style=color:#f92672>=</span> author<span style=color:#f92672>.</span>social<span style=color:#f92672>.</span>github <span style=color:#f92672>|</span> <span style=color:#e6db74>default</span>:author<span style=color:#f92672>.</span>github<span style=color:#f92672>.</span>username <span style=color:#f92672>|</span> <span style=color:#e6db74>default</span>:author<span style=color:#f92672>.</span>github <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    {% include avatar-tag.html user=avatar %}</span>
+</span></span><span style=display:flex><span>  {<span style=color:#f92672>%</span> endif <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;h1 class=&#34;page-title hr&#34;&gt;{{ page.title }</span>}<span style=color:#f92672>&lt;</span><span style=color:#e6db74>/h1&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  {{ author.about | markdownify }}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  {% include message.html text=page.description hide=page.hide_description alt=&#34;&#34; %}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  {{ content }}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&lt;/</span>article<span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>{<span style=color:#f92672>%</span> endraw <span style=color:#f92672>%</span>}
+</span></span></code></pre></div><ul><li><p>_include/about.html</p></li><li><p>_date/authors.yml</p><p>여기 안에서 author1, author2 등으로 사용자의 이름, 주소, 사진, github 등을 정의함</p></li></ul><p><code>Issues</code></p><ol><li><a href=#Can%27t-show-picture-in-about-page-and-footer>about페이지와 footer에 사진이 제대로 안나옴</a></li></ol><h2 id=issue>Issue</h2><h3 id=github-page-defendency-problem>Github page defendency Problem</h3><blockquote><p>Gemfile 에 다음 내용 추가</p></blockquote><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>require <span style=color:#e6db74>&#39;json&#39;</span>
+</span></span><span style=display:flex><span>require <span style=color:#e6db74>&#39;open-uri&#39;</span>
+</span></span><span style=display:flex><span>versions <span style=color:#f92672>=</span> JSON.parse<span style=color:#f92672>(</span>open<span style=color:#f92672>(</span><span style=color:#e6db74>&#39;https://pages.github.com/versions.json&#39;</span><span style=color:#f92672>)</span>.read<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>gem <span style=color:#e6db74>&#39;github-pages&#39;</span>, versions<span style=color:#f92672>[</span><span style=color:#e6db74>&#39;github-pages&#39;</span><span style=color:#f92672>]</span>
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=display:flex><span>$ bundle update
+</span></span><span style=display:flex><span>$ bundle install
+</span></span></code></pre></div><p><a href=https://pages.github.com/versions/ target=_blank rel=noopener>Github Defendency version</a></p><h3 id=header-tag-by-korean-is-not-working>Header tag by korean is not working</h3><blockquote><p>이부분에서 삽질 많이 했습니다. 웹알못이라 아무리 검색하고 찾아봐도<br>이유를 알수가 없었습니다. 그리고 결국 해결했지만 완벽한 방법은 아닙니다.<br>혹시라도 방법을 알고 계시다면 댓글에 써주세요 ㅠㅠ</p></blockquote><p>우선 문제의 내용을 보여 드릴꼐요.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-markdown data-lang=markdown><span style=display:flex><span>// 2018-01-01-test.md
+</span></span><span style=display:flex><span>...
+</span></span><span style=display:flex><span><span style=color:#75715e>## 내부링크 테스트
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>...
+</span></span><span style=display:flex><span>// 2018-01-01-test.html -&gt;jekyll를 통해 html 변환후
+</span></span><span style=display:flex><span>...
+</span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>&lt;</span>&gt;
+</span></span><span style=display:flex><span>...
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>...
+</span></span></code></pre></div><p>문제 해결을 위해 시도했던 방법들입니다.</p><ol><li><p>Font 교체(실패)</p><p>혹시나 font의 문제 때문에 그런줄알고 <code>google font</code> 에서</p><p>한글지원이 되는 폰트로 교체하였습니다. 하지만 실패&mldr;</p></li></ol><h3 id=new-collection-listing>New collection listing</h3><p><code>콜렉션에서 새로 분류한 카테고리별로 리스팅</code></p><p>_my_collection폴더 안에 index.md의 기능 추가하고,</p><p>새로운 레이아웃에 해당 기능을 추가하고 index.md에서 mycategory를 적용하여 해결.</p><p>my collection에 존재하는 class들의 리스트를 만들어줘야 한다.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ruby data-lang=ruby><span style=display:flex><span>{<span style=color:#f92672>%</span> raw <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74># _layout/mycategory.html
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&lt;article class=&#34;page&#34; role=&#34;article&#34;&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;header&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;h1 class=&#34;page-title&#34;&gt;{{ page.title }</span>}<span style=color:#f92672>&lt;</span><span style=color:#e6db74>/h1&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    {% include message.html text=page.description hide=page.hide_description %}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;/</span>header<span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>  {{ content }}
+</span></span><span style=display:flex><span>{<span style=color:#f92672>%</span> <span style=color:#66d9ef>for</span> test <span style=color:#66d9ef>in</span> site<span style=color:#f92672>.</span>my_collection <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>{% if test.title != page.title %}</span>
+</span></span><span style=display:flex><span>    {<span style=color:#f92672>%</span> <span style=color:#66d9ef>if</span> test<span style=color:#f92672>.</span>layout <span style=color:#f92672>==</span> <span style=color:#e6db74>&#34;study_post&#34;</span> <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    {% assign studycoll = test.title | join:&#39;|&#39; | append:&#39;|&#39; %}</span>
+</span></span><span style=display:flex><span>    {<span style=color:#f92672>%</span> assign scoll <span style=color:#f92672>=</span> scoll <span style=color:#f92672>|</span> <span style=color:#e6db74>append</span>:studycoll <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&lt;h2&gt;&lt;li&gt;&lt;a href=&#34;{{ test.url | prepend: site.baseurl }</span>}<span style=color:#e6db74>&#34;&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>       {{ test.title }} &lt;/a&gt;&lt;/li&gt;&lt;/h2&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    {% endif %}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>{% endif%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>{% endfor %} 
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&lt;/article&gt; 
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>{% endraw %}
+</span></span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-markdown data-lang=markdown><span style=display:flex><span># _my_collection/index.md
+</span></span><span style=display:flex><span>---
+</span></span><span style=display:flex><span>layout: mycategory
+</span></span><span style=display:flex><span>title: Study
+</span></span><span style=display:flex><span>description: &gt;
+</span></span><span style=display:flex><span>menu: true
+</span></span><span style=display:flex><span>order: 2
+</span></span><span style=display:flex><span>---
+</span></span></code></pre></div><h3 id=new-collection-classifying-post>New collection classifying post</h3><p><code>새로운 카테고리에서 해당 분류로 모아진 post listing</code></p><p>새로 분류된 class에서 _my_collection 안에서 작성된 포스트들을 보여줘야한다.</p><p>레이 아웃에 mylist.html 을 만들어서 해당 기능 넣고 해결.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ruby data-lang=ruby><span style=display:flex><span>{<span style=color:#f92672>%</span> raw  <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74># _layout/mylist.html
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>{% for post in site.my_collection %}</span>
+</span></span><span style=display:flex><span>{<span style=color:#f92672>%</span> <span style=color:#66d9ef>if</span> post<span style=color:#f92672>.</span>my_collection contains page<span style=color:#f92672>.</span>slug<span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>   &lt;li&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;a href=&#34;{{ post.url | relative_url }</span>}<span style=color:#e6db74>&#34; class=&#34;</span>h4 flip<span style=color:#f92672>-</span>title<span style=color:#e6db74>&#34;&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;span&gt;{{ post.title }}&lt;/span&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;/a&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;time class=&#34;</span>heading faded fine<span style=color:#e6db74>&#34; datetime=&#34;</span>{{ post<span style=color:#f92672>.</span>date <span style=color:#f92672>|</span> date_to_xmlschema }}<span style=color:#e6db74>&#34;&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  {{ post.date | date:list_entry }}&lt;/time&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>&lt;/li&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>{% endif%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>{% endfor %}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>{% endraw %}
+</span></span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-markdown data-lang=markdown><span style=display:flex><span># _my_collection/index.md
+</span></span><span style=display:flex><span>---
+</span></span><span style=display:flex><span>layout: mylist
+</span></span><span style=display:flex><span>title: 새로 분류할 collection 입니다.
+</span></span><span style=display:flex><span>description: &gt;
+</span></span><span style=display:flex><span>slug: test -&gt; tag나 category의 slug같은것
+</span></span><span style=display:flex><span>---
+</span></span></code></pre></div><h3 id=list-layout-cant-listing-post-in-mycollection>List layout can&rsquo;t listing post in mycollection</h3><p><code>기존에 있던 list에서 my collection에 있는포스트를 못불러옴</code></p><p>Hydejack에서 제공하는 list layout에서 mycollection에 있는 포스트중</p><p>tag와 category 로 분류 되있는 포스트를 못불러옴.</p><p>list layout에 my collection에 있는 tag와 category를 가진 포스트를 불러오게끔 해서 해결</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ruby data-lang=ruby><span style=display:flex><span>{<span style=color:#f92672>%</span> raw <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74># _layout/list.html
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>...
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>{% assign category = site.featured_categories | where: &#34;slug&#34;, page.slug | first %}</span>
+</span></span><span style=display:flex><span>{<span style=color:#f92672>%</span> <span style=color:#66d9ef>if</span> category <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  {% assign posts = site.categories[page.slug] %}</span>
+</span></span><span style=display:flex><span>  {<span style=color:#f92672>%</span> assign s_category <span style=color:#f92672>=</span> site<span style=color:#f92672>.</span>my_collection <span style=color:#f92672>|</span> <span style=color:#e6db74>where</span>:<span style=color:#e6db74>&#34;categories&#34;</span>, page<span style=color:#f92672>.</span>slug<span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  {% assign posts = posts | concat: s_category %}</span>
+</span></span><span style=display:flex><span>{<span style=color:#f92672>%</span> <span style=color:#66d9ef>else</span> <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  {% assign tag = site.featured_tags | where: &#34;slug&#34;, page.slug | first %}</span>
+</span></span><span style=display:flex><span>  {<span style=color:#f92672>%</span> <span style=color:#66d9ef>if</span> tag <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    {% assign posts = site.tags[page.slug] %}</span>
+</span></span><span style=display:flex><span>    {<span style=color:#f92672>%</span> assign s_tag <span style=color:#f92672>=</span> site<span style=color:#f92672>.</span>my_collection <span style=color:#f92672>|</span> <span style=color:#e6db74>where</span>:<span style=color:#e6db74>&#34;tags&#34;</span>, page<span style=color:#f92672>.</span>slug<span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    {% assign posts = posts | concat: s_tag %}</span>
+</span></span><span style=display:flex><span>  {<span style=color:#f92672>%</span> <span style=color:#66d9ef>else</span> <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    {% assign posts = site.posts %}</span>
+</span></span><span style=display:flex><span>  {<span style=color:#f92672>%</span> endif <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>{% endif %}</span>
+</span></span><span style=display:flex><span>  {<span style=color:#f92672>%</span> <span style=color:#66d9ef>if</span> posts<span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  {% assign posts = posts | sort: &#39;date,title&#39; | reverse %}</span>
+</span></span><span style=display:flex><span>  {<span style=color:#f92672>%</span> endif<span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74> ...
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>{% endraw %}</span>
+</span></span></code></pre></div><h3 id=home-layout-cant-show-the-post-in-mycollection>home Layout can&rsquo;t show the post in mycollection</h3><p><code>_layout/default.html 에 mycollection내용도 보여지게 추가</code></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ruby data-lang=ruby><span style=display:flex><span>{<span style=color:#f92672>%</span> raw <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;!--fix--&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    {% assign allpost= site.posts %}</span>
+</span></span><span style=display:flex><span>    {<span style=color:#f92672>%</span> assign study_post <span style=color:#f92672>=</span> site<span style=color:#f92672>.</span>study <span style=color:#f92672>|</span> <span style=color:#e6db74>where</span>:<span style=color:#e6db74>&#34;layout&#34;</span>, <span style=color:#e6db74>&#34;post&#34;</span><span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    {% assign allpost = allpost | concat: study_post %}</span>
+</span></span><span style=display:flex><span>  {<span style=color:#f92672>%</span> <span style=color:#66d9ef>if</span> site<span style=color:#f92672>.</span>posts<span style=color:#f92672>.</span>size <span style=color:#f92672>&gt;</span> <span style=color:#ae81ff>0</span> <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;h2 class=&#34;hr&#34;&gt;{{ strings.posts | default:&#34;Posts&#34; }</span>}<span style=color:#f92672>&lt;</span><span style=color:#e6db74>/h2&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;ul class=&#34;related-posts&#34;&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>      {% for post in allpost limit:10 %}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>        {% include post-list-item.html post=post %}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>      {% endfor %}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    &lt;/u</span>l<span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>  {<span style=color:#f92672>%</span> endif <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>  &lt;!--fix--&gt;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>{% endraw%}</span>
+</span></span></code></pre></div><h3 id=cant-show-picture-in-about-page-and-footer>Can&rsquo;t show picture in about page and footer</h3><p><code>about페이지와 footer에 사진이 안나옴</code></p><p>./_date/author.yml 에서 srcset부분 삭제 해서 해결</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yml data-lang=yml><span style=display:flex><span>...
+</span></span><span style=display:flex><span><span style=color:#f92672>srcset</span>:
+</span></span><span style=display:flex><span>     <span style=color:#f92672>1x</span>:            <span style=color:#ae81ff>https://placehold.it/128x128</span>
+</span></span><span style=display:flex><span>     <span style=color:#f92672>2x</span>:            <span style=color:#ae81ff>https://placehold.it/256x256</span>
+</span></span><span style=display:flex><span>...
+</span></span></code></pre></div><h3 id=show-the-mycollection-slug-in-any-post>show the mycollection slug in any post</h3><p><code>모든 포스트에서 mycollection의 slug표시</code></p><p>_include/post.html에서 mycollection의 slug를 표시하도록 수정</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ruby data-lang=ruby><span style=display:flex><span>{<span style=color:#f92672>%</span> raw <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>...
+</span></span></span><span style=display:flex><span><span style=color:#e6db74> {% assign study_start     = site.data.strings.study_start     | default:&#34;at &#34; %}</span>
+</span></span><span style=display:flex><span> {<span style=color:#f92672>%</span> assign study_separator      <span style=color:#f92672>=</span> site<span style=color:#f92672>.</span>data<span style=color:#f92672>.</span>strings<span style=color:#f92672>.</span>study_separator      <span style=color:#f92672>|</span> <span style=color:#e6db74>default</span>:<span style=color:#e6db74>&#34;, &#34;</span>  <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>...
+</span></span></span><span style=display:flex><span><span style=color:#e6db74> {% include tag-list.html tags=post.study meta=site.study start_with=study_start separator=study_separator %}</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>...</span>
+</span></span><span style=display:flex><span>{<span style=color:#f92672>%</span> endraw <span style=color:#f92672>%</span>}
+</span></span></code></pre></div><p>_data/strings.ymll에서 mycollection의 slug 표시방법 추가</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ruby data-lang=ruby><span style=display:flex><span>{<span style=color:#f92672>%</span> raw <span style=color:#e6db74>%}
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>...
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>#Seperators
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>study_start:             &#39;at &#39;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>study_separator:         &#39;, &#39;
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>...
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>{% endraw %}</span>
+</span></span></code></pre></div><p><a href=https://pengpengto.gitlab.io/blog/tech/2017/06/08/jekyll-category_pagination.html target=_blank rel=noopener>카테고리 페이지 나누기</a></p><h5 id=indexmd-of-location>index.md of location</h5><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=display:flex><span>.
+</span></span><span style=display:flex><span>├── _data
+</span></span><span style=display:flex><span>├── _featured_tags
+</span></span><span style=display:flex><span>├── _includes
+</span></span><span style=display:flex><span>├── _js
+</span></span><span style=display:flex><span>├── _layouts
+</span></span><span style=display:flex><span>├── _posts
+</span></span><span style=display:flex><span>├── _sass
+</span></span><span style=display:flex><span>├── _site
+</span></span><span style=display:flex><span>├── assets
+</span></span><span style=display:flex><span>├── docs
+</span></span><span style=display:flex><span>│   └── 7.5.1
+</span></span><span style=display:flex><span>│       └── index.md
+</span></span><span style=display:flex><span>├── index.md
+</span></span><span style=display:flex><span>└── licenses
+</span></span></code></pre></div><h5 id=whole-structure>Whole structure</h5><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=display:flex><span>.
+</span></span><span style=display:flex><span>├── Gemfile
+</span></span><span style=display:flex><span>├── Gemfile.lock
+</span></span><span style=display:flex><span>├── LICENSE.md
+</span></span><span style=display:flex><span>├── NOTICE.md
+</span></span><span style=display:flex><span>├── _config.yml
+</span></span><span style=display:flex><span>├── _data
+</span></span><span style=display:flex><span>├── _featured_tags
+</span></span><span style=display:flex><span>├── _includes
+</span></span><span style=display:flex><span>├── _js
+</span></span><span style=display:flex><span>├── _layouts
+</span></span><span style=display:flex><span>├── _posts
+</span></span><span style=display:flex><span>├── _projects
+</span></span><span style=display:flex><span>├── _sass
+</span></span><span style=display:flex><span>├── _site
+</span></span><span style=display:flex><span>├── about.md
+</span></span><span style=display:flex><span>├── assets
+</span></span><span style=display:flex><span>├── docs
+</span></span><span style=display:flex><span>├── index.html
+</span></span><span style=display:flex><span>├── index.md
+</span></span><span style=display:flex><span>├── licenses
+</span></span><span style=display:flex><span>└── posts.md
+</span></span></code></pre></div></div><div class="row ps-3 pe-3"><div class="col-md-6 share-buttons"><strong>Share on:</strong>
+<a class="btn icon-button bg-facebook" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fcodex-devlab.github.io%2fposts%2fblog-migration%2fsub-jekyll%2f" target=_blank><i class="fab fa-facebook"></i>
+</a><a class="btn icon-button bg-twitter" href="https://twitter.com/share?url=https%3a%2f%2fcodex-devlab.github.io%2fposts%2fblog-migration%2fsub-jekyll%2f&text=Jekyll&via=CodeXlog" target=_blank><i class="fab fa-twitter"></i>
+</a><a class="btn icon-button bg-linkedin" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fcodex-devlab.github.io%2fposts%2fblog-migration%2fsub-jekyll%2f&title=Jekyll" target=_blank><i class="fab fa-linkedin"></i>
+</a><a class="btn icon-button" href="mailto:?subject=Jekyll&body=https%3a%2f%2fcodex-devlab.github.io%2fposts%2fblog-migration%2fsub-jekyll%2f" target=_blank><i class="fas fa-envelope-open-text"></i></a></div><div class="col-md-6 btn-improve-page"><a href=https://github.com/codex-devlab/codex-devlab.github.io/edit/main/content/posts/blog-migration/sub-jekyll/index.md title="Improve this page" target=_blank rel=noopener><i class="fas fa-code-branch"></i>
+Improve this page</a></div></div><hr><div class="row next-prev-navigator"><div class="col-md-6 previous-article"><a href=/posts/blog-migration/sub-hugo/ title=Hugo class="btn filled-button"><div><i class="fas fa-chevron-circle-left"></i> Prev</div><div class=next-prev-text>Hugo</div></a></div><div class="col-md-6 next-article"><a href=/posts/study/sub-algorithms/backjoon/ title="Algorithms Problems" class="btn filled-button"><div>Next <i class="fas fa-chevron-circle-right"></i></div><div class=next-prev-text>Algorithms Problems</div></a></div></div><hr><div id=disqus_thread></div><script type=text/javascript>(function(){if(window.location.hostname=="localhost")return;var t,e=document.createElement("script");e.type="text/javascript",e.async=!0,t="codex-devlab-github-io",e.src="//"+t+".disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)})()</script><noscript>Please enable JavaScript to view the
+<a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com/ class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></div></div></div><a id=scroll-to-top class=btn type=button data-bs-toggle=tooltip data-bs-placement=left title="Scroll to top"><i class="fas fa-chevron-circle-up"></i></a></section><section class=toc-section id=toc-section><div class=toc-holder><h5 class="text-center ps-3">Table of Contents</h5><hr><div class=toc><nav id=TableOfContents><ul><li><ul><li><a href=#working-in-hydejack>Working in Hydejack</a></li><li><a href=#jekyll-directory-structure>jekyll directory structure</a></li><li><a href=#config>Config</a></li><li><a href=#post>Post</a></li><li><a href=#page>Page</a></li><li><a href=#collection>Collection</a></li><li><a href=#adding-sidebar-in-jekyll>Adding Sidebar in jekyll</a></li><li><a href=#sidebarpagelist-example>Sidebar&amp;page&amp;list example</a></li><li><a href=#authors>Authors</a></li><li><a href=#issue>Issue</a><ul><li><a href=#github-page-defendency-problem>Github page defendency Problem</a></li><li><a href=#header-tag-by-korean-is-not-working>Header tag by korean is not working</a></li><li><a href=#new-collection-listing>New collection listing</a></li><li><a href=#new-collection-classifying-post>New collection classifying post</a></li><li><a href=#list-layout-cant-listing-post-in-mycollection>List layout can&rsquo;t listing post in mycollection</a></li><li><a href=#home-layout-cant-show-the-post-in-mycollection>home Layout can&rsquo;t show the post in mycollection</a></li><li><a href=#cant-show-picture-in-about-page-and-footer>Can&rsquo;t show picture in about page and footer</a></li><li><a href=#show-the-mycollection-slug-in-any-post>show the mycollection slug in any post</a><ul><li><ul><li><a href=#indexmd-of-location>index.md of location</a></li><li><a href=#whole-structure>Whole structure</a></li></ul></li></ul></li></ul></li></ul></li></ul></nav></div></div></section></div><footer id=footer class="container-fluid text-center align-content-center footer pb-2"><div class="container pt-5"><div class="row text-start"><div class="col-md-4 col-sm-12"><h5>Navigation</h5><ul><li class=nav-item><a class=smooth-scroll href=https://codex-devlab.github.io/#recent-posts>Recent Posts</a></li></ul></div><div class="col-md-4 col-sm-12"><h5>Contact me:</h5><ul><li><a href=mailto:codex.devlab@gmail.com target=_blank rel=noopener><span><i class="fas fa-envelope"></i></span> <span>codex.devlab@gmail.com</span></a></li><li><a href=https://github.com/https://github.com/ehdwn1991 target=_blank rel=noopener><span><i class="fab fa-github"></i></span> <span>https://github.com/ehdwn1991</span></a></li><li><a href=https://www.linkedin.com/in/dongju-son target=_blank rel=noopener><span><i class="fab fa-linkedin"></i></span> <span>DongjuSon</span></a></li></ul></div></div></div><hr><div class=container><p id=disclaimer><strong>Liability Notice:</strong> This theme is under MIT license. So, you can use it for non-commercial, commercial, or private uses. You can modify or distribute the theme without requiring any permission from the theme author. However, the theme author does not provide any warranty or takes any liability for any issue with the theme.</p></div></footer><script src=/application.5c1b4fcf22483f6df2703ba146ca9ffdf10eef71c2abf801d2b9a23d06c89341.js integrity="sha256-XBtPzyJIP23ycDuhRsqf/fEO73HCq/gB0rmiPQbIk0E=" defer></script></body></html>
