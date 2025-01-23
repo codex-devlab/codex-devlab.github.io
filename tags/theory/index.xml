@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Theory on CodeXlog</title><link>https://codex-devlab.github.io/tags/theory/</link><description>Recent content in Theory on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 11 Jun 2018 04:22:12 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/theory/index.xml" rel="self" type="application/rss+xml"/><item><title>C언어 스터디</title><link>https://codex-devlab.github.io/posts/study/sub-programming-language/system-programming-ftw-implementation/</link><pubDate>Mon, 11 Jun 2018 04:22:12 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-programming-language/system-programming-ftw-implementation/</guid><description>&lt;h1 id="c언어">C언어&lt;/h1>
+&lt;p>프로그램이란? 컴퓨터에서 실행될때 특정 작업을 수행 하는 일련의 명령어들의 모음이다.&lt;/p>
+&lt;h2 id="소프트웨어-공학">소프트웨어 공학&lt;/h2>
+&lt;ul>
+&lt;li>요구사항 분석
+자료형 정의 등등&lt;/li>
+&lt;li>Flow chart 설계 및 구현(pseudo code)&lt;/li>
+&lt;li>코드 구현&lt;/li>
+&lt;li>실행&lt;/li>
+&lt;li>테스트&lt;/li>
+&lt;li>유지보수&lt;/li>
+&lt;/ul>
+&lt;h2 id="cpu-구조">CPU 구조&lt;/h2>
+&lt;p>Control unit&amp;lt;-&amp;gt;ALU&amp;lt;-&amp;gt;Processor resister(R1,R2,R3&amp;hellip;)
+위의 3가지 장치들이 Internal bus로 연결되어 통신한다.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>ALU(Arithmetic logic unit )&lt;/p>
+&lt;p>산술 논리 장치 : 실질적으로 산술, 논리 계산을 수행함.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Resister&lt;/p>
+&lt;p>CPU의 자체적인 메모리저장 기능.&lt;/p>
+&lt;p>Memory buffer register(MBR)&lt;/p>
+&lt;p>​ I/O로 보내지거나 메모리에 저장될 Word 혹은 I/O나 메모리로 부터 Word를 받는 것.&lt;/p></description></item></channel></rss>

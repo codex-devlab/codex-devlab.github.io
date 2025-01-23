@@ -1,112 +1,160 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on CodeXlog</title><link>https://codex-devlab.github.io/posts/</link><description>Recent content in Posts on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 08 Jun 2020 08:06:25 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>https://codex-devlab.github.io/posts/introduction/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/introduction/</guid><description>&lt;p>Greeting! This is an introduction post. This post tests the followings:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on CodeXlog</title><link>https://codex-devlab.github.io/posts/</link><description>Recent content in Posts on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 08:06:25 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo</title><link>https://codex-devlab.github.io/posts/hugo/</link><pubDate>Wed, 01 Jan 2025 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/hugo/</guid><description>&lt;p>&lt;a href="https://github.com/hugo-toha/hugo-toha.github.io" target="_blank" rel="noopener">https://github.com/hugo-toha/hugo-toha.github.io&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://toha-guides.netlify.app/" target="_blank" rel="noopener">https://toha-guides.netlify.app/&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/hugo-toha/guides" target="_blank" rel="noopener">https://github.com/hugo-toha/guides&lt;/a>&lt;/p>
+&lt;h3 id="creating-sub-category">Creating Sub Category&lt;/h3>
+&lt;p>&lt;a href="https://toha-guides.netlify.app/posts/writing-posts/organizing/sub-category/example/" target="_blank" rel="noopener">https://toha-guides.netlify.app/posts/writing-posts/organizing/sub-category/example/&lt;/a>&lt;/p></description></item><item><title>Algorithms Problems</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/backjoon/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/backjoon/</guid><description>&lt;h2 id="algorithms">&lt;a href="https://codex-devlab.github.io/tag/algorithms/">Algorithms&lt;/a>&lt;/h2>
 &lt;ul>
-&lt;li>Hero image is in the same directory as the post.&lt;/li>
-&lt;li>This post should be at top of the sidebar.&lt;/li>
-&lt;li>Post author should be the same as specified in &lt;code>author.yaml&lt;/code> file.&lt;/li>
-&lt;/ul></description></item><item><title>Markdown Samples</title><link>https://codex-devlab.github.io/posts/markdown-sample/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/markdown-sample/</guid><description>&lt;p>This is a sample post intended to test the followings:&lt;/p>
+&lt;li>
+&lt;p>&lt;a href="https://codex-devlab.github.io/category/algospot/">Algospot Problem&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://codex-devlab.github.io/category/backjoon-category/">Backjoon Problem&lt;/a> &amp;mdash;backjoon 문제모음&lt;/p>
 &lt;ul>
-&lt;li>A different post author.&lt;/li>
-&lt;li>Table of contents.&lt;/li>
-&lt;li>Markdown content rendering.&lt;/li>
-&lt;li>Math rendering.&lt;/li>
-&lt;li>Emoji rendering.&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tag/backjoon-level/">단계별 문제풀이&lt;/a>(backjoon Level)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tag/backjoon-classification/">알고리즘 분류별 문제풀이&lt;/a> &amp;ndash;Algorithms Categories&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;h1 id="markdown-syntax-rendering">Markdown Syntax Rendering&lt;/h1>
-&lt;h2 id="headings">Headings&lt;/h2>
-&lt;p>The following HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> elements represent six levels of section headings. &lt;code>&amp;lt;h1&amp;gt;&lt;/code> is the highest section level while &lt;code>&amp;lt;h6&amp;gt;&lt;/code> is the lowest.&lt;/p>
-&lt;h1 id="h1">H1&lt;/h1>
-&lt;h2 id="h2">H2&lt;/h2>
-&lt;h3 id="h3">H3&lt;/h3>
-&lt;h4 id="h4">H4&lt;/h4>
-&lt;h5 id="h5">H5&lt;/h5>
-&lt;h6 id="h6">H6&lt;/h6>
-&lt;h2 id="paragraph">Paragraph&lt;/h2>
-&lt;p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p></description></item><item><title>Rich Content</title><link>https://codex-devlab.github.io/posts/category/sub-category/rich-content/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/category/sub-category/rich-content/</guid><description>&lt;p>This sample post tests the followings:&lt;/p>
-&lt;ul>
-&lt;li>Category, sub-category nesting in the sidebar.&lt;/li>
-&lt;li>Hero image and other images are in &lt;code>images&lt;/code> folder inside this post directory.&lt;/li>
-&lt;li>Different media rendering like image, tweet, YouTube video, Vimeo video etc.&lt;/li>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="../_featured_categories/personalcode/personalcode.md">Personal Problem&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://codex-devlab.github.io/tag/datastructure/">Data Structure&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://codex-devlab.github.io/tag/coding-tip/">Coding Tip&lt;/a>&lt;/p>
+&lt;/li>
 &lt;/ul>
-&lt;h3 id="image-sample">Image Sample&lt;/h3>
-&lt;img src="https://codex-devlab.github.io/posts/category/sub-category/rich-content/images/forest.jpg"
-alt="Forest"
-class="center"
->
-&lt;div style="margin-top: rem;">&lt;/div>
-&lt;h3 id="tweet-sample">Tweet Sample&lt;/h3>
-&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href="https://t.co/eJh4f2zncC">pic.twitter.com/eJh4f2zncC&lt;/a>&lt;/p>&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href="https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw">October 26, 2021&lt;/a>&lt;/blockquote>
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
-&lt;div style="margin-top: rem;">&lt;/div>
-&lt;h3 id="youtube-video-sample">YouTube Video Sample&lt;/h3>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ZJthWmvUzzc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
-&lt;/div>
-&lt;div style="margin-top: rem;">&lt;/div>
-&lt;h3 id="vimeo-video-sample">Vimeo Video Sample&lt;/h3>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://player.vimeo.com/video/48912912" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen>&lt;/iframe>
-&lt;/div></description></item><item><title>Shortcodes Samples</title><link>https://codex-devlab.github.io/posts/shortcodes/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/shortcodes/</guid><description>&lt;p>This is a sample post intended to test the followings:&lt;/p>
+&lt;h2 id="git-끝내기">&lt;a href="https://codex-devlab.github.io/tag/git/">Git 끝내기&lt;/a>&lt;/h2>
+&lt;h2 id="linux">&lt;a href="https://codex-devlab.github.io/category/linux/">Linux&lt;/a>&lt;/h2>
 &lt;ul>
-&lt;li>Default hero image.&lt;/li>
-&lt;li>Different shortcodes.&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tag/etc/">etc&lt;/a> &amp;mdash;etc&amp;hellip;setiing and installation&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tag/jekyll/">jekyll&lt;/a> &amp;mdash;Jekyll for blog&lt;/li>
 &lt;/ul>
-&lt;h2 id="alert">Alert&lt;/h2>
-&lt;p>The following alerts are available in this theme.&lt;/p>
-&lt;div class="alert success">
-&lt;span>&lt;i data-feather="check-circle">&lt;/i>&lt;/span>
-&lt;span>&lt;strong>This is sample alert with &lt;code>type=&amp;quot;success&amp;quot;&lt;/code>.&lt;/strong>&lt;/span>
-&lt;/div>
-&lt;div class="alert danger">
-&lt;span>&lt;i data-feather="alert-octagon">&lt;/i>&lt;/span>
-&lt;span>&lt;strong>This is sample alert with &lt;code>type=&amp;quot;danger&amp;quot;&lt;/code>.&lt;/strong>&lt;/span>
-&lt;/div>
-&lt;div class="alert warning">
-&lt;span>&lt;i data-feather="alert-triangle">&lt;/i>&lt;/span>
-&lt;span>&lt;strong>This is sample alert with &lt;code>type=&amp;quot;warning&amp;quot;&lt;/code>.&lt;/strong>&lt;/span>
-&lt;/div>
-&lt;div class="alert info">
-&lt;span>&lt;i data-feather="info">&lt;/i>&lt;/span>
-&lt;span>&lt;strong>This is sample alert with &lt;code>type=&amp;quot;info&amp;quot;&lt;/code>.&lt;/strong>&lt;/span>
-&lt;/div>
-&lt;div class="alert dark">
-&lt;span>&lt;i data-feather="alert-circle">&lt;/i>&lt;/span>
-&lt;span>&lt;strong>This is sample alert with &lt;code>type=&amp;quot;dark&amp;quot;&lt;/code>.&lt;/strong>&lt;/span>
-&lt;/div>
-&lt;div class="alert primary">
-&lt;span>&lt;i data-feather="alert-circle">&lt;/i>&lt;/span>
-&lt;span>&lt;strong>This is sample alert with &lt;code>type=&amp;quot;primary&amp;quot;&lt;/code>.&lt;/strong>&lt;/span>
-&lt;/div>
-&lt;div class="alert secondary">
-&lt;span>&lt;i data-feather="alert-circle">&lt;/i>&lt;/span>
-&lt;span>&lt;strong>This is sample alert with &lt;code>type=&amp;quot;secondary&amp;quot;&lt;/code>.&lt;/strong>&lt;/span>
-&lt;/div>
-&lt;h2 id="image">Image&lt;/h2>
-&lt;h4 id="a-sample-image-without-any-attribute">A sample image without any attribute.&lt;/h4>
-&lt;img src="https://codex-devlab.github.io/posts/shortcodes/boat.jpg"
-alt="A boat at the sea"
->
-&lt;div style="margin-top: 3rem;">&lt;/div>
-&lt;h4 id="a-sample-image-with-height-and-width-attributes">A sample image with &lt;code>height&lt;/code> and &lt;code>width&lt;/code> attributes.&lt;/h4>
-&lt;img src="https://codex-devlab.github.io/posts/shortcodes/boat.jpg"
-alt="A boat at the sea"
-width="600"
-height="400"
->
-&lt;div style="margin-top: 3rem;">&lt;/div>
-&lt;h4 id="a-center-aligned-image-with-height-and-width-attributes">A center aligned image with &lt;code>height&lt;/code> and &lt;code>width&lt;/code> attributes.&lt;/h4>
-&lt;img src="https://codex-devlab.github.io/posts/shortcodes/boat.jpg"
-alt="A boat at the sea"
-width="600"
-height="400"
-class="center"
->
-&lt;div style="margin-top: 3rem;">&lt;/div>
-&lt;h4 id="a-image-with-float-attribute">A image with &lt;code>float&lt;/code> attribute.&lt;/h4>
-&lt;img src="https://codex-devlab.github.io/posts/shortcodes/boat.jpg"
-alt="A boat at the sea"
-width="500"
-height="200"
-style="float: right;"
->
-&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies. Praesent tellus risus, eleifend vel efficitur ac, venenatis sit amet sem. Ut ut egestas erat. Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat. Suspendisse nec ipsum eu erat finibus dictum. Morbi volutpat nulla purus, vel maximus ex molestie id. Nullam posuere est urna, at fringilla eros venenatis quis.&lt;/p></description></item><item><title>Sub-Category</title><link>https://codex-devlab.github.io/posts/category/sub-category/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://codex-devlab.github.io/posts/category/sub-category/_index.bn/</guid><description/></item><item><title>Top Category Sample</title><link>https://codex-devlab.github.io/posts/category/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://codex-devlab.github.io/posts/category/_index.bn/</guid><description/></item><item><title>পোস্ট সমূহ</title><link>https://codex-devlab.github.io/posts/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://codex-devlab.github.io/posts/_index.bn/</guid><description/></item></channel></rss>
+&lt;div style="margin-top: rem;">&lt;/div></description></item><item><title>C언어 Scanf 의 의미</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/programming-tips/the-meaning-of-scanf-in-c-language/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/programming-tips/the-meaning-of-scanf-in-c-language/</guid><description>&lt;h2 id="scanf-에서-공백과-n의-의미">Scanf 에서 공백과 \n의 의미&lt;/h2>
+&lt;p>먼저 IBM에서 제공하는 Scanf의 정의먼저 보겠습니다.&lt;/p>
+&lt;p>공백 문자로,&lt;a href="https://www.ibm.com/support/knowledgecenter/ko/ssw_ibm_i_73/rtref/isalnum.htm?view=kc#isalnum" target="_blank" rel="noopener">isspace()함수&lt;/a>(줄 바꾸기 문자와 공백과 같은)에서 지정됩니다.&lt;/p>
+&lt;p>공백 문자로 &lt;code>scanf&lt;/code>함수는 공백이 아닌 다음 문자까지 입력의 모든 연속 공백 문자를 읽지만 저장하지 않습니다. format-string의 한 공백 문자는 입력에서 공백 문자의 조합과 일치합니다.&lt;/p>
+&lt;p>퍼센트 기호 문자(%)를 제외하고, 공백이 아닌 문자입니다.&lt;/p>
+&lt;p>공백이 아닌 문자로scanf()함수는 일치하는 공백이 아닌 문자를 읽지만 저장하지 않습니다.&lt;/p>
+&lt;p>stdin의 다음 문자가 일치하지 않는 경우,scanf()함수가 종료합니다.&lt;/p>
+&lt;h2 id="예제">예제&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> a,b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d &amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;amp;&lt;/span>a);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,a);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d &amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;amp;&lt;/span>b);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,b); }
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>$ ./a.out
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">2&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">2&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>우리가 1을 입력후 엔터를 치면 1이 출력되고 그다음 2를 입력하면 2가 출력 될것이라고 예상할것이다.&lt;/p></description></item><item><title>Data Structure</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/data-structure/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/data-structure/</guid><description>&lt;h2 id="algorithms">&lt;a href="https://codex-devlab.github.io/tag/algorithms/">Algorithms&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://codex-devlab.github.io/category/algospot/">Algospot Problem&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://codex-devlab.github.io/category/backjoon-category/">Backjoon Problem&lt;/a> &amp;mdash;backjoon 문제모음&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tag/backjoon-level/">단계별 문제풀이&lt;/a>(backjoon Level)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tag/backjoon-classification/">알고리즘 분류별 문제풀이&lt;/a> &amp;ndash;Algorithms Categories&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="../_featured_categories/personalcode/personalcode.md">Personal Problem&lt;/a> &amp;mdash;personal code&lt;/p>
+&lt;p>{:.related-posts.faded}&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://codex-devlab.github.io/tag/datastructure/">Data Structure&lt;/a> &amp;mdash;C로 구현한 자료구조&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://codex-devlab.github.io/tag/c-coding-tip/">Coding Tip&lt;/a> &amp;mdash;C Coding에 대한 고찰&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="git-끝내기">&lt;a href="https://codex-devlab.github.io/tag/git/">Git 끝내기&lt;/a>&lt;/h2>
+&lt;h2 id="linux">&lt;a href="https://codex-devlab.github.io/category/linux/">Linux&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tag/etc/">etc&lt;/a> &amp;mdash;etc&amp;hellip;setiing and installation&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tag/jekyll/">jekyll&lt;/a> &amp;mdash;Jekyll for blog&lt;/li>
+&lt;/ul>
+&lt;div style="margin-top: rem;">&lt;/div></description></item><item><title>시스템프로그래밍 FTW 구현</title><link>https://codex-devlab.github.io/posts/study/sub-computer-science/system-programming-ftw-implementation/</link><pubDate>Fri, 10 Aug 2018 10:25:23 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-computer-science/system-programming-ftw-implementation/</guid><description>&lt;h2 id="ftw-란">FTW() 란?&lt;/h2>
+&lt;p>ftw함수는 해당 경로안의 모든 디렉토리들을 탐색하여 보여준다.&lt;/p>
+&lt;h2 id="synopsis">SYNOPSIS&lt;/h2>
+&lt;p>&lt;code>#include &amp;lt;ftw.h&amp;gt;&lt;/code>&lt;/p>
+&lt;p>int ftw(const char *path, int (*fn)(const char *, const struct sta *ptr, int flag),int depth);&lt;/p>
+&lt;p>int nftw(const char *path, int (*fn)(const char *, const struct stat *ptr, int flag, struct FTW *), int depth, int flags);&lt;/p>
+&lt;p>ftw는 path, fn, depth의 3가지 인자가 필요하다.&lt;/p>
+&lt;p>path : 탐색될 대상이 되는 경로.&lt;/p>
+&lt;p>fn : 탐색중 발견된 파일의 정보를 받는 콜백 포인터.&lt;/p></description></item><item><title>C언어 스터디</title><link>https://codex-devlab.github.io/posts/study/sub-programming-language/system-programming-ftw-implementation/</link><pubDate>Mon, 11 Jun 2018 04:22:12 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-programming-language/system-programming-ftw-implementation/</guid><description>&lt;h1 id="c언어">C언어&lt;/h1>
+&lt;p>프로그램이란? 컴퓨터에서 실행될때 특정 작업을 수행 하는 일련의 명령어들의 모음이다.&lt;/p>
+&lt;h2 id="소프트웨어-공학">소프트웨어 공학&lt;/h2>
+&lt;ul>
+&lt;li>요구사항 분석
+자료형 정의 등등&lt;/li>
+&lt;li>Flow chart 설계 및 구현(pseudo code)&lt;/li>
+&lt;li>코드 구현&lt;/li>
+&lt;li>실행&lt;/li>
+&lt;li>테스트&lt;/li>
+&lt;li>유지보수&lt;/li>
+&lt;/ul>
+&lt;h2 id="cpu-구조">CPU 구조&lt;/h2>
+&lt;p>Control unit&amp;lt;-&amp;gt;ALU&amp;lt;-&amp;gt;Processor resister(R1,R2,R3&amp;hellip;)
+위의 3가지 장치들이 Internal bus로 연결되어 통신한다.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>ALU(Arithmetic logic unit )&lt;/p>
+&lt;p>산술 논리 장치 : 실질적으로 산술, 논리 계산을 수행함.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Resister&lt;/p>
+&lt;p>CPU의 자체적인 메모리저장 기능.&lt;/p>
+&lt;p>Memory buffer register(MBR)&lt;/p>
+&lt;p>​ I/O로 보내지거나 메모리에 저장될 Word 혹은 I/O나 메모리로 부터 Word를 받는 것.&lt;/p></description></item><item><title>Ubuntu &amp; OSX setting</title><link>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</link><pubDate>Fri, 01 Jun 2018 09:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</guid><description>&lt;ul>
+&lt;li>&lt;a href="#root">root&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#fire-fox-update">Fire Fox Update&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#git-installation-and-setting">GIT Installation and Setting&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#git-multi-user-ssh-setting">Git multi user ssh setting&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#autojump-installation">Autojump Installation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#vim-installation-and-setting">vim Installation and Setting&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#vim-scheme">vim scheme&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#vim-plugin-install">vim Plugin Install&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#youcompleteme">youcompleteme&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#airline">Airline&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#ctag">ctag&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#mouse-setting">Mouse setting&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="root">root&lt;/h2>
+&lt;pre tabindex="0">&lt;code>$sudo passwd root
+&lt;/code>&lt;/pre>&lt;h2 id="fire-fox-update">Fire Fox Update&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>$sudo apt-get firefox
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$sudo apt-get update
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="git-installation-and-setting">GIT Installation and Setting&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>설치
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$sudo apt install git
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>초기 설정
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$git config --global user.name &lt;span style="color:#e6db74">&amp;#34;kimleepark&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$git config --global user.email kimleepark@gmail
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>//$git config -l
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ssh-keygen
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>//.ssh 폴더안에 id_rsa.pub 의 내용을 Github ssh에 등록해준다.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$git init
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$git log
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>//git 작업 기록
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$git status
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>//git 현재 현황&lt;span style="color:#f92672">(&lt;/span>add 되거나, 추적 가능한 파일 현황&lt;span style="color:#f92672">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$git add
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>//-u 업데이트된 항목을 추적해서 add함, --all,-A 폴더내 모든 항목을 add함
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$git commit
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$git push
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>//local -&amp;gt; remote 저장소로 이동
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$git pull
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>//원격 저장소에 있는 변경 사항을 가져와서 merge함
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>&lt;a href="https://git-scm.com/book/ko/v1/%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-Git-%EC%B5%9C%EC%B4%88-%EC%84%A4%EC%A0%95" target="_blank" rel="noopener">Git 시작하기&lt;/a> 를 참고 하시면서 작업 하시면 좋습니다.&lt;/p></description></item></channel></rss>

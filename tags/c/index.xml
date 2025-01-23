@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>C on CodeXlog</title><link>https://codex-devlab.github.io/tags/c/</link><description>Recent content in C on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 08 Jun 2020 08:06:25 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/c/index.xml" rel="self" type="application/rss+xml"/><item><title>C언어 Scanf 의 의미</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/programming-tips/the-meaning-of-scanf-in-c-language/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/programming-tips/the-meaning-of-scanf-in-c-language/</guid><description>&lt;h2 id="scanf-에서-공백과-n의-의미">Scanf 에서 공백과 \n의 의미&lt;/h2>
+&lt;p>먼저 IBM에서 제공하는 Scanf의 정의먼저 보겠습니다.&lt;/p>
+&lt;p>공백 문자로,&lt;a href="https://www.ibm.com/support/knowledgecenter/ko/ssw_ibm_i_73/rtref/isalnum.htm?view=kc#isalnum" target="_blank" rel="noopener">isspace()함수&lt;/a>(줄 바꾸기 문자와 공백과 같은)에서 지정됩니다.&lt;/p>
+&lt;p>공백 문자로 &lt;code>scanf&lt;/code>함수는 공백이 아닌 다음 문자까지 입력의 모든 연속 공백 문자를 읽지만 저장하지 않습니다. format-string의 한 공백 문자는 입력에서 공백 문자의 조합과 일치합니다.&lt;/p>
+&lt;p>퍼센트 기호 문자(%)를 제외하고, 공백이 아닌 문자입니다.&lt;/p>
+&lt;p>공백이 아닌 문자로scanf()함수는 일치하는 공백이 아닌 문자를 읽지만 저장하지 않습니다.&lt;/p>
+&lt;p>stdin의 다음 문자가 일치하지 않는 경우,scanf()함수가 종료합니다.&lt;/p>
+&lt;h2 id="예제">예제&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> a,b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d &amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;amp;&lt;/span>a);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,a);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d &amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;amp;&lt;/span>b);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,b); }
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>$ ./a.out
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">2&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">2&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>우리가 1을 입력후 엔터를 치면 1이 출력되고 그다음 2를 입력하면 2가 출력 될것이라고 예상할것이다.&lt;/p></description></item><item><title>시스템프로그래밍 FTW 구현</title><link>https://codex-devlab.github.io/posts/study/sub-computer-science/system-programming-ftw-implementation/</link><pubDate>Fri, 10 Aug 2018 10:25:23 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-computer-science/system-programming-ftw-implementation/</guid><description>&lt;h2 id="ftw-란">FTW() 란?&lt;/h2>
+&lt;p>ftw함수는 해당 경로안의 모든 디렉토리들을 탐색하여 보여준다.&lt;/p>
+&lt;h2 id="synopsis">SYNOPSIS&lt;/h2>
+&lt;p>&lt;code>#include &amp;lt;ftw.h&amp;gt;&lt;/code>&lt;/p>
+&lt;p>int ftw(const char *path, int (*fn)(const char *, const struct sta *ptr, int flag),int depth);&lt;/p>
+&lt;p>int nftw(const char *path, int (*fn)(const char *, const struct stat *ptr, int flag, struct FTW *), int depth, int flags);&lt;/p>
+&lt;p>ftw는 path, fn, depth의 3가지 인자가 필요하다.&lt;/p>
+&lt;p>path : 탐색될 대상이 되는 경로.&lt;/p>
+&lt;p>fn : 탐색중 발견된 파일의 정보를 받는 콜백 포인터.&lt;/p></description></item><item><title>C언어 스터디</title><link>https://codex-devlab.github.io/posts/study/sub-programming-language/system-programming-ftw-implementation/</link><pubDate>Mon, 11 Jun 2018 04:22:12 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-programming-language/system-programming-ftw-implementation/</guid><description>&lt;h1 id="c언어">C언어&lt;/h1>
+&lt;p>프로그램이란? 컴퓨터에서 실행될때 특정 작업을 수행 하는 일련의 명령어들의 모음이다.&lt;/p>
+&lt;h2 id="소프트웨어-공학">소프트웨어 공학&lt;/h2>
+&lt;ul>
+&lt;li>요구사항 분석
+자료형 정의 등등&lt;/li>
+&lt;li>Flow chart 설계 및 구현(pseudo code)&lt;/li>
+&lt;li>코드 구현&lt;/li>
+&lt;li>실행&lt;/li>
+&lt;li>테스트&lt;/li>
+&lt;li>유지보수&lt;/li>
+&lt;/ul>
+&lt;h2 id="cpu-구조">CPU 구조&lt;/h2>
+&lt;p>Control unit&amp;lt;-&amp;gt;ALU&amp;lt;-&amp;gt;Processor resister(R1,R2,R3&amp;hellip;)
+위의 3가지 장치들이 Internal bus로 연결되어 통신한다.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>ALU(Arithmetic logic unit )&lt;/p>
+&lt;p>산술 논리 장치 : 실질적으로 산술, 논리 계산을 수행함.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Resister&lt;/p>
+&lt;p>CPU의 자체적인 메모리저장 기능.&lt;/p>
+&lt;p>Memory buffer register(MBR)&lt;/p>
+&lt;p>​ I/O로 보내지거나 메모리에 저장될 Word 혹은 I/O나 메모리로 부터 Word를 받는 것.&lt;/p></description></item></channel></rss>

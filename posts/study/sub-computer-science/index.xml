@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Computer Science on CodeXlog</title><link>https://codex-devlab.github.io/posts/study/sub-computer-science/</link><description>Recent content in Computer Science on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 10 Aug 2018 10:25:23 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/posts/study/sub-computer-science/index.xml" rel="self" type="application/rss+xml"/><item><title>시스템프로그래밍 FTW 구현</title><link>https://codex-devlab.github.io/posts/study/sub-computer-science/system-programming-ftw-implementation/</link><pubDate>Fri, 10 Aug 2018 10:25:23 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-computer-science/system-programming-ftw-implementation/</guid><description>&lt;h2 id="ftw-란">FTW() 란?&lt;/h2>
+&lt;p>ftw함수는 해당 경로안의 모든 디렉토리들을 탐색하여 보여준다.&lt;/p>
+&lt;h2 id="synopsis">SYNOPSIS&lt;/h2>
+&lt;p>&lt;code>#include &amp;lt;ftw.h&amp;gt;&lt;/code>&lt;/p>
+&lt;p>int ftw(const char *path, int (*fn)(const char *, const struct sta *ptr, int flag),int depth);&lt;/p>
+&lt;p>int nftw(const char *path, int (*fn)(const char *, const struct stat *ptr, int flag, struct FTW *), int depth, int flags);&lt;/p>
+&lt;p>ftw는 path, fn, depth의 3가지 인자가 필요하다.&lt;/p>
+&lt;p>path : 탐색될 대상이 되는 경로.&lt;/p>
+&lt;p>fn : 탐색중 발견된 파일의 정보를 받는 콜백 포인터.&lt;/p></description></item></channel></rss>
