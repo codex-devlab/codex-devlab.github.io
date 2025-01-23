@@ -34,8 +34,8 @@ markup:
     renderer:
       unsafe: true
   tableOfContents:
-    startLevel: 2
-    endLevel: 6
+    startLevel: 1
+    endLevel: 8
     ordered: false
 
 # At least HTML and JSON are required for the main HTML content and
