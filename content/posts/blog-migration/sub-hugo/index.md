@@ -1,21 +1,18 @@
 ---
-title: "Hugo"
+title: Hugo
 date: 2025-01-01T08:06:25+06:00
 description: Hugo 블로그 이전
-hero: ./hero.gif
 menu:
   sidebar:
     name: Hugo
-    identifier: hugo
-    weight: 1
-  
+    identifier: sub-hugo
+    parent: blog-migration
+    weight: 20
 tags:
 - Hugo
-- Hugo-toha
+- Hugo-Toha Theme
 - Manual
-categories: ["Hugo"]
 ---
-
 
 https://github.com/hugo-toha/hugo-toha.github.io
 

@@ -1,13 +1,12 @@
 ---
 title: Jekyll
-
 date: 2018-06-11T08:12:43+05:00
 description: jekyll의 hydejack 테마를 적용하면서 이해한것과 발생한 문제점들.
 menu:
   sidebar:
     name: Jekyll
     identifier: sub-jekyll
-    parent: hugo
+    parent: blog-migration
     weight: 20
 tags:
 - Jekyll
