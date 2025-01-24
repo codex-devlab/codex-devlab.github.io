@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Git Bash on CodeXlog</title><link>https://codex-devlab.github.io/tags/git-bash/</link><description>Recent content in Git Bash on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 11 Jun 2018 08:12:43 +0500</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/git-bash/index.xml" rel="self" type="application/rss+xml"/><item><title>Git 설치 및 초기설정</title><link>https://codex-devlab.github.io/posts/os/sub-window/window-git-setting/</link><pubDate>Mon, 11 Jun 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/os/sub-window/window-git-setting/</guid><description>&lt;blockquote>
+&lt;p>사실 이제는 WSL이 너무 잘되어 있어서 굳이 쓸 필요는 없어요!
+하지만, 간혹 제한적인 환경에서는 가볍고 사용하기 편한 Git Bash 추천드립니다!&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Window 환경에서의 설정이에요. MinGW를 쓰는 Git bash를 사용했습니다.
+&lt;a href="https://gitforwindows.org/" target="_blank" rel="noopener">Git for Window&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>다들 Git-Hub를 사용해보려 하는데 힘든 부분들이 많죠?ㅠㅠ&lt;/p>
+&lt;p>저도 처음 접할때는 어떻게 동작하는지도 모르고 무작정 맨땅에 헤딩&amp;hellip;&lt;/p>
+&lt;p>아무튼 지금쯤 검색하셔서 들어오신거면, 깃허브에 가입은 완료 했고&lt;/p>
+&lt;p>아마 repository 까지는 생성 하셨을거 같아요.&lt;/p>
+&lt;p>이제 본격적으로 로컬에서 깃허브에 파일을 업로드 하는 방법을 포스팅 하려고 합니다.&lt;/p></description></item></channel></rss>
