@@ -5,7 +5,7 @@ description: Scanf의 조금더 깊이 있게 이해해봤습니다.
 menu:
   sidebar:
     name: C언어 Scanf 의 의미
-    identifier: The meaning of "Scanf" in C language.
+    identifier: the-meaning-of-scanf-in-c-language
     parent: programming-tips
     weight: 40
 

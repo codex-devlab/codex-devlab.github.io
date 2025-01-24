@@ -1,13 +1,13 @@
 ---
 title: "큰수 작은수로 정렬후 덧셈"
-date: 2020-06-08T08:06:25+06:00
+date: 2018-08-10T12:24:25+06:00
 description:
 
 menu:
   sidebar:
     name: 큰수 작은수로 정렬후 덧셈
-    identifier: The meaning of "Scanf" in C language.
-    parent: programming-tips
+    identifier: prob-big-and-small
+    parent: etc-problems
     weight: 40
 
 tags:

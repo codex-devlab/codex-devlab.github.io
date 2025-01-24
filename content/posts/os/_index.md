@@ -4,7 +4,7 @@ menu:
   sidebar:
     name: OS
     identifier: os
-    weight: 3
+    weight: 4
     
 tags:
 - BSD-Based

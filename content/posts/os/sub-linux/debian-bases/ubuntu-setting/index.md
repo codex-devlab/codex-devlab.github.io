@@ -204,12 +204,15 @@ $sudo apt-get install autojump
 //Ubuntu에는 패키지가 있어서 apt-get으로 설치 가능
 $sudo apt-get update
 $autojump
-//분명 이부분에서 osX든 ubuntu든 bach 설정이 안되어 있어서 뭐라뭐라 나옴
+//분명 이부분에서 bach 설정이 안되어 있어서 추가로 작성해달라고 나옵니다.
 $echo ". /usr/share/autojump/autojump.bash" >> ~/.bashrc
 //autojump가 터미널 실행시 바로 작동 할수 있게 경로를 추가해 줘야 한다.
 ```
 
->[Autojump](https://github.com/wting/autojump) 를 참고하시길 바랍니다.
+> [Autojump](https://github.com/wting/autojump) 를 참고하시길 바랍니다.
+> 사실 요즘은 너무 간결하게 설치파일이 작성되어 있어서.  
+> 그냥 install.py만 실행해주면 끝입니다...ㅠㅠ
+
 
 
 

@@ -1,5 +1,6 @@
 ---
 title: Algorithms
+
 menu:
   sidebar:
     name: Algorithms
