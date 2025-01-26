@@ -20,6 +20,7 @@ description: Portfolio and personal blog of Codex.
 #   # if you set it to true, make sure you have set `footer.navigation.customMenus: true` in your config.yaml
 #   showOnFooter: false
 
+
 # Specify OpenGraph Headers
 openGraph:
   title: Codex's Blog

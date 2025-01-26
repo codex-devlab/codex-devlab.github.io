@@ -1,0 +1,17 @@
+<!-- layouts/partials/tags/custom-list.html -->
+<h2>All Tags</h2>
+<ul>
+  {{ range $tag, $items := .Site.Taxonomies.tags }}
+    <li><a href="{{ "/tags/" | relLangURL }}{{ $tag }}">{{ $tag }}</a> ({{ len $items }} posts)</li>
+  {{ end }}
+</ul>
+
+
+
+<!-- {{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ range .Data.Terms.Alphabetical }}
+    <h2><a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a> ({{ .Count }})</h2>
+  {{ end }}
+{{ end }} -->

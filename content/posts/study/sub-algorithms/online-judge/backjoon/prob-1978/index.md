@@ -11,7 +11,7 @@ menu:
 tags:
 - C
 - Math
-- Prime-Number
+- Prime Number
 ---
 
 ## Math Problem
