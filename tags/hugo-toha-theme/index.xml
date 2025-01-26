@@ -1,5 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo-Toha Theme on CodeXlog</title><link>https://codex-devlab.github.io/tags/hugo-toha-theme/</link><description>Recent content in Hugo-Toha Theme on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 08:06:25 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/hugo-toha-theme/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo</title><link>https://codex-devlab.github.io/posts/blog-migration/sub-hugo/</link><pubDate>Wed, 01 Jan 2025 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/blog-migration/sub-hugo/</guid><description>&lt;p>&lt;a href="https://github.com/hugo-toha/hugo-toha.github.io" target="_blank" rel="noopener">https://github.com/hugo-toha/hugo-toha.github.io&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://toha-guides.netlify.app/" target="_blank" rel="noopener">https://toha-guides.netlify.app/&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://github.com/hugo-toha/guides" target="_blank" rel="noopener">https://github.com/hugo-toha/guides&lt;/a>&lt;/p>
-&lt;h3 id="creating-sub-category">Creating Sub Category&lt;/h3>
-&lt;p>&lt;a href="https://toha-guides.netlify.app/posts/writing-posts/organizing/sub-category/example/" target="_blank" rel="noopener">https://toha-guides.netlify.app/posts/writing-posts/organizing/sub-category/example/&lt;/a>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo-Toha Theme on CodeXlog</title><link>https://codex-devlab.github.io/tags/hugo-toha-theme/</link><description>Recent content in Hugo-Toha Theme on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 08:06:25 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/hugo-toha-theme/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo</title><link>https://codex-devlab.github.io/posts/blog-migration/sub-hugo/</link><pubDate>Wed, 01 Jan 2025 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/blog-migration/sub-hugo/</guid><description>&lt;p>&lt;a href="https://github.com/hugo-toha/hugo-toha.github.io" target="_blank" rel="noopener">https://github.com/hugo-toha/hugo-toha.github.io&lt;/a>&lt;br>
+&lt;a href="https://toha-guides.netlify.app/" target="_blank" rel="noopener">https://toha-guides.netlify.app/&lt;/a>&lt;br>
+&lt;a href="https://github.com/hugo-toha/guides" target="_blank" rel="noopener">https://github.com/hugo-toha/guides&lt;/a>&lt;/p>
+&lt;h3 id="writting-tips">Writting Tips&lt;/h3>
+&lt;details>
+&lt;summary> Collapsed Sections &lt;/summary>
+&lt;h4 id="collapsed-sections-collapsed-sections">Collapsed Sections &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/h4>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">details&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Collapsed text
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">details&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">details&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">summary&lt;/span>&amp;gt;Details Title&amp;lt;/&lt;span style="color:#f92672">summary&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Collapsed text
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">details&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;details>
+&lt;summary>Details Title&lt;/summary>
+Collapsed text
+&lt;/details>
+&lt;/details>
+&lt;details>
+&lt;summary>Using undefined shortcodes Print&lt;/summary>
+&lt;h4 id="using-undefined-shortcodes-print-shortcode-escape">Using undefined shortcodes Print &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/h4>
+&lt;p>메뉴얼을 위해 Hugo 의 Shortcode를 호출하는 code를 포스트안에 작성하려고 했으나,&lt;br>
+{{/&lt;em>&amp;lt; &amp;hellip; &amp;gt;&lt;/em>/}} 의 형태로 작성되면 Hugo의 랜더링 과정에서 callout하게 되어,&lt;br>
+관련된 shortcode를 참조하게 됩니다.&lt;/p>
+&lt;p>때문에 메뉴얼 작성을 위한 shortcode를 문자 그대로 출력하기 위해선, Escaping 과정을 거쳐야 합니다.&lt;/p></description></item></channel></rss>

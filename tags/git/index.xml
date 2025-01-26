@@ -10,7 +10,53 @@
 &lt;p>저도 처음 접할때는 어떻게 동작하는지도 모르고 무작정 맨땅에 헤딩&amp;hellip;&lt;/p>
 &lt;p>아무튼 지금쯤 검색하셔서 들어오신거면, 깃허브에 가입은 완료 했고&lt;/p>
 &lt;p>아마 repository 까지는 생성 하셨을거 같아요.&lt;/p>
-&lt;p>이제 본격적으로 로컬에서 깃허브에 파일을 업로드 하는 방법을 포스팅 하려고 합니다.&lt;/p></description></item><item><title>Ubuntu &amp; OSX setting</title><link>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</link><pubDate>Fri, 01 Jun 2018 09:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</guid><description>&lt;ul>
+&lt;p>이제 본격적으로 로컬에서 깃허브에 파일을 업로드 하는 방법을 포스팅 하려고 합니다.&lt;/p></description></item><item><title>Ubuntu &amp; OSX setting</title><link>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</link><pubDate>Fri, 01 Jun 2018 09:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</guid><description>&lt;h2>All Tags&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/airline">airline&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/algorithms">algorithms&lt;/a> (4 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/arithmetic">arithmetic&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/array">array&lt;/a> (3 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/autojump">autojump&lt;/a> (2 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/backjoon">backjoon&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/blog-migration">blog-migration&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/bsd-based">bsd-based&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/bublesort">bublesort&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/c">c&lt;/a> (11 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/data%20struture">data struture&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/debian-based">debian-based&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/development">development&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/environment">environment&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/git">git&lt;/a> (2 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/git%20bash">git bash&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/hugo">hugo&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/hugo-toha">hugo-toha&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/hugo-toha%20theme">hugo-toha theme&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/hydejack%20theme">hydejack theme&lt;/a> (2 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/jekyll">jekyll&lt;/a> (2 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/level%2017">level 17&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/level%204">level 4&lt;/a> (3 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/macos">macos&lt;/a> (2 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/manual">manual&lt;/a> (4 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/math">math&lt;/a> (2 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/mingw">mingw&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/notes">notes&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/online%20judge">online judge&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/os">os&lt;/a> (2 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/prime%20number">prime number&lt;/a> (2 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/programming%20tips">programming tips&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/rhel-based">rhel-based&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/scanf">scanf&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/sort">sort&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/study">study&lt;/a> (6 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/system-programming">system-programming&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/theory">theory&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/tips">tips&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/ubuntu">ubuntu&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/vim">vim&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/window">window&lt;/a> (2 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/%ec%b4%88%ea%b8%b0%ec%84%a4%ec%a0%95">초기설정&lt;/a> (1 posts)&lt;/li>
+&lt;/ul>
+&lt;ul>
 &lt;li>&lt;a href="#root">root&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#fire-fox-update">Fire Fox Update&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#git-installation-and-setting">GIT Installation and Setting&lt;/a>&lt;/li>

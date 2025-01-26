@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ubuntu on CodeXlog</title><link>https://codex-devlab.github.io/tags/ubuntu/</link><description>Recent content in Ubuntu on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 01 Jun 2018 09:12:43 +0500</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml"/><item><title>Ubuntu &amp; OSX setting</title><link>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</link><pubDate>Fri, 01 Jun 2018 09:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ubuntu on CodeXlog</title><link>https://codex-devlab.github.io/tags/ubuntu/</link><description>Recent content in Ubuntu on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 01 Jun 2018 09:12:43 +0500</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml"/><item><title>Ubuntu &amp; OSX setting</title><link>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</link><pubDate>Fri, 01 Jun 2018 09:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</guid><description>&lt;h2>All Tags&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/airline">airline&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/algorithms">algorithms&lt;/a> (4 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/arithmetic">arithmetic&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/array">array&lt;/a> (3 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/autojump">autojump&lt;/a> (2 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/backjoon">backjoon&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/blog-migration">blog-migration&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/bsd-based">bsd-based&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/bublesort">bublesort&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/c">c&lt;/a> (11 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/data%20struture">data struture&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/debian-based">debian-based&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/development">development&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/environment">environment&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/git">git&lt;/a> (2 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/git%20bash">git bash&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/hugo">hugo&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/hugo-toha">hugo-toha&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/hugo-toha%20theme">hugo-toha theme&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/hydejack%20theme">hydejack theme&lt;/a> (2 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/jekyll">jekyll&lt;/a> (2 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/level%2017">level 17&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/level%204">level 4&lt;/a> (3 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/macos">macos&lt;/a> (2 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/manual">manual&lt;/a> (4 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/math">math&lt;/a> (2 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/mingw">mingw&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/notes">notes&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/online%20judge">online judge&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/os">os&lt;/a> (2 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/prime%20number">prime number&lt;/a> (2 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/programming%20tips">programming tips&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/rhel-based">rhel-based&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/scanf">scanf&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/sort">sort&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/study">study&lt;/a> (6 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/system-programming">system-programming&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/theory">theory&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/tips">tips&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/ubuntu">ubuntu&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/vim">vim&lt;/a> (1 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/window">window&lt;/a> (2 posts)&lt;/li>
+&lt;li>&lt;a href="https://codex-devlab.github.io/tags/%ec%b4%88%ea%b8%b0%ec%84%a4%ec%a0%95">초기설정&lt;/a> (1 posts)&lt;/li>
+&lt;/ul>
+&lt;ul>
 &lt;li>&lt;a href="#root">root&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#fire-fox-update">Fire Fox Update&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#git-installation-and-setting">GIT Installation and Setting&lt;/a>&lt;/li>
