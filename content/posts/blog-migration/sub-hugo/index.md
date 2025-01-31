@@ -43,6 +43,58 @@ Go 개발시에 로컬 모듈을 go.mod에 추가하여 개발하는 방식과 �
 
 2. 
 
+
+
+혹시나 하는 에러 사태를 방지하기 위해 pre-commit을 통해 go 모듈의 경로를 로컬에서 리모트로 바꿔는 명령을 실행하게 하는게 좋습니다.
+
+1. pre-commit 생성  
+    ```shell
+    #!/bin/bash
+
+    # Git 프로젝트 루트 경로 가져오기
+    GIT_ROOT=$(git rev-parse --show-toplevel)
+    GO_MOD_FILE="$GIT_ROOT/go.mod"
+    JS_CONF_FILE="$GIT_ROOT/assets/jsconfig.json"
+
+    if [ ! -f "$GO_MOD_FILE" ]; then
+        echo "❌ go.mod 파일을 찾을 수 없습니다!"
+        exit 1
+    fi
+
+    echo "🔍 go.mod 수정 중..."
+
+    # OS 확인 (macOS vs Linux)
+    if [[ "$OSTYPE" == "darwin"* ]]; then
+        SED_OPT="-i ''"
+    else
+        SED_OPT="-i"
+    fi
+
+    # 1️⃣ `github.com/codex-devlab/customs_theme/v4 v4.7.0` 앞의 `//` 주석 해제 (Indent 유지)
+    sed $SED_OPT 's|^\([[:space:]]*\)//[[:space:]]*\(github.com/hugo-toha/toha/v4 => github.com/codex-devlab/customs_theme/v4 v4.7.0.*\)$|\1\2|' "$GO_MOD_FILE"
+
+    # 2️⃣ `../customs_theme` 앞에 `//`가 없으면 주석 추가 (Indent 유지), 이미 주석이 있으면 추가 안함
+    sed $SED_OPT '/github.com\/hugo-toha\/toha\/v4 => \.\.\/customs_theme/ { /\/\/[[:space:]]*/! s|^\([[:space:]]*\)\([^/].*\)$|\1// \2| }' "$GO_MOD_FILE"
+
+    docker run -it -v $GIT_ROOT:/data/public --entrypoint /bin/sh hugo:1.3 -c "cd /data/public;hugo build;"
+
+    if [ $? -ne 0 ]; then 
+      echo "hugo build failed. Please check local repository."
+      exit;
+    fi
+
+    # 3️⃣  add & git commit 실행 (수정된 파일을 다시 커밋하기)
+    git add "$GO_MOD_FILE"
+    git add "$JS_CONF_FILE"
+
+    echo "✅ go.mod 파일이 자동으로 수정되었습니다."
+    ```
+2. 실행 권한 변경  
+    ```shell
+    $ chmod +x .git/hooks/pre-commit
+    ```
+
+
 </details>
 
 
