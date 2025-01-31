@@ -20,6 +20,35 @@ https://github.com/hugo-toha/guides
 
 
 
+### Development
+
+<details>
+  <summary>Running the forked theme against your own site</summary>
+
+#### Running the forked theme against your own site
+
+[참고](https://toha-guides.netlify.app/posts/contributing/#running-the-forked-theme-against-your-own-site)
+
+> 원활한 커스텀을 위해, 테마를 Fork하여 별도의 저장소로 관리.
+>
+
+과정은 간단합니다.
+Go 개발시에 로컬 모듈을 go.mod에 추가하여 개발하는 방식과 동일 합니다.  
+단, toha의 테마에 있는 설정들과 스크립트들이 `github.com/hugo-toha/toha/v4`를  
+바라보고 있기 때문에 사설 레포의 경로로 변경해줘야 합니다.
+
+1. toha의 테마 원격 저장소를 Fork 하여 본인의 Github로 가져 옵니다.  
+   ![alt text](./images/toha-fork.png)
+
+
+2. 
+
+</details>
+
+
+
+
+
 
 ### Writting Tips
 
