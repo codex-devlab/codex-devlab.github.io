@@ -1,30 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on CodeXlog</title><link>https://codex-devlab.github.io/posts/</link><description>Recent content in Posts on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 08 Jan 2025 08:06:25 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo</title><link>https://codex-devlab.github.io/posts/blog-migration/sub-hugo/</link><pubDate>Wed, 01 Jan 2025 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/blog-migration/sub-hugo/</guid><description>&lt;p>&lt;a href="https://github.com/hugo-toha/hugo-toha.github.io" target="_blank" rel="noopener">https://github.com/hugo-toha/hugo-toha.github.io&lt;/a>&lt;br>
 &lt;a href="https://toha-guides.netlify.app/" target="_blank" rel="noopener">https://toha-guides.netlify.app/&lt;/a>&lt;br>
 &lt;a href="https://github.com/hugo-toha/guides" target="_blank" rel="noopener">https://github.com/hugo-toha/guides&lt;/a>&lt;/p>
-&lt;h3 id="writting-tips">Writting Tips&lt;/h3>
+&lt;h3 id="development">Development&lt;/h3>
 &lt;details>
-&lt;summary> Collapsed Sections &lt;/summary>
-&lt;h4 id="collapsed-sections-collapsed-sections">Collapsed Sections &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/h4>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">details&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Collapsed text
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">details&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">details&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">summary&lt;/span>&amp;gt;Details Title&amp;lt;/&lt;span style="color:#f92672">summary&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Collapsed text
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">details&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;details>
-&lt;summary>Details Title&lt;/summary>
-Collapsed text
-&lt;/details>
-&lt;/details>
-&lt;details>
-&lt;summary>Using undefined shortcodes Print&lt;/summary>
-&lt;h4 id="using-undefined-shortcodes-print-shortcode-escape">Using undefined shortcodes Print &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/h4>
-&lt;p>메뉴얼을 위해 Hugo 의 Shortcode를 호출하는 code를 포스트안에 작성하려고 했으나,&lt;br>
-{{/&lt;em>&amp;lt; &amp;hellip; &amp;gt;&lt;/em>/}} 의 형태로 작성되면 Hugo의 랜더링 과정에서 callout하게 되어,&lt;br>
-관련된 shortcode를 참조하게 됩니다.&lt;/p>
-&lt;p>때문에 메뉴얼 작성을 위한 shortcode를 문자 그대로 출력하기 위해선, Escaping 과정을 거쳐야 합니다.&lt;/p></description></item><item><title>C언어 Scanf 의 의미</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/programming-tips/the-meaning-of-scanf-in-c-language/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/programming-tips/the-meaning-of-scanf-in-c-language/</guid><description>&lt;h2 id="scanf-에서-공백과-n의-의미">Scanf 에서 공백과 \n의 의미&lt;/h2>
+&lt;summary>Running the forked theme against your own site&lt;/summary>
+&lt;h4 id="running-the-forked-theme-against-your-own-site">Running the forked theme against your own site&lt;/h4>
+&lt;p>&lt;a href="https://toha-guides.netlify.app/posts/contributing/#running-the-forked-theme-against-your-own-site" target="_blank" rel="noopener">참고&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>원활한 커스텀을 위해, 테마를 Fork하여 별도의 저장소로 관리.&lt;/p>
+&lt;/blockquote>
+&lt;p>과정은 간단합니다.
+Go 개발시에 로컬 모듈을 go.mod에 추가하여 개발하는 방식과 동일 합니다.&lt;br>
+단, toha의 테마에 있는 설정들과 스크립트들이 &lt;code>github.com/hugo-toha/toha/v4&lt;/code>를&lt;br>
+바라보고 있기 때문에 사설 레포의 경로로 변경해줘야 합니다.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>toha의 테마 원격 저장소를 Fork 하여 본인의 Github로 가져 옵니다.&lt;br>
+&lt;img src="https://codex-devlab.github.io/posts/blog-migration/sub-hugo/images/toha-fork.png" alt="alt text">&lt;/p>
+&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ol>
+&lt;p>혹시나 하는 에러 사태를 방지하기 위해 pre-commit을 통해 go 모듈의 경로를 로컬에서 리모트로 바꿔는 명령을 실행하게 하는게 좋습니다.&lt;/p></description></item><item><title>C언어 Scanf 의 의미</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/programming-tips/the-meaning-of-scanf-in-c-language/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/programming-tips/the-meaning-of-scanf-in-c-language/</guid><description>&lt;h2 id="scanf-에서-공백과-n의-의미">Scanf 에서 공백과 \n의 의미&lt;/h2>
 &lt;p>먼저 IBM에서 제공하는 Scanf의 정의먼저 보겠습니다.&lt;/p>
 &lt;p>공백 문자로,&lt;a href="https://www.ibm.com/support/knowledgecenter/ko/ssw_ibm_i_73/rtref/isalnum.htm?view=kc#isalnum" target="_blank" rel="noopener">isspace()함수&lt;/a>(줄 바꾸기 문자와 공백과 같은)에서 지정됩니다.&lt;/p>
 &lt;p>공백 문자로 &lt;code>scanf&lt;/code>함수는 공백이 아닌 다음 문자까지 입력의 모든 연속 공백 문자를 읽지만 저장하지 않습니다. format-string의 한 공백 문자는 입력에서 공백 문자의 조합과 일치합니다.&lt;/p>
