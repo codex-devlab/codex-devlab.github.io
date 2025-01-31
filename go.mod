@@ -8,5 +8,7 @@ toolchain go1.22.10
 require github.com/hugo-toha/toha/v4 v4.7.0 // indirect
 
 replace(
-    github.com/hugo-toha/toha/v4 => github.com/codex-devlab/customs_theme/v4 v4.7.0
+    // github.com/hugo-toha/toha/v4 => github.com/codex-devlab/customs_theme/v4 v4.7.0
+    // For Running on Hugo container and develop custom theme
+    github.com/hugo-toha/toha/v4 => ../customs_theme
 )
