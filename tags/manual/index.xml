@@ -38,4 +38,15 @@ Go 개발시에 로컬 모듈을 go.mod에 추가하여 개발하는 방식과 �
 &lt;/li>
 &lt;li>
 &lt;p>루트 폴더에서 index.md를 찾아서 가장 먼저 보여준다&lt;/p>
-&lt;p>index.md에 있는 Fornt matter의 layout에 해당 하는 html문서를 템플릿처럼&lt;/p></description></item></channel></rss>
+&lt;p>index.md에 있는 Fornt matter의 layout에 해당 하는 html문서를 템플릿처럼&lt;/p></description></item><item><title>Git Manual</title><link>https://codex-devlab.github.io/posts/dev/git/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/dev/git/</guid><description>&lt;h3 id="pre-commit">Pre-commit&lt;/h3>
+&lt;blockquote>
+&lt;p>Pre Commit의 동작은 Commit이 이루어지는 시점에 Commit이 완료 되기전에 해당 스크립트가 실행되는 방식입니다.&lt;br>
+&lt;code>$ git init&lt;/code> 혹은 저장소를 Clone받게 되면 경로에 &lt;code>.git/hooks&lt;/code>&lt;br>
+내부에 다양한 Hook이 있는걸 확인 할 수 있습니다.&lt;/p>
+&lt;/blockquote>
+&lt;p>Pre Commit을 사용하는 두 가지 방법이 있습니다.
+상세하게 따져본다면 git hook을 사용하는것은 동일하나,&lt;br>
+이를 관리하는 방법이 조금 상이합니다.&lt;/p>
+&lt;p>Pre Commit을 사용하는 이유는 몇가지가 있지만,&lt;br>
+가장 큰 목적은 동료와의 협업, Commit 관리, 오류 방지 등이 있다고 생각합니다.&lt;/p>
+&lt;p>예를 들어 Lint, Syntex Error 등이 해당 될 듯 합니다.&lt;/p></description></item></channel></rss>
