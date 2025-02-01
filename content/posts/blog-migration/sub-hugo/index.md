@@ -14,9 +14,7 @@ tags:
 - Manual
 ---
 
-https://github.com/hugo-toha/hugo-toha.github.io  
-https://toha-guides.netlify.app/  
-https://github.com/hugo-toha/guides  
+
 
 
 
@@ -93,6 +91,11 @@ Go 개발시에 로컬 모듈을 go.mod에 추가하여 개발하는 방식과 �
     ```shell
     $ chmod +x .git/hooks/pre-commit
     ```
+
+정상적으로 동작이 되는지 확인하고 싶으면 직접 실행해 보는것도 좋습니다.  
+직접 Git 명령어로 커밋 할때만 echo로 작성된 안내메시지가 나오니까 Vscode같은 IDE를 통해 커밋하시면 메세지는 안나옵니다.
+
+
 
 
 </details>
@@ -251,7 +254,11 @@ https://toha-guides.netlify.app/posts/writing-posts/organizing/sub-category/exam
 ## Reference
 
 
-[Hugo 관련 팁](https://github.com/kaushalmodi/ox-hugo/blob/main/test/site/content/posts/source-block-md-with-hugo-shortcodes.md)
+[Hugo 관련 팁](https://github.com/kaushalmodi/ox-hugo/blob/main/test/site/content/posts/source-block-md-with-hugo-shortcodes.md)  
+
+[toha sample blog](https://github.com/hugo-toha/hugo-toha.github.io)  
+[toha Guide](https://toha-guides.netlify.app/)  
+[toha Guide-Github](https://github.com/hugo-toha/guides)  
 
 
 ###### Foot Note
