@@ -191,5 +191,5 @@ Go언어로 개발중에 go 모듈의 오류나 경로가 정상적으로 설정
 	$ pre-commit install
 	```
 이제 git commit을 실행할 때마다 pre-commit이 자동으로 실행됩니다.
-```
+
 </details>  
