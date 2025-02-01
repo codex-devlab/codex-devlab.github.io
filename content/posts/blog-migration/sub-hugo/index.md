@@ -52,7 +52,8 @@ Go 개발시에 로컬 모듈을 go.mod에 추가하여 개발하는 방식과 �
     # Git 프로젝트 루트 경로 가져오기
     GIT_ROOT=$(git rev-parse --show-toplevel)
     GO_MOD_FILE="$GIT_ROOT/go.mod"
-    JS_CONF_FILE="$GIT_ROOT/assets/jsconfig.json"
+    # 로컬에서 테스트 시 빌드과정에서 자동으로 바뀌고 배포시엔 필요 없음
+    # JS_CONF_FILE="$GIT_ROOT/assets/jsconfig.json"
 
     if [ ! -f "$GO_MOD_FILE" ]; then
         echo "❌ go.mod 파일을 찾을 수 없습니다!"
@@ -74,18 +75,20 @@ Go 개발시에 로컬 모듈을 go.mod에 추가하여 개발하는 방식과 �
     # 2️⃣ `../customs_theme` 앞에 `//`가 없으면 주석 추가 (Indent 유지), 이미 주석이 있으면 추가 안함
     sed $SED_OPT '/github.com\/hugo-toha\/toha\/v4 => \.\.\/customs_theme/ { /\/\/[[:space:]]*/! s|^\([[:space:]]*\)\([^/].*\)$|\1// \2| }' "$GO_MOD_FILE"
 
+    # Hugo build 정상 동작 사전 검증
     docker run -it -v $GIT_ROOT:/data/public --entrypoint /bin/sh hugo:1.3 -c "cd /data/public;hugo build;"
 
     if [ $? -ne 0 ]; then 
-      echo "hugo build failed. Please check local repository."
-      exit;
+      echo "❌ Hugo build failed. Please check local repository."
+      exit 1;
     fi
 
     # 3️⃣  add & git commit 실행 (수정된 파일을 다시 커밋하기)
     git add "$GO_MOD_FILE"
-    git add "$JS_CONF_FILE"
+    # git add "$JS_CONF_FILE"
 
     echo "✅ go.mod 파일이 자동으로 수정되었습니다."
+    exit 0;
     ```
 2. 실행 권한 변경  
     ```shell
