@@ -18,9 +18,6 @@ tags:
 - Autojump
 ---
 
-
-{{< partial "tags/custom-list.html" >}}
-
 - [root](#root)
 - [Fire Fox Update](#fire-fox-update)
 - [GIT Installation and Setting](#git-installation-and-setting)
