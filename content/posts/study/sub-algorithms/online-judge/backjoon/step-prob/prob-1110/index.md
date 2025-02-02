@@ -10,7 +10,6 @@ menu:
     weight: 50
 tags:
 - C
-- Level 4
 - Math
 - Arithmetic
 - Backjoon
