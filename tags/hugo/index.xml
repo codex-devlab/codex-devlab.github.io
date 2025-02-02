@@ -4,8 +4,7 @@
 &lt;h4 id="running-the-forked-theme-against-your-own-site">Running the forked theme against your own site&lt;/h4>
 &lt;p>&lt;a href="https://toha-guides.netlify.app/posts/contributing/#running-the-forked-theme-against-your-own-site" target="_blank" rel="noopener">참고&lt;/a>&lt;/p>
 &lt;blockquote>
-&lt;p>원활한 커스텀을 위해, 테마를 Fork하여 별도의 저장소로 관리.&lt;/p>
-&lt;/blockquote>
+&lt;p>원활한 커스텀을 위해, 테마를 Fork하여 별도의 저장소로 관리.&lt;/p>&lt;/blockquote>
 &lt;p>과정은 간단합니다.
 Go 개발시에 로컬 모듈을 go.mod에 추가하여 개발하는 방식과 동일 합니다.&lt;br>
 단, toha의 테마에 있는 설정들과 스크립트들이 &lt;code>github.com/hugo-toha/toha/v4&lt;/code>를&lt;br>

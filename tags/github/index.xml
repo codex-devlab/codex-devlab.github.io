@@ -2,8 +2,7 @@
 &lt;blockquote>
 &lt;p>Pre Commit의 동작은 Commit이 이루어지는 시점에 Commit이 완료 되기전에 해당 스크립트가 실행되는 방식입니다.&lt;br>
 &lt;code>$ git init&lt;/code> 혹은 저장소를 Clone받게 되면 경로에 &lt;code>.git/hooks&lt;/code>&lt;br>
-내부에 다양한 Hook이 있는걸 확인 할 수 있습니다.&lt;/p>
-&lt;/blockquote>
+내부에 다양한 Hook이 있는걸 확인 할 수 있습니다.&lt;/p>&lt;/blockquote>
 &lt;p>Pre Commit을 사용하는 두 가지 방법이 있습니다.
 상세하게 따져본다면 git hook을 사용하는것은 동일하나,&lt;br>
 이를 관리하는 방법이 조금 상이합니다.&lt;/p>

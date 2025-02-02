@@ -49,8 +49,7 @@
 &lt;/ul>
 &lt;div style="margin-top: rem;">&lt;/div></description></item><item><title>Prob 달팽이 배열</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-snail/</link><pubDate>Fri, 10 Aug 2018 12:24:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-snail/</guid><description>&lt;h1 id="달팽이-배열">달팽이 배열&lt;/h1>
 &lt;blockquote>
-&lt;p>윤성우의 열혈강의 C 도전프로그래밍3 -도전 2&lt;/p>
-&lt;/blockquote>
+&lt;p>윤성우의 열혈강의 C 도전프로그래밍3 -도전 2&lt;/p>&lt;/blockquote>
 &lt;pre tabindex="0">&lt;code>문제 : 숫자 N을 입력받아 N by N의 배열을 다음과 같은 규칙으로 만드시오
 (달팽이 모양으로 채워짐)
 In 5X5
@@ -71,8 +70,7 @@ In 6X6
 &lt;li>
 &lt;p>배열의 규칙성 찾기&lt;/p></description></item><item><title>큰수 작은수로 정렬후 덧셈</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-bigandsmall/</link><pubDate>Fri, 10 Aug 2018 12:24:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-bigandsmall/</guid><description>&lt;blockquote>
 &lt;p>입력 받은 수를 큰수와 작은수로 정렬후 덧셈
-&lt;a href="https://github.com/ehdwn1991/Codex/tree/master/BigandSmallAdditionbySorting" target="_blank" rel="noopener">모든 내용은 Git hub 에도 있습니다.&lt;/a>&lt;/p>
-&lt;/blockquote>
+&lt;a href="https://github.com/ehdwn1991/Codex/tree/master/BigandSmallAdditionbySorting" target="_blank" rel="noopener">모든 내용은 Git hub 에도 있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="문제">문제&lt;/h2>
 &lt;ul>
 &lt;li>임의의 수를 입력 받아 큰수와 작은수로 정렬한후 덧셈을 함.

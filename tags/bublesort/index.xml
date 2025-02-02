@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bublesort on CodeXlog</title><link>https://codex-devlab.github.io/tags/bublesort/</link><description>Recent content in Bublesort on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 10 Aug 2018 12:24:25 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/bublesort/index.xml" rel="self" type="application/rss+xml"/><item><title>큰수 작은수로 정렬후 덧셈</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-bigandsmall/</link><pubDate>Fri, 10 Aug 2018 12:24:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-bigandsmall/</guid><description>&lt;blockquote>
 &lt;p>입력 받은 수를 큰수와 작은수로 정렬후 덧셈
-&lt;a href="https://github.com/ehdwn1991/Codex/tree/master/BigandSmallAdditionbySorting" target="_blank" rel="noopener">모든 내용은 Git hub 에도 있습니다.&lt;/a>&lt;/p>
-&lt;/blockquote>
+&lt;a href="https://github.com/ehdwn1991/Codex/tree/master/BigandSmallAdditionbySorting" target="_blank" rel="noopener">모든 내용은 Git hub 에도 있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="문제">문제&lt;/h2>
 &lt;ul>
 &lt;li>임의의 수를 입력 받아 큰수와 작은수로 정렬한후 덧셈을 함.

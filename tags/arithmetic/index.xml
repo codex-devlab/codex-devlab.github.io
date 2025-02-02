@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Arithmetic on CodeXlog</title><link>https://codex-devlab.github.io/tags/arithmetic/</link><description>Recent content in Arithmetic on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 18 May 2018 08:12:43 +0500</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/arithmetic/index.xml" rel="self" type="application/rss+xml"/><item><title>Problem.1110</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1110/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1110/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://www.acmicpc.net/step/3" target="_blank" rel="noopener">백준 단계별 문제집 레벨 3&lt;/a>&lt;br>
-&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_4/1110.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>
-&lt;/blockquote>
+&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_4/1110.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="1110번더하기-사이클httpswwwacmicpcnetproblem1110">&lt;a href="https://www.acmicpc.net/problem/1110" target="_blank" rel="noopener">1110번[더하기 사이클]&lt;/a>&lt;/h2>
 &lt;blockquote>
 &lt;p>처음 덧셈의 수식이 다시 한번 돌아 올때 까지의 사이클을 찾는것입니다.&lt;br>
 start: 26 [2+6=8 =&amp;gt;(68) 6+8=14 =&amp;gt;(84) 8+4=12 =&amp;gt;(42) 4+2=6 =&amp;gt;(26) 2+6=8]&lt;br>
 위의 예제 처럼 26이 다시 나올려면 68 -&amp;gt; 84-&amp;gt; -&amp;gt;42 -&amp;gt; 26 이렇게 4번만에원래의&lt;br>
 숫자로 돌아왔습니다. 알고리즘은 비교적간단합니다.&lt;br>
-처음 상태와 다음 상태 들을 비교하면서 같은 상태가 나올때 까지 사이클을 카운트 합니다.&lt;/p>
-&lt;/blockquote>
+처음 상태와 다음 상태 들을 비교하면서 같은 상태가 나올때 까지 사이클을 카운트 합니다.&lt;/p>&lt;/blockquote>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">circle&lt;/span>();
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">tokken_units&lt;/span>();

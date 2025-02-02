@@ -4,8 +4,7 @@
 &lt;h4 id="running-the-forked-theme-against-your-own-site">Running the forked theme against your own site&lt;/h4>
 &lt;p>&lt;a href="https://toha-guides.netlify.app/posts/contributing/#running-the-forked-theme-against-your-own-site" target="_blank" rel="noopener">참고&lt;/a>&lt;/p>
 &lt;blockquote>
-&lt;p>원활한 커스텀을 위해, 테마를 Fork하여 별도의 저장소로 관리.&lt;/p>
-&lt;/blockquote>
+&lt;p>원활한 커스텀을 위해, 테마를 Fork하여 별도의 저장소로 관리.&lt;/p>&lt;/blockquote>
 &lt;p>과정은 간단합니다.
 Go 개발시에 로컬 모듈을 go.mod에 추가하여 개발하는 방식과 동일 합니다.&lt;br>
 단, toha의 테마에 있는 설정들과 스크립트들이 &lt;code>github.com/hugo-toha/toha/v4&lt;/code>를&lt;br>
@@ -68,8 +67,7 @@ Go 개발시에 로컬 모듈을 go.mod에 추가하여 개발하는 방식과 �
 &lt;/ul>
 &lt;div style="margin-top: rem;">&lt;/div></description></item><item><title>Prob 달팽이 배열</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-snail/</link><pubDate>Fri, 10 Aug 2018 12:24:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-snail/</guid><description>&lt;h1 id="달팽이-배열">달팽이 배열&lt;/h1>
 &lt;blockquote>
-&lt;p>윤성우의 열혈강의 C 도전프로그래밍3 -도전 2&lt;/p>
-&lt;/blockquote>
+&lt;p>윤성우의 열혈강의 C 도전프로그래밍3 -도전 2&lt;/p>&lt;/blockquote>
 &lt;pre tabindex="0">&lt;code>문제 : 숫자 N을 입력받아 N by N의 배열을 다음과 같은 규칙으로 만드시오
 (달팽이 모양으로 채워짐)
 In 5X5
@@ -90,8 +88,7 @@ In 6X6
 &lt;li>
 &lt;p>배열의 규칙성 찾기&lt;/p></description></item><item><title>큰수 작은수로 정렬후 덧셈</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-bigandsmall/</link><pubDate>Fri, 10 Aug 2018 12:24:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-bigandsmall/</guid><description>&lt;blockquote>
 &lt;p>입력 받은 수를 큰수와 작은수로 정렬후 덧셈
-&lt;a href="https://github.com/ehdwn1991/Codex/tree/master/BigandSmallAdditionbySorting" target="_blank" rel="noopener">모든 내용은 Git hub 에도 있습니다.&lt;/a>&lt;/p>
-&lt;/blockquote>
+&lt;a href="https://github.com/ehdwn1991/Codex/tree/master/BigandSmallAdditionbySorting" target="_blank" rel="noopener">모든 내용은 Git hub 에도 있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="문제">문제&lt;/h2>
 &lt;ul>
 &lt;li>임의의 수를 입력 받아 큰수와 작은수로 정렬한후 덧셈을 함.
@@ -284,8 +281,7 @@ In 6X6
 &lt;p>path : 탐색될 대상이 되는 경로.&lt;/p>
 &lt;p>fn : 탐색중 발견된 파일의 정보를 받는 콜백 포인터.&lt;/p></description></item><item><title>Mac Autojump 설치및 사용법</title><link>https://codex-devlab.github.io/posts/os/sub-macos/mac-autojump/</link><pubDate>Fri, 10 Aug 2018 09:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/os/sub-macos/mac-autojump/</guid><description>&lt;blockquote>
 &lt;p>OSX에서 autojump 설치 방법입니다.&lt;br>
-&lt;a href="https://github.com/wting/autojump" target="_blank" rel="noopener">autojump git을 참고해 주세요&lt;/a>&lt;/p>
-&lt;/blockquote>
+&lt;a href="https://github.com/wting/autojump" target="_blank" rel="noopener">autojump git을 참고해 주세요&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="autojump">autojump?&lt;/h2>
 &lt;p>터미널에서 본인이 원하는 디렉토리로 이동하려고 할때, 디렉토리를 차례차례 건너가면서 이동하는 방법과 절대경로를 통해 한번에 이동하는 방법이 있다.&lt;/p>
 &lt;p>하지만 이들 모두 사용자에게 상당한 불편을 줍니다 ㅠㅠ 저도 맥을 쓴지 얼마 안돼서 상당한 불편함이 있더라구요.&lt;/p>
@@ -294,15 +290,12 @@ In 6X6
 &lt;p>바로 실행 스샷 들어갑니다.&lt;/p>
 &lt;p>&lt;img src="https://codex-devlab.github.io/posts/os/sub-macos/mac-autojump/images/27793D4158997ABD0B.png" alt="img">&lt;/p>
 &lt;p>요런식으로 바로 이동이 가능해요!! 절대 경로나 cd같은 시스템 함수를 쓰지 않아도 바로 해당 디렉토리로 이동가능!!!!&lt;/p>
-&lt;p>&lt;img src="https://codex-devlab.github.io/posts/os/sub-macos/mac-autojump/images/2753D64158997ABE2D.png" alt="img">&lt;/p>
-&lt;p>일단 대충 어떻게 돌아가는건지 감은 잡았으니 설치부터 찬찬히 살펴보죵~~&lt;/p></description></item><item><title>Git 설치 및 초기설정</title><link>https://codex-devlab.github.io/posts/os/sub-window/window-git-setting/</link><pubDate>Mon, 11 Jun 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/os/sub-window/window-git-setting/</guid><description>&lt;blockquote>
+&lt;p>&lt;img src="https://codex-devlab.github.io/posts/os/sub-macos/mac-autojump/images/2753D64158997ABE2D.png" alt="img">&lt;/p></description></item><item><title>Git 설치 및 초기설정</title><link>https://codex-devlab.github.io/posts/os/sub-window/window-git-setting/</link><pubDate>Mon, 11 Jun 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/os/sub-window/window-git-setting/</guid><description>&lt;blockquote>
 &lt;p>사실 이제는 WSL이 너무 잘되어 있어서 굳이 쓸 필요는 없어요!
-하지만, 간혹 제한적인 환경에서는 가볍고 사용하기 편한 Git Bash 추천드립니다!&lt;/p>
-&lt;/blockquote>
+하지만, 간혹 제한적인 환경에서는 가볍고 사용하기 편한 Git Bash 추천드립니다!&lt;/p>&lt;/blockquote>
 &lt;blockquote>
 &lt;p>Window 환경에서의 설정이에요. MinGW를 쓰는 Git bash를 사용했습니다.
-&lt;a href="https://gitforwindows.org/" target="_blank" rel="noopener">Git for Window&lt;/a>&lt;/p>
-&lt;/blockquote>
+&lt;a href="https://gitforwindows.org/" target="_blank" rel="noopener">Git for Window&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;p>다들 Git-Hub를 사용해보려 하는데 힘든 부분들이 많죠?ㅠㅠ&lt;/p>
 &lt;p>저도 처음 접할때는 어떻게 동작하는지도 모르고 무작정 맨땅에 헤딩&amp;hellip;&lt;/p>
 &lt;p>아무튼 지금쯤 검색하셔서 들어오신거면, 깃허브에 가입은 완료 했고&lt;/p>
@@ -402,17 +395,47 @@ In 6X6
 &lt;blockquote>
 &lt;p>Pre Commit의 동작은 Commit이 이루어지는 시점에 Commit이 완료 되기전에 해당 스크립트가 실행되는 방식입니다.&lt;br>
 &lt;code>$ git init&lt;/code> 혹은 저장소를 Clone받게 되면 경로에 &lt;code>.git/hooks&lt;/code>&lt;br>
-내부에 다양한 Hook이 있는걸 확인 할 수 있습니다.&lt;/p>
-&lt;/blockquote>
+내부에 다양한 Hook이 있는걸 확인 할 수 있습니다.&lt;/p>&lt;/blockquote>
 &lt;p>Pre Commit을 사용하는 두 가지 방법이 있습니다.
 상세하게 따져본다면 git hook을 사용하는것은 동일하나,&lt;br>
 이를 관리하는 방법이 조금 상이합니다.&lt;/p>
 &lt;p>Pre Commit을 사용하는 이유는 몇가지가 있지만,&lt;br>
 가장 큰 목적은 동료와의 협업, Commit 관리, 오류 방지 등이 있다고 생각합니다.&lt;/p>
-&lt;p>예를 들어 Lint, Syntex Error 등이 해당 될 듯 합니다.&lt;/p></description></item><item><title>Problem.10871</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-10871/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-10871/</guid><description>&lt;blockquote>
+&lt;p>예를 들어 Lint, Syntex Error 등이 해당 될 듯 합니다.&lt;/p></description></item><item><title>Problem.10809</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-10809/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-10809/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://www.acmicpc.net/step/3" target="_blank" rel="noopener">백준 단계별 문제집 레벨 3&lt;/a>&lt;br>
+&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_7/10809.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="problem10809httpswwwacmicpcnetproblem10809">&lt;a href="https://www.acmicpc.net/problem/10809" target="_blank" rel="noopener">Problem.10809&lt;/a>&lt;/h2>
+&lt;p>&lt;code>10809번알파벳 찾기&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdlib.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;string.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">char&lt;/span> comp_alpha[&lt;span style="color:#ae81ff">26&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;abcdefghijklmnopqrstuvwxyz&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> comp_location[&lt;span style="color:#ae81ff">26&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>{&lt;span style="color:#ae81ff">0&lt;/span>,};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">char&lt;/span> buf[&lt;span style="color:#ae81ff">110&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>{&lt;span style="color:#e6db74">&amp;#39;\0&amp;#39;&lt;/span>,};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;i&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#ae81ff">26&lt;/span>;i&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> comp_location[i]&lt;span style="color:#f92672">=-&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fgets&lt;/span>(buf,&lt;span style="color:#66d9ef">sizeof&lt;/span>(buf),stdin);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//a~z까지 입력된단어에서의 처음 위치를 찾는다
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;i&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#ae81ff">26&lt;/span>;i&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> j&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;j&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#a6e22e">strlen&lt;/span>(buf);j&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[j]&lt;span style="color:#f92672">==&lt;/span>comp_alpha[i]){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> comp_location[i]&lt;span style="color:#f92672">=&lt;/span>j;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;i&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#ae81ff">26&lt;/span>;i&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d &amp;#34;&lt;/span>,comp_location[i]);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">puts&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>알파벳은 26개이다 각 단어에서 알파벳이 처음 등장 하는 위치를 다른 배열에 저장한다.&lt;/p>
+&lt;p>반복문에서 처음 위치를 찾으면 break 되기 때문에&lt;/p></description></item><item><title>Problem.10871</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-10871/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-10871/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://www.acmicpc.net/step/6" target="_blank" rel="noopener">백준 단계별 문제집 레벨 4&lt;/a>&lt;br>
-&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_17/10871.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>
-&lt;/blockquote>
+&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_17/10871.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="problem10871httpswwwacmicpcnetproblem10871">&lt;a href="https://www.acmicpc.net/problem/10871" target="_blank" rel="noopener">Problem.10871&lt;/a>&lt;/h2>
 &lt;p>&lt;code>10871번[X보다 작은수]&lt;/code>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
@@ -437,16 +460,14 @@ In 6X6
 일단 시작을 scanf로 하기로했으니, 공백을 무시하면서 숫자를 입력받을수 있어야 했다.
 덕분에 scanf(&amp;quot; %d&amp;quot;)의 심오한 의미를 공부할수 있었다.&lt;/p></description></item><item><title>Problem.1110</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1110/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1110/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://www.acmicpc.net/step/3" target="_blank" rel="noopener">백준 단계별 문제집 레벨 3&lt;/a>&lt;br>
-&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_4/1110.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>
-&lt;/blockquote>
+&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_4/1110.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="1110번더하기-사이클httpswwwacmicpcnetproblem1110">&lt;a href="https://www.acmicpc.net/problem/1110" target="_blank" rel="noopener">1110번[더하기 사이클]&lt;/a>&lt;/h2>
 &lt;blockquote>
 &lt;p>처음 덧셈의 수식이 다시 한번 돌아 올때 까지의 사이클을 찾는것입니다.&lt;br>
 start: 26 [2+6=8 =&amp;gt;(68) 6+8=14 =&amp;gt;(84) 8+4=12 =&amp;gt;(42) 4+2=6 =&amp;gt;(26) 2+6=8]&lt;br>
 위의 예제 처럼 26이 다시 나올려면 68 -&amp;gt; 84-&amp;gt; -&amp;gt;42 -&amp;gt; 26 이렇게 4번만에원래의&lt;br>
 숫자로 돌아왔습니다. 알고리즘은 비교적간단합니다.&lt;br>
-처음 상태와 다음 상태 들을 비교하면서 같은 상태가 나올때 까지 사이클을 카운트 합니다.&lt;/p>
-&lt;/blockquote>
+처음 상태와 다음 상태 들을 비교하면서 같은 상태가 나올때 까지 사이클을 카운트 합니다.&lt;/p>&lt;/blockquote>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">circle&lt;/span>();
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">tokken_units&lt;/span>();
@@ -503,15 +524,61 @@ start: 26 [2+6=8 =&amp;gt;(68) 6+8=14 =&amp;gt;(84) 8+4=12 =&amp;gt;(42) 4+2=6 =
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>tens&lt;span style="color:#f92672">=&lt;/span> N&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#ae81ff">10&lt;/span>;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">return&lt;/span> tens;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.11654</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-11654/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-11654/</guid><description>&lt;blockquote>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.1157</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1157/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1157/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://www.acmicpc.net/step/3" target="_blank" rel="noopener">백준 단계별 문제집 레벨 3&lt;/a>&lt;br>
-&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_7/11654.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>
-&lt;/blockquote>
+&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_7/1157.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;p>##&lt;a href="https://www.acmicpc.net/problem/1157" target="_blank" rel="noopener">Problem.1157&lt;/a>
+&lt;code>단어 공부&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;string.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> alpha[&lt;span style="color:#ae81ff">26&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>{&lt;span style="color:#ae81ff">0&lt;/span>,};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// 정수형 배열을 쓰는 이유는 단어의 길이가 1000000이기 때문에 반복된
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// 알파벳의 횟수가 127번을 넘어가면 CHAR형의 범위를 넘어버린다.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">char&lt;/span> temp;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> Max_comp&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> comp2&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> comp1&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//각 단어가 들어왔을때 대소문자 상관없이 각 문자 마다 카운트 한다.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">while&lt;/span>((temp&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#a6e22e">getchar&lt;/span>())&lt;span style="color:#f92672">!=&lt;/span>&lt;span style="color:#ae81ff">10&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(temp&lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#ae81ff">64&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>temp&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#ae81ff">91&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//대문자 일때
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> alpha[temp&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">65&lt;/span>]&lt;span style="color:#f92672">+=&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// 소문자 일때
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> alpha[temp&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">97&lt;/span>]&lt;span style="color:#f92672">+=&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//가장 많이 사용되 문자 찾는과정
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;i&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#ae81ff">26&lt;/span>;i&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(alpha[i]&lt;span style="color:#f92672">!=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Max_comp&lt;span style="color:#f92672">=&lt;/span>(Max_comp&lt;span style="color:#f92672">&amp;gt;&lt;/span>alpha[i]&lt;span style="color:#f92672">?&lt;/span>Max_comp:alpha[i]);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> j&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;j&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#ae81ff">26&lt;/span>;j&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(Max_comp&lt;span style="color:#f92672">==&lt;/span>alpha[j]){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> comp1&lt;span style="color:#f92672">=&lt;/span>j;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> comp2&lt;span style="color:#f92672">++&lt;/span>;&lt;span style="color:#75715e">//가장 많이 사용된 문자의 갯수를 저장
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(comp2&lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;?&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//가장 많이 사용한 문자가 2개이상 일때는 ?를 출력
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%c&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,comp1&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#ae81ff">65&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//가장 많이 사용한 문자가 2개 미만일때는 해당 문자 출력
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>가장 많이 사용된 문자의 갯수를 문자별로 배열에 저장하고,
+가장많이 사용된 문자를 찾아 다시 비교해 주면된다.
+비교 하는 과정에서 가장큰 문자는 1번만 나와야하고 2번 이상 나온다면 &amp;ldquo;?&amp;ldquo;를 출력해주어야 한다.&lt;/p></description></item><item><title>Problem.11654</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-11654/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-11654/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://www.acmicpc.net/step/3" target="_blank" rel="noopener">백준 단계별 문제집 레벨 3&lt;/a>&lt;br>
+&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_7/11654.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="level7">Level7&lt;/h2>
-&lt;details>
-&lt;summary>Details&lt;/summary>
-&lt;p>Collapsed text&lt;/p>
-&lt;/details>
 &lt;h2 id="problem11654httpswwwacmicpcnetproblem11654">&lt;a href="https://www.acmicpc.net/problem/11654" target="_blank" rel="noopener">Problem.11654&lt;/a>&lt;/h2>
 &lt;p>&lt;code>아스키 코드&lt;/code>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
@@ -522,38 +589,57 @@ start: 26 [2+6=8 =&amp;gt;(68) 6+8=14 =&amp;gt;(84) 8+4=12 =&amp;gt;(42) 4+2=6 =
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,a);
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="problem10809httpswwwacmicpcnetproblem10809">&lt;a href="https://www.acmicpc.net/problem/10809" target="_blank" rel="noopener">Problem.10809&lt;/a>&lt;/h2>
-&lt;p>&lt;code>10809번알파벳 찾기&lt;/code>&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.1316</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1316/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1316/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://www.acmicpc.net/step/52" target="_blank" rel="noopener">백준 단계별 문제집 심화1&lt;/a>&lt;br>
+&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_7/1316.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;p>##&lt;a href="https://www.acmicpc.net/problem/1316" target="_blank" rel="noopener">Problem.1316&lt;/a>
+&lt;code>그룹 단어 체커&lt;/code>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdlib.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;string.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">char&lt;/span> comp_alpha[&lt;span style="color:#ae81ff">26&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;abcdefghijklmnopqrstuvwxyz&amp;#34;&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> comp_location[&lt;span style="color:#ae81ff">26&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>{&lt;span style="color:#ae81ff">0&lt;/span>,};
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">char&lt;/span> buf[&lt;span style="color:#ae81ff">110&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>{&lt;span style="color:#e6db74">&amp;#39;\0&amp;#39;&lt;/span>,};
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;i&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#ae81ff">26&lt;/span>;i&lt;span style="color:#f92672">++&lt;/span>){
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> comp_location[i]&lt;span style="color:#f92672">=-&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">checker&lt;/span>();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> N;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">char&lt;/span> buf[&lt;span style="color:#ae81ff">101&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>{&lt;span style="color:#e6db74">&amp;#39;\0&amp;#39;&lt;/span>,};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> result&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;amp;&lt;/span>N);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;i&lt;span style="color:#f92672">&amp;lt;&lt;/span>N;i&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%s&amp;#34;&lt;/span>,buf);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> result&lt;span style="color:#f92672">+=&lt;/span>&lt;span style="color:#a6e22e">checker&lt;/span>(buf);
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fgets&lt;/span>(buf,&lt;span style="color:#66d9ef">sizeof&lt;/span>(buf),stdin);
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//a~z까지 입력된단어에서의 처음 위치를 찾는다
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;i&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#ae81ff">26&lt;/span>;i&lt;span style="color:#f92672">++&lt;/span>){
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> j&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;j&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#a6e22e">strlen&lt;/span>(buf);j&lt;span style="color:#f92672">++&lt;/span>){
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[j]&lt;span style="color:#f92672">==&lt;/span>comp_alpha[i]){
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> comp_location[i]&lt;span style="color:#f92672">=&lt;/span>j;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;i&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#ae81ff">26&lt;/span>;i&lt;span style="color:#f92672">++&lt;/span>){
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d &amp;#34;&lt;/span>,comp_location[i]);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,result);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">puts&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">checker&lt;/span>(&lt;span style="color:#66d9ef">char&lt;/span> &lt;span style="color:#f92672">*&lt;/span>q){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">char&lt;/span> alpha[&lt;span style="color:#ae81ff">101&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>{&lt;span style="color:#e6db74">&amp;#39;\0&amp;#39;&lt;/span>};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> duplicate_count&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;i&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#a6e22e">strlen&lt;/span>(q);i&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(alpha[duplicate_count]&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>alpha[duplicate_count&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">!=&lt;/span>(&lt;span style="color:#f92672">*&lt;/span>(q&lt;span style="color:#f92672">+&lt;/span>i))) {&lt;span style="color:#75715e">//알파벳 배열에 연속된 같은 문자의 중복을 피하고 저장
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> alpha[duplicate_count]&lt;span style="color:#f92672">=&lt;/span>(&lt;span style="color:#f92672">*&lt;/span>(q&lt;span style="color:#f92672">+&lt;/span>i));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> duplicate_count&lt;span style="color:#f92672">++&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> j&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;j&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#a6e22e">strlen&lt;/span>(alpha);j&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> k&lt;span style="color:#f92672">=&lt;/span>j&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;k&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#a6e22e">strlen&lt;/span>(alpha);k&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(alpha[j]&lt;span style="color:#f92672">==&lt;/span>alpha[k]){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//j번째의 문자가 j+1번째부터 배열의 길이 까지
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">//한번이라도 나오면 연속단어가 성립 안됨
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
-&lt;p>알파벳은 26개이다 각 단어에서 알파벳이 처음 등장 하는 위치를 다른 배열에 저장한다.&lt;/p></description></item><item><title>Problem.1546</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1546/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1546/</guid><description>&lt;blockquote>
+&lt;p>입력 받은 문장에서 단어를 체크하는 함수로 입력받은 문장의 주소 전달.
+문장에서 연속된 문자의 중복을 제거하면서 한번씩만 배열에 저장
+이후 N번째의 문자가 N+1번째부터 끝까지
+한번이라도 나온다면 연속문자가 아님.&lt;/p></description></item><item><title>Problem.1546</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1546/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1546/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://www.acmicpc.net/step/6" target="_blank" rel="noopener">백준 단계별 문제집 레벨 4&lt;/a>&lt;br>
-&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_4/1546.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>
-&lt;/blockquote>
+&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_4/1546.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="problem1546httpswwwacmicpcnetproblem1546">&lt;a href="https://www.acmicpc.net/problem/1546" target="_blank" rel="noopener">Problem.1546&lt;/a>&lt;/h2>
 &lt;p>&lt;code>1546번[평균]&lt;/code>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
@@ -671,8 +757,7 @@ start: 26 [2+6=8 =&amp;gt;(68) 6+8=14 =&amp;gt;(84) 8+4=12 =&amp;gt;(42) 4+2=6 =
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="pascal-triangle">Pascal Triangle&lt;/h3>
 &lt;p>&lt;code>파스칼 삼각형&lt;/code>&lt;/p></description></item><item><title>Problem.2490</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-2490/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-2490/</guid><description>&lt;blockquote>
 &lt;p>백준 단계별 문제집 레벨17&lt;br>
-&lt;a href="https://github.com/ehdwn1991/Coding-Interview/tree/master/Code_Interview_Prep_Platform/backjoon/Level_17" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>
-&lt;/blockquote>
+&lt;a href="https://github.com/ehdwn1991/Coding-Interview/tree/master/Code_Interview_Prep_Platform/backjoon/Level_17" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="problem2490httpswwwacmicpcnetproblem2490">&lt;a href="https://www.acmicpc.net/problem/2490" target="_blank" rel="noopener">Problem.2490&lt;/a>&lt;/h2>
 &lt;p>&lt;code>2490번[윷놀이]&lt;/code>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
@@ -719,4 +804,152 @@ start: 26 [2+6=8 =&amp;gt;(68) 6+8=14 =&amp;gt;(84) 8+4=12 =&amp;gt;(42) 4+2=6 =
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> status_zero&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/tree/master/Code_Interview_Prep_Platform/backjoon/Level_17" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/tree/master/Code_Interview_Prep_Platform/backjoon/Level_17" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p></description></item><item><title>Problem.2675</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-2675/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-2675/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://www.acmicpc.net/step/3" target="_blank" rel="noopener">백준 단계별 문제집 레벨 3&lt;/a>&lt;br>
+&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_7/2675.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;p>##&lt;a href="https://www.acmicpc.net/problem/2675" target="_blank" rel="noopener">Problem.2675&lt;/a>
+&lt;code>문자열 반복&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdlib.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;string.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">void&lt;/span> &lt;span style="color:#a6e22e">QR_code&lt;/span>();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> N;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">char&lt;/span> buf[&lt;span style="color:#ae81ff">24&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>{&lt;span style="color:#e6db74">&amp;#39;\0&amp;#39;&lt;/span>,};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// 문자는 20글자 앞에 반복횟수 N 공백 까지 22에 마지막 엔터 23으로 되야 하는데 안되서 24로 잡음
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;amp;&lt;/span>N);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">while&lt;/span>(&lt;span style="color:#a6e22e">getchar&lt;/span>()&lt;span style="color:#f92672">!=&lt;/span>&lt;span style="color:#ae81ff">10&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;i&lt;span style="color:#f92672">&amp;lt;&lt;/span>N;i&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fgets&lt;/span>(buf,&lt;span style="color:#66d9ef">sizeof&lt;/span>(buf),stdin);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">QR_code&lt;/span>(buf);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">puts&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">memset&lt;/span>(buf,&lt;span style="color:#e6db74">&amp;#39;\0&amp;#39;&lt;/span>,&lt;span style="color:#a6e22e">strlen&lt;/span>(buf));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">void&lt;/span> &lt;span style="color:#a6e22e">QR_code&lt;/span>(&lt;span style="color:#66d9ef">char&lt;/span> &lt;span style="color:#f92672">*&lt;/span>q){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">2&lt;/span>;i&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#a6e22e">strlen&lt;/span>(q)&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;i&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> j&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;j&lt;span style="color:#f92672">&amp;lt;&lt;/span>(&lt;span style="color:#f92672">*&lt;/span>q)&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">48&lt;/span>;j&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%c&amp;#34;&lt;/span>,&lt;span style="color:#f92672">*&lt;/span>(q&lt;span style="color:#f92672">+&lt;/span>i));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.2908</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-2908/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-2908/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://www.acmicpc.net/step/7" target="_blank" rel="noopener">백준 단계별 문제집 문자열&lt;/a>&lt;br>
+&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_7/2908.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;p>##&lt;a href="https://www.acmicpc.net/problem/2908" target="_blank" rel="noopener">Problem.2908&lt;/a>
+&lt;code>상수&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdlib.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;string.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">char&lt;/span> buf[&lt;span style="color:#ae81ff">8&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>{&lt;span style="color:#ae81ff">0&lt;/span>,};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> start_num&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">2&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fgets&lt;/span>(buf,&lt;span style="color:#66d9ef">sizeof&lt;/span>(buf),stdin);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">3&lt;/span>;&lt;span style="color:#ae81ff">0&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span>i;i&lt;span style="color:#f92672">--&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[i&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">&amp;gt;&lt;/span>buf[i&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#ae81ff">3&lt;/span>]&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>(buf[i&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">!=&lt;/span>buf[i&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#ae81ff">3&lt;/span>])){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//각 숫자의 가장 뒷부분을 비교 여기서 큰쪽이 큰수가 된다.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">//같은 수인걸 조건으로 배제해야 한다.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> start_num&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">2&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[i&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">&amp;lt;&lt;/span>buf[i&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#ae81ff">3&lt;/span>]&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>(buf[i&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">!=&lt;/span>buf[i&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#ae81ff">3&lt;/span>])){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> start_num&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">6&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//만약 두수가 111 111이라면 같은 수이므로 위의 반복문을 돌고 나서
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">//start_num에는 아무 변화가 없을것이다. 그래서 초기값으로 2를 넣어줌
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> j&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;j&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#ae81ff">3&lt;/span>;j&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%c&amp;#34;&lt;/span>,buf[start_num&lt;span style="color:#f92672">-&lt;/span>j]);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//두 수를 비교해서 큰숫자가 판명 나면 그 숫자의 시작 번호를 받아와 거꾸로 출력
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">puts&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.2941</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-2941/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-2941/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://www.acmicpc.net/step/52" target="_blank" rel="noopener">백준 단계별 문제집 심화1&lt;/a>&lt;br>
+&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_7/2941.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;p>##&lt;a href="https://www.acmicpc.net/problem/2941" target="_blank" rel="noopener">Problem.2941&lt;/a>
+&lt;code>크로아티아 알파벳&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;string.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">char&lt;/span> buf[&lt;span style="color:#ae81ff">101&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>{&lt;span style="color:#e6db74">&amp;#39;\0&amp;#39;&lt;/span>,};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> croatia&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%s&amp;#34;&lt;/span>,buf);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;i&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#a6e22e">strlen&lt;/span>(buf);i&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[i]&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#e6db74">&amp;#39;c&amp;#39;&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>(buf[i&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#e6db74">&amp;#39;=&amp;#39;&lt;/span>&lt;span style="color:#f92672">||&lt;/span>buf[i&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#e6db74">&amp;#39;-&amp;#39;&lt;/span>)){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> croatia&lt;span style="color:#f92672">++&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> i&lt;span style="color:#f92672">+=&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[i]&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#e6db74">&amp;#39;d&amp;#39;&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[i&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#e6db74">&amp;#39;z&amp;#39;&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>buf[i&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#ae81ff">2&lt;/span>]&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#e6db74">&amp;#39;=&amp;#39;&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> croatia&lt;span style="color:#f92672">++&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> i&lt;span style="color:#f92672">+=&lt;/span>&lt;span style="color:#ae81ff">2&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[i&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#e6db74">&amp;#39;-&amp;#39;&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> croatia&lt;span style="color:#f92672">++&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> i&lt;span style="color:#f92672">+=&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> croatia&lt;span style="color:#f92672">++&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[i]&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#e6db74">&amp;#39;l&amp;#39;&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>buf[i&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#e6db74">&amp;#39;j&amp;#39;&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> croatia&lt;span style="color:#f92672">++&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> i&lt;span style="color:#f92672">+=&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[i]&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#e6db74">&amp;#39;n&amp;#39;&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>buf[i&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#e6db74">&amp;#39;j&amp;#39;&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> croatia&lt;span style="color:#f92672">++&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> i&lt;span style="color:#f92672">+=&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[i]&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#e6db74">&amp;#39;s&amp;#39;&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>buf[i&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#ae81ff">61&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> croatia&lt;span style="color:#f92672">++&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> i&lt;span style="color:#f92672">+=&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[i]&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#e6db74">&amp;#39;z&amp;#39;&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>buf[i&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#e6db74">&amp;#39;=&amp;#39;&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> croatia&lt;span style="color:#f92672">++&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> i&lt;span style="color:#f92672">+=&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> croatia&lt;span style="color:#f92672">++&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,croatia);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>이것도 조건에 맞춘 노가다 인듯 싶다.&lt;/p></description></item><item><title>Problem.5622</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-5622/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-5622/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://www.acmicpc.net/step/7" target="_blank" rel="noopener">백준 단계별 문제집 문자열&lt;/a>&lt;br>
+&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_7/5622.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;p>##&lt;a href="https://www.acmicpc.net/problem/5622" target="_blank" rel="noopener">Problem.5622&lt;/a>
+&lt;code>다이얼&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;string.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">char&lt;/span> buf[&lt;span style="color:#ae81ff">16&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>{&lt;span style="color:#e6db74">&amp;#39;\0&amp;#39;&lt;/span>,};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> result&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%s&amp;#34;&lt;/span>,buf);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;i&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#a6e22e">strlen&lt;/span>(buf);i&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[i]&lt;span style="color:#f92672">&amp;gt;=&lt;/span>&lt;span style="color:#ae81ff">65&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>buf[i]&lt;span style="color:#f92672">&amp;lt;=&lt;/span>&lt;span style="color:#ae81ff">67&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> result&lt;span style="color:#f92672">+=&lt;/span>&lt;span style="color:#ae81ff">3&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[i]&lt;span style="color:#f92672">&amp;gt;=&lt;/span>&lt;span style="color:#ae81ff">68&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>buf[i]&lt;span style="color:#f92672">&amp;lt;=&lt;/span>&lt;span style="color:#ae81ff">70&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> result&lt;span style="color:#f92672">+=&lt;/span>&lt;span style="color:#ae81ff">4&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[i]&lt;span style="color:#f92672">&amp;gt;=&lt;/span>&lt;span style="color:#ae81ff">71&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>buf[i]&lt;span style="color:#f92672">&amp;lt;=&lt;/span>&lt;span style="color:#ae81ff">73&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> result&lt;span style="color:#f92672">+=&lt;/span>&lt;span style="color:#ae81ff">5&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[i]&lt;span style="color:#f92672">&amp;gt;=&lt;/span>&lt;span style="color:#ae81ff">74&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>buf[i]&lt;span style="color:#f92672">&amp;lt;=&lt;/span>&lt;span style="color:#ae81ff">76&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> result&lt;span style="color:#f92672">+=&lt;/span>&lt;span style="color:#ae81ff">6&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[i]&lt;span style="color:#f92672">&amp;gt;=&lt;/span>&lt;span style="color:#ae81ff">77&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>buf[i]&lt;span style="color:#f92672">&amp;lt;=&lt;/span>&lt;span style="color:#ae81ff">79&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> result&lt;span style="color:#f92672">+=&lt;/span>&lt;span style="color:#ae81ff">7&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[i]&lt;span style="color:#f92672">&amp;gt;=&lt;/span>&lt;span style="color:#ae81ff">80&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>buf[i]&lt;span style="color:#f92672">&amp;lt;=&lt;/span>&lt;span style="color:#ae81ff">83&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> result&lt;span style="color:#f92672">+=&lt;/span>&lt;span style="color:#ae81ff">8&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[i]&lt;span style="color:#f92672">&amp;gt;=&lt;/span>&lt;span style="color:#ae81ff">84&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>buf[i]&lt;span style="color:#f92672">&amp;lt;=&lt;/span>&lt;span style="color:#ae81ff">86&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> result&lt;span style="color:#f92672">+=&lt;/span>&lt;span style="color:#ae81ff">9&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> result&lt;span style="color:#f92672">+=&lt;/span>&lt;span style="color:#ae81ff">10&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,result);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>그냥 조건에 맞춘 노가다 인듯 싶다&amp;hellip;중요한건 다이얼에서 1과 0은 입력이 없다고 보면 된다.
+2~9까지의 수만 쓰인다 생각하고 풀면됨&lt;/p>&lt;/blockquote></description></item></channel></rss>
