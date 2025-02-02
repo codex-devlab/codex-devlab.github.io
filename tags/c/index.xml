@@ -256,7 +256,69 @@ In 6X6
 &lt;p>Resister&lt;/p>
 &lt;p>CPU의 자체적인 메모리저장 기능.&lt;/p>
 &lt;p>Memory buffer register(MBR)&lt;/p>
-&lt;p>​ I/O로 보내지거나 메모리에 저장될 Word 혹은 I/O나 메모리로 부터 Word를 받는 것.&lt;/p></description></item><item><title>Problem.10809</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-10809/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-10809/</guid><description>&lt;blockquote>
+&lt;p>​ I/O로 보내지거나 메모리에 저장될 Word 혹은 I/O나 메모리로 부터 Word를 받는 것.&lt;/p></description></item><item><title>Problem.100039</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-100039/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-100039/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_6/100039.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="problem100039httpswwwacmicpcnetproblem100039">&lt;a href="https://www.acmicpc.net/problem/100039" target="_blank" rel="noopener">Problem.100039&lt;/a>&lt;/h2>
+&lt;p>&lt;code>평균점수&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> a;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> temp[&lt;span style="color:#ae81ff">5&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>{&lt;span style="color:#ae81ff">0&lt;/span>,};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> total&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;i&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#ae81ff">5&lt;/span>;i&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;amp;&lt;/span>temp[i]);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(temp[i]&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#ae81ff">40&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> temp[i]&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">40&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> total&lt;span style="color:#f92672">+=&lt;/span>temp[i];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,total&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#ae81ff">5&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.1065</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1065/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1065/</guid><description>&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_5/1065.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도 있습니다.&lt;/a>&lt;/p>
+&lt;h2 id="problem1065httpswwwacmicpcnetproblem1065">&lt;a href="https://www.acmicpc.net/problem/1065" target="_blank" rel="noopener">Problem.1065&lt;/a>&lt;/h2>
+&lt;p>&lt;code>1065번 문제(성공)-한수&lt;/code>
+각 자리수가 등차 수열을 이루면 한수로 취급한다.
+예를 들어 보자 99는 한수 인가? 9와 9는 공차 0으로 한수이다.
+그렇다면 100은 어떤가? 한수 일리가 없다. 즉 99이하는 전부 한수가 된다.
+하지만 100부터는 각 자리수에 따라 달라질수도 있다.
+100이후 첫 한수가 되는것은 111일것이다.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> N;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> place_value[&lt;span style="color:#ae81ff">3&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>{&lt;span style="color:#e6db74">&amp;#39;\0&amp;#39;&lt;/span>,};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> Hansu&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;amp;&lt;/span>N);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> i &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>; i &lt;span style="color:#f92672">&amp;lt;=&lt;/span> N; &lt;span style="color:#f92672">++&lt;/span>i)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(i&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#ae81ff">100&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Hansu&lt;span style="color:#f92672">++&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// printf(&amp;#34;11&amp;#39;s : %d \n&amp;#34;,i );
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span>(i&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#ae81ff">1000&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span>(&lt;span style="color:#ae81ff">99&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span>i){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> place_value[&lt;span style="color:#ae81ff">0&lt;/span>]&lt;span style="color:#f92672">=&lt;/span> i&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#ae81ff">100&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> place_value[&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>(i&lt;span style="color:#f92672">-&lt;/span>place_value[&lt;span style="color:#ae81ff">0&lt;/span>]&lt;span style="color:#f92672">*&lt;/span>&lt;span style="color:#ae81ff">100&lt;/span>)&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#ae81ff">10&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> place_value[&lt;span style="color:#ae81ff">2&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>((i&lt;span style="color:#f92672">-&lt;/span>place_value[&lt;span style="color:#ae81ff">0&lt;/span>]&lt;span style="color:#f92672">*&lt;/span>&lt;span style="color:#ae81ff">100&lt;/span>)&lt;span style="color:#f92672">-&lt;/span>(place_value[&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">*&lt;/span>&lt;span style="color:#ae81ff">10&lt;/span>));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(place_value[&lt;span style="color:#ae81ff">0&lt;/span>]&lt;span style="color:#f92672">-&lt;/span>place_value[&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">==&lt;/span>place_value[&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">-&lt;/span>place_value[&lt;span style="color:#ae81ff">2&lt;/span>]){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Hansu&lt;span style="color:#f92672">++&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// printf(&amp;#34;two&amp;#39;s com : %d 0:%d 1:%d 2:%d\n&amp;#34;,i ,place_value[0],place_value[1],place_value[2]);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,i );
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,Hansu );
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.10809</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-10809/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-10809/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://www.acmicpc.net/step/3" target="_blank" rel="noopener">백준 단계별 문제집 레벨 3&lt;/a>&lt;br>
 &lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_7/10809.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="problem10809httpswwwacmicpcnetproblem10809">&lt;a href="https://www.acmicpc.net/problem/10809" target="_blank" rel="noopener">Problem.10809&lt;/a>&lt;/h2>
@@ -288,7 +350,7 @@ In 6X6
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
 &lt;p>알파벳은 26개이다 각 단어에서 알파벳이 처음 등장 하는 위치를 다른 배열에 저장한다.&lt;/p>
-&lt;p>반복문에서 처음 위치를 찾으면 break 되기 때문에&lt;/p></description></item><item><title>Problem.10871</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-10871/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-10871/</guid><description>&lt;blockquote>
+&lt;p>반복문에서 처음 위치를 찾으면 break 되기 때문에&lt;/p></description></item><item><title>Problem.10871</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-10871/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-10871/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://www.acmicpc.net/step/6" target="_blank" rel="noopener">백준 단계별 문제집 레벨 4&lt;/a>&lt;br>
 &lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_17/10871.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="problem10871httpswwwacmicpcnetproblem10871">&lt;a href="https://www.acmicpc.net/problem/10871" target="_blank" rel="noopener">Problem.10871&lt;/a>&lt;/h2>
@@ -313,7 +375,7 @@ In 6X6
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
 &lt;p>알고리즘은 별게 없다. 근데 입력 부분에서 getc를 썻으면 조금 편했을지 모르겠지만
 일단 시작을 scanf로 하기로했으니, 공백을 무시하면서 숫자를 입력받을수 있어야 했다.
-덕분에 scanf(&amp;quot; %d&amp;quot;)의 심오한 의미를 공부할수 있었다.&lt;/p></description></item><item><title>Problem.1110</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1110/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1110/</guid><description>&lt;blockquote>
+덕분에 scanf(&amp;quot; %d&amp;quot;)의 심오한 의미를 공부할수 있었다.&lt;/p></description></item><item><title>Problem.1110</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1110/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1110/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://www.acmicpc.net/step/3" target="_blank" rel="noopener">백준 단계별 문제집 레벨 3&lt;/a>&lt;br>
 &lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_4/1110.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="1110번더하기-사이클httpswwwacmicpcnetproblem1110">&lt;a href="https://www.acmicpc.net/problem/1110" target="_blank" rel="noopener">1110번[더하기 사이클]&lt;/a>&lt;/h2>
@@ -379,7 +441,51 @@ start: 26 [2+6=8 =&amp;gt;(68) 6+8=14 =&amp;gt;(84) 8+4=12 =&amp;gt;(42) 4+2=6 =
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>tens&lt;span style="color:#f92672">=&lt;/span> N&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#ae81ff">10&lt;/span>;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">return&lt;/span> tens;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.1157</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1157/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1157/</guid><description>&lt;blockquote>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.1152</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1152/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1152/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://www.acmicpc.net/step/7" target="_blank" rel="noopener">백준 단계별 문제집 문자열&lt;/a>&lt;br>
+&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_6/1152.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="problem1152httpswwwacmicpcnetproblem1152">&lt;a href="https://www.acmicpc.net/problem/1152" target="_blank" rel="noopener">Problem.1152&lt;/a>&lt;/h2>
+&lt;p>&lt;code>1152번[단어의 개수]&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;string.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdlib.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> count&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>,is_word&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//is_word=0 =&amp;gt;until not using any word
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">//is_word=1 =&amp;gt;wherever used any word before using space
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">char&lt;/span> input;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">//공백은 연속으로 나오는 일이 없으니 공백만 잘 체크해 주면 된다.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">while&lt;/span>((input&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#a6e22e">getchar&lt;/span>())&lt;span style="color:#f92672">!=&lt;/span>EOF){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(input&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#ae81ff">10&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(is_word&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> count&lt;span style="color:#f92672">++&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(input&lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#ae81ff">32&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> is_word&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(input&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#ae81ff">32&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>is_word&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>){&lt;span style="color:#75715e">//is space
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span>(input&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#ae81ff">32&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>is_word&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> count&lt;span style="color:#f92672">++&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> is_word&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,count );
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>문제에서 헷갈리는 부문이 있다.
+1.시작이 공백
+2.끝이 공백
+두가지 경우를 어떻게 처리할것인가가 좀 헷갈렸다.
+[시작이 공백]
+시작이 공백이고 아직 단어가 한번도 안나온 경우
+시작이 공백이지만 이미 단어가 한번 나온경우
+[끝이 공백]
+마지막 문자가 Newline이고 is_word가 1이라면 이전에 글자가 있었던것&lt;/p></description></item><item><title>Problem.1157</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1157/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1157/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://www.acmicpc.net/step/3" target="_blank" rel="noopener">백준 단계별 문제집 레벨 3&lt;/a>&lt;br>
 &lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_7/1157.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;p>##&lt;a href="https://www.acmicpc.net/problem/1157" target="_blank" rel="noopener">Problem.1157&lt;/a>
@@ -430,7 +536,7 @@ start: 26 [2+6=8 =&amp;gt;(68) 6+8=14 =&amp;gt;(84) 8+4=12 =&amp;gt;(42) 4+2=6 =
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
 &lt;p>가장 많이 사용된 문자의 갯수를 문자별로 배열에 저장하고,
 가장많이 사용된 문자를 찾아 다시 비교해 주면된다.
-비교 하는 과정에서 가장큰 문자는 1번만 나와야하고 2번 이상 나온다면 &amp;ldquo;?&amp;ldquo;를 출력해주어야 한다.&lt;/p></description></item><item><title>Problem.11654</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-11654/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-11654/</guid><description>&lt;blockquote>
+비교 하는 과정에서 가장큰 문자는 1번만 나와야하고 2번 이상 나온다면 &amp;ldquo;?&amp;ldquo;를 출력해주어야 한다.&lt;/p></description></item><item><title>Problem.11654</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-11654/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-11654/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://www.acmicpc.net/step/3" target="_blank" rel="noopener">백준 단계별 문제집 레벨 3&lt;/a>&lt;br>
 &lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_7/11654.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="level7">Level7&lt;/h2>
@@ -444,7 +550,52 @@ start: 26 [2+6=8 =&amp;gt;(68) 6+8=14 =&amp;gt;(84) 8+4=12 =&amp;gt;(42) 4+2=6 =
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,a);
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.1316</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1316/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1316/</guid><description>&lt;blockquote>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.11720</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-11720/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-11720/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_3/11720.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="problem11720httpswwwacmicpcnetproblem11720">&lt;a href="https://www.acmicpc.net/problem/11720" target="_blank" rel="noopener">Problem.11720&lt;/a>&lt;/h2>
+&lt;p>&lt;code>숫자의 합&lt;/code>
+문제 : N개의 숫자가 공백 없이 쓰여있다. 이 숫자를 모두 합해서 출력하는 프로그램을 작성하시오.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdlib.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">char&lt;/span> input;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> result&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> N,buf;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;amp;&lt;/span>N);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> i &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>; i &lt;span style="color:#f92672">&amp;lt;&lt;/span> N; &lt;span style="color:#f92672">++&lt;/span>i)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// input=getchar();
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// result+=atoi(&amp;amp;input);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> result&lt;span style="color:#f92672">+=&lt;/span>(&lt;span style="color:#a6e22e">getc&lt;/span>(stdin))&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">48&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//이렇게 해도 똑같은데 그럼 N을 쓸일이 없고 아무래도
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">//atoi함수를 써서 틀린거 같음 노이해
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// while((input=getchar())!=10){
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// result+=atoi(&amp;amp;input);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// }
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,result );
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>풀이 : 키보드로 부터 입력 받은 수(decimal)를 result에 계속 더함&lt;/p></description></item><item><title>Problem.11721</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-11721/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-11721/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_3/11721.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="problem11721httpswwwacmicpcnetproblem11721">&lt;a href="https://www.acmicpc.net/problem/11721" target="_blank" rel="noopener">Problem.11721&lt;/a>&lt;/h2>
+&lt;p>&lt;code>11721번[열개씩 끊어서 출력하기]&lt;/code>
+문제 : 알파벳 소문자와 대문자로만 이루어진 길이가 N인 단어가 주어진다.&lt;br>
+한 줄에 10글자씩 끊어서 출력하는 프로그램을 작성하시오.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;string.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> N;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">char&lt;/span> buf[&lt;span style="color:#ae81ff">1001&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fgets&lt;/span>(buf,&lt;span style="color:#66d9ef">sizeof&lt;/span>(buf),stdin);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> i &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>; i &lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#a6e22e">strlen&lt;/span>(buf); &lt;span style="color:#f92672">++&lt;/span>i)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%c&amp;#34;&lt;/span>,buf[i&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>] );
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(i&lt;span style="color:#f92672">%&lt;/span>&lt;span style="color:#ae81ff">10&lt;/span>&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>풀이 : fgets으로 한줄을 입력 받고 buf에서 10글자씩 출력 해준후 개행(\n).&lt;/p></description></item><item><title>Problem.1316</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1316/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1316/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://www.acmicpc.net/step/52" target="_blank" rel="noopener">백준 단계별 문제집 심화1&lt;/a>&lt;br>
 &lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_7/1316.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;p>##&lt;a href="https://www.acmicpc.net/problem/1316" target="_blank" rel="noopener">Problem.1316&lt;/a>
@@ -492,7 +643,7 @@ start: 26 [2+6=8 =&amp;gt;(68) 6+8=14 =&amp;gt;(84) 8+4=12 =&amp;gt;(42) 4+2=6 =
 &lt;p>입력 받은 문장에서 단어를 체크하는 함수로 입력받은 문장의 주소 전달.
 문장에서 연속된 문자의 중복을 제거하면서 한번씩만 배열에 저장
 이후 N번째의 문자가 N+1번째부터 끝까지
-한번이라도 나온다면 연속문자가 아님.&lt;/p></description></item><item><title>Problem.1546</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1546/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1546/</guid><description>&lt;blockquote>
+한번이라도 나온다면 연속문자가 아님.&lt;/p></description></item><item><title>Problem.1546</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1546/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1546/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://www.acmicpc.net/step/6" target="_blank" rel="noopener">백준 단계별 문제집 레벨 4&lt;/a>&lt;br>
 &lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_4/1546.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="problem1546httpswwwacmicpcnetproblem1546">&lt;a href="https://www.acmicpc.net/problem/1546" target="_blank" rel="noopener">Problem.1546&lt;/a>&lt;/h2>
@@ -533,7 +684,46 @@ start: 26 [2+6=8 =&amp;gt;(68) 6+8=14 =&amp;gt;(84) 8+4=12 =&amp;gt;(42) 4+2=6 =
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
 &lt;p>알고리즘은 별거 없지만, 자료를 잘 다뤄줘야 한다.
 최대 값에 맞춰서 새로운 점수를 맞출때에도 소수 2번째 자리 까지 반올림 해줘야 한다.
-그리고 마지막 평균을 구해줄때에도 소수 2번째 자리 까지 반올림 해줘야함.&lt;/p></description></item><item><title>Problem.1978</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1978/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-1978/</guid><description>&lt;h2 id="math-problem">Math Problem&lt;/h2>
+그리고 마지막 평균을 구해줄때에도 소수 2번째 자리 까지 반올림 해줘야함.&lt;/p></description></item><item><title>Problem.15552</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-15552/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-15552/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_3/15552.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="problem15552httpswwwacmicpcnetproblem15552">&lt;a href="https://www.acmicpc.net/problem/15552" target="_blank" rel="noopener">Problem.15552&lt;/a>&lt;/h2>
+&lt;p>&lt;code>15552번[열개씩 끊어서 출력하기]&lt;/code>
+문제 : 각 테스트케이스마다 A+B를 한 줄에 하나씩 순서대로 출력한다.(입력 A,B는 1000이하 케이스 T는 최대 1,000,000이다.)&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> N;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> a,b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;amp;&lt;/span>N);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> i &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>; i &lt;span style="color:#f92672">&amp;lt;&lt;/span> N; &lt;span style="color:#f92672">++&lt;/span>i)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d %d&amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;amp;&lt;/span>a,&lt;span style="color:#f92672">&amp;amp;&lt;/span>b);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,a&lt;span style="color:#f92672">+&lt;/span>b);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.1924</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1924/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1924/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_3/1924.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="problem1924httpswwwacmicpcnetproblem1924">&lt;a href="https://www.acmicpc.net/problem/1924" target="_blank" rel="noopener">Problem.1924&lt;/a>&lt;/h2>
+&lt;p>&lt;code>1924번 [2007]&lt;/code>
+문제 : 오늘은 2007년 1월 1일 월요일이다. 그렇다면 2007년 x월 y일은 무슨 요일일까? 이를 알아내는 프로그램을 작성하시오.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">char&lt;/span> &lt;span style="color:#f92672">*&lt;/span>day_of_week[&lt;span style="color:#ae81ff">7&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>{&lt;span style="color:#e6db74">&amp;#34;SUN&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;MON&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;TUE&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;WED&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;THU&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;FRI&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;SAT&amp;#34;&lt;/span>};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//2007year 1month 1day is monday
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// SUN, MON, TUE, WED, THU, FRI, SAT
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">int&lt;/span> month_of_day[&lt;span style="color:#ae81ff">12&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>{&lt;span style="color:#ae81ff">31&lt;/span>,&lt;span style="color:#ae81ff">28&lt;/span>,&lt;span style="color:#ae81ff">31&lt;/span>,&lt;span style="color:#ae81ff">30&lt;/span>,&lt;span style="color:#ae81ff">31&lt;/span>,&lt;span style="color:#ae81ff">30&lt;/span>,&lt;span style="color:#ae81ff">31&lt;/span>,&lt;span style="color:#ae81ff">31&lt;/span>,&lt;span style="color:#ae81ff">30&lt;/span>,&lt;span style="color:#ae81ff">31&lt;/span>,&lt;span style="color:#ae81ff">30&lt;/span>,&lt;span style="color:#ae81ff">31&lt;/span>};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//1, 3, 5, 7, 8, 10, 12월은 31일까지, 4, 6, 9, 11월은 30일까지, 2월은 28일까
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">int&lt;/span> month&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>,day&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>,now_of_day&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// printf(&amp;#34;\n&amp;#34;);
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d %d&amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;amp;&lt;/span>month,&lt;span style="color:#f92672">&amp;amp;&lt;/span>day);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;i&lt;span style="color:#f92672">&amp;lt;&lt;/span>month&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;i&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> now_of_day&lt;span style="color:#f92672">+=&lt;/span>month_of_day[i];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> now_of_day&lt;span style="color:#f92672">+=&lt;/span>day;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%s&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,&lt;span style="color:#f92672">*&lt;/span>(day_of_week&lt;span style="color:#f92672">+&lt;/span>(now_of_day&lt;span style="color:#f92672">%&lt;/span>&lt;span style="color:#ae81ff">7&lt;/span>)));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>풀이 : 월 과 일이 입력으로 주어지고, 현재 1월1일부터 몇일이 지났는지 now_of_day에 저장 후 요일을 계산&lt;/p></description></item><item><title>Problem.1978</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1978/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1978/</guid><description>&lt;h2 id="math-problem">Math Problem&lt;/h2>
 &lt;h3 id="problem1978httpswwwacmicpcnetproblem1978---tag수학httpswwwacmicpcnetproblemsetsortac_descalgo124">&lt;a href="https://www.acmicpc.net/problem/1978" target="_blank" rel="noopener">Problem.1978&lt;/a> - &lt;a href="https://www.acmicpc.net/problemset?sort=ac_desc&amp;amp;algo=124" target="_blank" rel="noopener">Tag[수학]&lt;/a>&lt;/h3>
 &lt;p>&lt;code>소수찾기&lt;/code>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>소수찾기
@@ -610,7 +800,103 @@ start: 26 [2+6=8 =&amp;gt;(68) 6+8=14 =&amp;gt;(84) 8+4=12 =&amp;gt;(42) 4+2=6 =
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">free&lt;/span>(arr);
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="pascal-triangle">Pascal Triangle&lt;/h3>
-&lt;p>&lt;code>파스칼 삼각형&lt;/code>&lt;/p></description></item><item><title>Problem.2490</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-2490/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-2490/</guid><description>&lt;blockquote>
+&lt;p>&lt;code>파스칼 삼각형&lt;/code>&lt;/p></description></item><item><title>Problem.2257</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2257/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2257/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_6/2257.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="problem2257httpswwwacmicpcnetproblem2577">&lt;a href="https://www.acmicpc.net/problem/2577" target="_blank" rel="noopener">Problem.2257&lt;/a>&lt;/h2>
+&lt;p>&lt;code>2257번[숫자의 개수]&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> a,b,c,multi;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> count[&lt;span style="color:#ae81ff">10&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>{&lt;span style="color:#ae81ff">0&lt;/span>,};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;amp;&lt;/span>a);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;amp;&lt;/span>b);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;amp;&lt;/span>c);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> multi&lt;span style="color:#f92672">=&lt;/span>a&lt;span style="color:#f92672">*&lt;/span>b&lt;span style="color:#f92672">*&lt;/span>c;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">while&lt;/span>(multi&lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> count[multi&lt;span style="color:#f92672">%&lt;/span>&lt;span style="color:#ae81ff">10&lt;/span>]&lt;span style="color:#f92672">+=&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> multi&lt;span style="color:#f92672">/=&lt;/span>&lt;span style="color:#ae81ff">10&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> i &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>; i &lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#ae81ff">10&lt;/span>; &lt;span style="color:#f92672">++&lt;/span>i)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,count[i]);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.2439</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2439/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2439/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_3/2439.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="problem2439httpswwwacmicpcnetproblem2439">&lt;a href="https://www.acmicpc.net/problem/2439" target="_blank" rel="noopener">Problem.2439&lt;/a>&lt;/h2>
+&lt;p>&lt;code>2439번[별찍기2]&lt;/code>
+문제 : 다음과 같이 만들어지도록 출력&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">*&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">**&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">***&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">****&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">*****&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> N,space,asteric&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;amp;&lt;/span>N);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> space&lt;span style="color:#f92672">=&lt;/span>N&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> i &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;i&lt;span style="color:#f92672">&amp;lt;&lt;/span>N ; &lt;span style="color:#f92672">++&lt;/span>i) &lt;span style="color:#75715e">//N줄 까지 공백과 별을 출력해줘야함
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> j &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>; j &lt;span style="color:#f92672">&amp;lt;&lt;/span> space&lt;span style="color:#f92672">-&lt;/span>i; &lt;span style="color:#f92672">++&lt;/span>j)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {&lt;span style="color:#75715e">//space갯수는 N-1개부터 별 의 갯수만큼 감소
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34; &amp;#34;&lt;/span>);&lt;span style="color:#75715e">//space
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> k &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>; k &lt;span style="color:#f92672">&amp;lt;=&lt;/span> i; &lt;span style="color:#f92672">++&lt;/span>k)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {&lt;span style="color:#75715e">//별의 갯수는 N번째 줄 N개가됨.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;*&amp;#34;&lt;/span>);&lt;span style="color:#75715e">//asteric
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>풀이 : N줄 까지 우측 정렬로 출력 하는 문제.&lt;/p></description></item><item><title>Problem.2441</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2441/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2441/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_3/2441.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="problem2441httpswwwacmicpcnetproblem2441">&lt;a href="https://www.acmicpc.net/problem/2441" target="_blank" rel="noopener">Problem.2441&lt;/a>&lt;/h2>
+&lt;p>&lt;code>2441번 [별찍기4]&lt;/code>
+문제 : 다음과 같이 만들어지도록 출력&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">*****&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">****&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">***&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">**&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">*&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> N,space,asteric&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;amp;&lt;/span>N);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> space&lt;span style="color:#f92672">=&lt;/span>N;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> i &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;i&lt;span style="color:#f92672">&amp;lt;&lt;/span>N ; &lt;span style="color:#f92672">++&lt;/span>i)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> k &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>; k &lt;span style="color:#f92672">&amp;lt;&lt;/span>i; &lt;span style="color:#f92672">++&lt;/span>k)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34; &amp;#34;&lt;/span>);&lt;span style="color:#75715e">//asteric
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> j &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>; j &lt;span style="color:#f92672">&amp;lt;&lt;/span> space&lt;span style="color:#f92672">-&lt;/span>i; &lt;span style="color:#f92672">++&lt;/span>j)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;*&amp;#34;&lt;/span>);&lt;span style="color:#75715e">//space
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>풀이 : N줄 까지 역순 우측 정렬로 출력 하는 문제. 2439번에서 for문 순서만 바꿔주면 된다.&lt;/p></description></item><item><title>Problem.2448</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2448/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2448/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_5/2448.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도 있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="problem2448httpswwwacmicpcnetproblem2448">&lt;a href="https://www.acmicpc.net/problem/2448" target="_blank" rel="noopener">Problem.2448&lt;/a>&lt;/h2>
+&lt;p>&lt;code>2448번 문제(성공)-파스칼 삼각형 별찍기&lt;/code>&lt;/p>
+&lt;p>입력 N줄이 주어지고(N은 3*2^K의 수로 보장됨), 최대 열의 갯수는2N-1개가 됨.&lt;br>
+N줄의 최대 값은 3072이고, 열의 최대 값은 60143개임&lt;br>
+처음에 별이 고정됨. 즉, 이 3줄이 한 셋트임.&lt;br>
+그리고 별셋트가 찍히는 규칙이 있는데 이게 바로 파스칼 삼각형에서 홀수인 부분들만 별셋트가 찍히는 것이다.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">6&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">줄&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">기준&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ae81ff">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ae81ff">1&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ae81ff">1&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ae81ff">1&lt;/span> &lt;span style="color:#ae81ff">3&lt;/span> &lt;span style="color:#ae81ff">3&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ae81ff">1&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">1&lt;/span> &lt;span style="color:#ae81ff">5&lt;/span> &lt;span style="color:#ae81ff">5&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>위에서 홀수인 부분들만 별 셋트가 그려지게 된다. 몇가지 규칙을 찾을수 있는데, 위에부터 0,0 밑에 줄은&lt;br>
+1,0과 1,1 이라고 해보자. 1행에 별이 그려지기 위해선 이전 행의 좌표에 별의 유무가 중요하다.&lt;/p></description></item><item><title>Problem.2490</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2490/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2490/</guid><description>&lt;blockquote>
 &lt;p>백준 단계별 문제집 레벨17&lt;br>
 &lt;a href="https://github.com/ehdwn1991/Coding-Interview/tree/master/Code_Interview_Prep_Platform/backjoon/Level_17" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="problem2490httpswwwacmicpcnetproblem2490">&lt;a href="https://www.acmicpc.net/problem/2490" target="_blank" rel="noopener">Problem.2490&lt;/a>&lt;/h2>
@@ -659,7 +945,7 @@ start: 26 [2+6=8 =&amp;gt;(68) 6+8=14 =&amp;gt;(84) 8+4=12 =&amp;gt;(42) 4+2=6 =
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> status_zero&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/tree/master/Code_Interview_Prep_Platform/backjoon/Level_17" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p></description></item><item><title>Problem.2675</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-2675/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-2675/</guid><description>&lt;blockquote>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/tree/master/Code_Interview_Prep_Platform/backjoon/Level_17" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p></description></item><item><title>Problem.2675</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2675/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2675/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://www.acmicpc.net/step/3" target="_blank" rel="noopener">백준 단계별 문제집 레벨 3&lt;/a>&lt;br>
 &lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_7/2675.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;p>##&lt;a href="https://www.acmicpc.net/problem/2675" target="_blank" rel="noopener">Problem.2675&lt;/a>
@@ -688,7 +974,7 @@ start: 26 [2+6=8 =&amp;gt;(68) 6+8=14 =&amp;gt;(84) 8+4=12 =&amp;gt;(42) 4+2=6 =
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.2908</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-2908/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-2908/</guid><description>&lt;blockquote>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.2908</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2908/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2908/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://www.acmicpc.net/step/7" target="_blank" rel="noopener">백준 단계별 문제집 문자열&lt;/a>&lt;br>
 &lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_7/2908.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;p>##&lt;a href="https://www.acmicpc.net/problem/2908" target="_blank" rel="noopener">Problem.2908&lt;/a>
@@ -722,7 +1008,44 @@ start: 26 [2+6=8 =&amp;gt;(68) 6+8=14 =&amp;gt;(84) 8+4=12 =&amp;gt;(42) 4+2=6 =
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">puts&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;&amp;#34;&lt;/span>);
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.2941</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-2941/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-2941/</guid><description>&lt;blockquote>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.2920</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2920/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2920/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_6/2920.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="problem2920httpswwwacmicpcnetproblem2920">&lt;a href="https://www.acmicpc.net/problem/2920" target="_blank" rel="noopener">Problem.2920&lt;/a>&lt;/h2>
+&lt;p>&lt;code>2920번[음계]&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> temp[&lt;span style="color:#ae81ff">8&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>{&lt;span style="color:#ae81ff">0&lt;/span>,};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> state[&lt;span style="color:#ae81ff">8&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>{&lt;span style="color:#ae81ff">0&lt;/span>,};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> now_state;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// 0=ascending 1=descending 2=mix
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;i&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#ae81ff">8&lt;/span>;i&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;amp;&lt;/span>temp[i]);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> now_state&lt;span style="color:#f92672">=&lt;/span>temp[&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">-&lt;/span>temp[&lt;span style="color:#ae81ff">0&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> j&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;j&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#ae81ff">7&lt;/span>;j&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(now_state&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>now_state&lt;span style="color:#f92672">==&lt;/span>(temp[j&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">-&lt;/span>temp[j]))
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//오름차순
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">continue&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span>(now_state&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>now_state&lt;span style="color:#f92672">==&lt;/span>(temp[j&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>]&lt;span style="color:#f92672">-&lt;/span>temp[j]))
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//내림차순
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">continue&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> now_state&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">2&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//등차 수열을 이루지 못해서 Mix의 상태임.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(now_state&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;ascending&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span>(now_state&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;descending&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;mixed&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>시작이 1 혹은 8 둘중하나로 시작 하면 오름차순 이거나 내림차순 일것이다.
+즉 하나의 수열로 봤을때 등차 수열이 되야한다는것.
+등차 수열을 이루지 못하다면 Mix 인것이다.&lt;/p></description></item><item><title>Problem.2941</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2941/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2941/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://www.acmicpc.net/step/52" target="_blank" rel="noopener">백준 단계별 문제집 심화1&lt;/a>&lt;br>
 &lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_7/2941.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;p>##&lt;a href="https://www.acmicpc.net/problem/2941" target="_blank" rel="noopener">Problem.2941&lt;/a>
@@ -774,7 +1097,52 @@ start: 26 [2+6=8 =&amp;gt;(68) 6+8=14 =&amp;gt;(84) 8+4=12 =&amp;gt;(42) 4+2=6 =
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,croatia);
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
-&lt;p>이것도 조건에 맞춘 노가다 인듯 싶다.&lt;/p></description></item><item><title>Problem.5622</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-5622/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/prob-5622/</guid><description>&lt;blockquote>
+&lt;p>이것도 조건에 맞춘 노가다 인듯 싶다.&lt;/p></description></item><item><title>Problem.4673</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-4673/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-4673/</guid><description>&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_5/4673.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도 있습니다.&lt;/a>&lt;/p>
+&lt;h2 id="problem4673httpswwwacmicpcnetproblem4673">&lt;a href="https://www.acmicpc.net/problem/4673" target="_blank" rel="noopener">Problem.4673&lt;/a>&lt;/h2>
+&lt;p>&lt;code>4673번 문제(성공)&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>셀프넘버&lt;br>
+&lt;a href="https://en.wikipedia.org/wiki/Self_number" target="_blank" rel="noopener">Wiki 참고&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">generate&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> n_times);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> check_generator[&lt;span style="color:#ae81ff">10000&lt;/span>] &lt;span style="color:#f92672">=&lt;/span> { &lt;span style="color:#ae81ff">0&lt;/span>, };
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> generate_state&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> i &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>; i &lt;span style="color:#f92672">&amp;lt;=&lt;/span> &lt;span style="color:#ae81ff">10000&lt;/span>; i&lt;span style="color:#f92672">++&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> generate_state &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#a6e22e">generate&lt;/span>(i);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (check_generator[generate_state&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>] &lt;span style="color:#f92672">==&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> check_generator[generate_state&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>] &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> { &lt;span style="color:#66d9ef">continue&lt;/span>; }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> q &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>; q&lt;span style="color:#f92672">&amp;lt;=&lt;/span>&lt;span style="color:#ae81ff">10000&lt;/span>; q&lt;span style="color:#f92672">++&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (check_generator[q&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>] &lt;span style="color:#f92672">==&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>, (q));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">generate&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> n_times) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> now_decimal &lt;span style="color:#f92672">=&lt;/span> n_times, sum_of_generator&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> digits &lt;span style="color:#f92672">=&lt;/span> n_times, run &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">while&lt;/span> (digits &lt;span style="color:#f92672">&amp;gt;=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> digits &lt;span style="color:#f92672">/=&lt;/span> &lt;span style="color:#ae81ff">10&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> run&lt;span style="color:#f92672">*=&lt;/span>&lt;span style="color:#ae81ff">10&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">while&lt;/span> (run&lt;span style="color:#f92672">&amp;gt;=&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> sum_of_generator &lt;span style="color:#f92672">+=&lt;/span> now_decimal &lt;span style="color:#f92672">/&lt;/span> run;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> now_decimal &lt;span style="color:#f92672">-=&lt;/span> (now_decimal &lt;span style="color:#f92672">/&lt;/span> run)&lt;span style="color:#f92672">*&lt;/span>run;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> run &lt;span style="color:#f92672">/=&lt;/span> &lt;span style="color:#ae81ff">10&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> sum_of_generator &lt;span style="color:#f92672">+=&lt;/span> n_times;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.5622</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-5622/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-5622/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://www.acmicpc.net/step/7" target="_blank" rel="noopener">백준 단계별 문제집 문자열&lt;/a>&lt;br>
 &lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_7/5622.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;p>##&lt;a href="https://www.acmicpc.net/problem/5622" target="_blank" rel="noopener">Problem.5622&lt;/a>
@@ -807,4 +1175,60 @@ start: 26 [2+6=8 =&amp;gt;(68) 6+8=14 =&amp;gt;(84) 8+4=12 =&amp;gt;(42) 4+2=6 =
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
 &lt;p>그냥 조건에 맞춘 노가다 인듯 싶다&amp;hellip;중요한건 다이얼에서 1과 0은 입력이 없다고 보면 된다.
-2~9까지의 수만 쓰인다 생각하고 풀면됨&lt;/p>&lt;/blockquote></description></item></channel></rss>
+2~9까지의 수만 쓰인다 생각하고 풀면됨&lt;/p>&lt;/blockquote></description></item><item><title>Problem.8393</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-8393/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-8393/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_3/8393.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="problem8393httpswwwacmicpcnetproblem8393">&lt;a href="https://www.acmicpc.net/problem/8393" target="_blank" rel="noopener">Problem.8393&lt;/a>&lt;/h2>
+&lt;p>&lt;code>8393번[합]&lt;/code>
+문제 : n이 주어졌을 때, 1부터 n까지 합을 구하는 프로그램을 작성하시오.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> N,sum&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;amp;&lt;/span>N);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;i&lt;span style="color:#f92672">&amp;lt;=&lt;/span>N;i&lt;span style="color:#f92672">++&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> sum&lt;span style="color:#f92672">+=&lt;/span>i;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,sum);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.8958</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-8958/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-8958/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_6/8958.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="problem8958httpswwwacmicpcnetproblem8958">&lt;a href="https://www.acmicpc.net/problem/8958" target="_blank" rel="noopener">Problem.8958&lt;/a>&lt;/h2>
+&lt;p>&lt;code>8958번[OX퀴즈]&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdlib.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;string.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> now_point&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>,total_point&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> count&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">char&lt;/span> buf[&lt;span style="color:#ae81ff">81&lt;/span>]&lt;span style="color:#f92672">=&lt;/span>{&lt;span style="color:#e6db74">&amp;#39;\0&amp;#39;&lt;/span>,};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">scanf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&amp;#34;&lt;/span>,&lt;span style="color:#f92672">&amp;amp;&lt;/span>count);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">while&lt;/span>(&lt;span style="color:#a6e22e">getchar&lt;/span>()&lt;span style="color:#f92672">!=&lt;/span>&lt;span style="color:#ae81ff">10&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// 입력 버퍼를 비워 주지 않으면 테스트 횟수 입력후 첫번째 케이스 문자가 입력이 안됨
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// 왜냐면 처음 반복 횟수 입력후 버퍼의 상태는 N\n 이렇게 들어있음 즉 숫자와 엔터가
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// 들어있는 상태임 그래서 그다음에 fgets 를 쓰려고 하면 입력이 끝나 버리는것
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">//그래서 두가지 방법중 하나를 써줘야됨
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">//1.scanf(&amp;#34;%d &amp;#34;) =&amp;gt; 공백을 하나 추가하여
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">//2.while(getchar()!=10) \n 이 나올때까지 입력 버퍼를 비워줌
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> i&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;i&lt;span style="color:#f92672">&amp;lt;&lt;/span>count;i&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fgets&lt;/span>(buf,&lt;span style="color:#66d9ef">sizeof&lt;/span>(buf),stdin);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> j&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;j&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#a6e22e">strlen&lt;/span>(buf);j&lt;span style="color:#f92672">++&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[j]&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#e6db74">&amp;#39;O&amp;#39;&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">++&lt;/span>now_point;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> total_point&lt;span style="color:#f92672">+=&lt;/span>now_point;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(buf[j]&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#e6db74">&amp;#39;X&amp;#39;&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> now_point&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,total_point);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> total_point&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> now_point&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">memset&lt;/span>(buf,&lt;span style="color:#e6db74">&amp;#39;\0&amp;#39;&lt;/span>,&lt;span style="color:#a6e22e">strlen&lt;/span>(buf));
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>알고리즘은 간단하다. 근데 입출력에 문제가 생겼음.
+scanf로 입력 받았을때는 버퍼의 마지막에 &amp;lsquo;\n&amp;rsquo; 이 있는 상태이고
+그다음에 바로 getchar를 쓴다면 버퍼 마지막의 &amp;lsquo;\n&amp;rsquo;을 가져 오게 된다
+그래서 첫번째 케이스의 첫 글자가 입력이 안되서,
+scanf로 입력 받고 버퍼를 비워줘야함.&lt;/p></description></item></channel></rss>

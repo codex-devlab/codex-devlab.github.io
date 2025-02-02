@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>String on CodeXlog</title><link>https://codex-devlab.github.io/tags/string/</link><description>Recent content in String on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 18 May 2018 08:12:43 +0500</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/string/index.xml" rel="self" type="application/rss+xml"/><item><title>Problem.1152</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1152/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1152/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://www.acmicpc.net/step/7" target="_blank" rel="noopener">백준 단계별 문제집 문자열&lt;/a>&lt;br>
+&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_6/1152.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="problem1152httpswwwacmicpcnetproblem1152">&lt;a href="https://www.acmicpc.net/problem/1152" target="_blank" rel="noopener">Problem.1152&lt;/a>&lt;/h2>
+&lt;p>&lt;code>1152번[단어의 개수]&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;string.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdlib.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> count&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>,is_word&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">//is_word=0 =&amp;gt;until not using any word
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">//is_word=1 =&amp;gt;wherever used any word before using space
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">char&lt;/span> input;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">//공백은 연속으로 나오는 일이 없으니 공백만 잘 체크해 주면 된다.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">while&lt;/span>((input&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#a6e22e">getchar&lt;/span>())&lt;span style="color:#f92672">!=&lt;/span>EOF){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(input&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#ae81ff">10&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(is_word&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> count&lt;span style="color:#f92672">++&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(input&lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#ae81ff">32&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> is_word&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span>(input&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#ae81ff">32&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>is_word&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>){&lt;span style="color:#75715e">//is space
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span>(input&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#ae81ff">32&lt;/span>&lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span>is_word&lt;span style="color:#f92672">==&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> count&lt;span style="color:#f92672">++&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> is_word&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,count );
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>문제에서 헷갈리는 부문이 있다.
+1.시작이 공백
+2.끝이 공백
+두가지 경우를 어떻게 처리할것인가가 좀 헷갈렸다.
+[시작이 공백]
+시작이 공백이고 아직 단어가 한번도 안나온 경우
+시작이 공백이지만 이미 단어가 한번 나온경우
+[끝이 공백]
+마지막 문자가 Newline이고 is_word가 1이라면 이전에 글자가 있었던것&lt;/p></description></item></channel></rss>
