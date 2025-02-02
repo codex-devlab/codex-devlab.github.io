@@ -12,6 +12,8 @@ tags:
 - C
 - Level 17
 - Prime Number
+- Backjoon
+- Online-Judge
 ---
 
 

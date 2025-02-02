@@ -12,6 +12,8 @@ tags:
 - C
 - Math
 - Prime Number
+- Backjoon
+- Online-Judge
 ---
 
 ## Math Problem
