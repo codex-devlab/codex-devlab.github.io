@@ -579,7 +579,73 @@ start: 26 [2+6=8 =&amp;gt;(68) 6+8=14 =&amp;gt;(84) 8+4=12 =&amp;gt;(42) 4+2=6 =
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;%d&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>,a);
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.11720</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-11720/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-11720/</guid><description>&lt;blockquote>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.11718</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-11718/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-11718/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_1/11718.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="problem11718httpswwwacmicpcnetproblem11718">&lt;a href="https://www.acmicpc.net/problem/11718" target="_blank" rel="noopener">Problem.11718&lt;/a>&lt;/h2>
+&lt;p>&lt;code>그대로 출력하기1&lt;/code>
+문제 : 입력 받은 대로 출력하는 프로그램을 작성하시오.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> argc,&lt;span style="color:#66d9ef">char&lt;/span> &lt;span style="color:#f92672">**&lt;/span>argv){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">char&lt;/span> through_out;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">while&lt;/span>((through_out&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#a6e22e">getchar&lt;/span>())&lt;span style="color:#f92672">!=&lt;/span>EOF){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">putchar&lt;/span>(through_out);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>풀이 : 여러가지 함수가 있지만 개행(\n)문자가 들어와도 입력이 끝나면 안된다.&lt;br>
+때문에 getchar함수를 통해 개행(\n)문자 까지 출력하면 입력 그대로 출력 완료&lt;/p></description></item><item><title>Problem.11719</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-11719/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-11719/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_1/11719.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="problem11719번httpswwwacmicpcnetproblem11719">&lt;a href="https://www.acmicpc.net/problem/11719" target="_blank" rel="noopener">Problem.11719번&lt;/a>&lt;/h2>
+&lt;p>&lt;code>그대로 출력하기2&lt;/code>&lt;/p>
+&lt;p>문제 : 입력 받은 대로 출력하는 프로그램을 작성하시오&lt;br>
+단,알파벳 소문자, 대문자, 공백, 숫자로만 이루어져 있다. 각 줄은 100글자를 넘지 않으며,&lt;br>
+빈 줄이 주어질 수도 있고, 각 줄의 앞 뒤에 공백이 있을 수도 있다.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(&lt;span style="color:#66d9ef">int&lt;/span> argc,&lt;span style="color:#66d9ef">char&lt;/span> &lt;span style="color:#f92672">**&lt;/span>argv){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">char&lt;/span> through_out;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">while&lt;/span>((through_out&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#a6e22e">getchar&lt;/span>())&lt;span style="color:#f92672">!=&lt;/span>EOF){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">putchar&lt;/span>(through_out);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>풀이 : &lt;a href="https://www.acmicpc.net/problem/11718" target="_blank" rel="noopener">11718번&lt;/a>과 동일.&lt;br>
+입력시 한 글자씩 입력을 받고 받은 그대로 출력하기 때문에 공백, 빈칸, 대 소 문자, 숫자 뭐든지 입력 그대로 출력 됨.&lt;/p></description></item><item><title>Problem.11719</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-9461/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-9461/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Dynamic/9461.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="9461번httpswwwacmicpcnetproblem9461">&lt;a href="https://www.acmicpc.net/problem/9461" target="_blank" rel="noopener">9461번&lt;/a>&lt;/h2>
+&lt;p>파도반 수열은 간단하다.&lt;br>
+처음 배열 1 1 1 1 2 2 를 시작으로&lt;br>
+PD[n]=PD[n-1]+PD[n-5]의 식이 성립되지만 처음에 이렇게 접근하지 않았다.&lt;br>
+파도반은 정삼각형과 역삼각형으로 이루어져있음&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">&lt;/th>
+&lt;th style="text-align: center">0&lt;/th>
+&lt;th style="text-align: center">1&lt;/th>
+&lt;th style="text-align: center">2&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">정삼각&lt;/td>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;td style="text-align: center">2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">역삼각&lt;/td>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;td style="text-align: center">2&lt;/td>
+&lt;td style="text-align: center">3&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>위의 표를 잘 보자 문제에서 처음 시작은 정삼각형 1부터 시작 그다음은 역삼각 1이다.&lt;br>
+그럼 다음 차례 정삼각[1]의 값을 찾아야 하는데 이건 정삼각[1]=정삼각[0]+역삼각[-1]이다. &amp;ndash;&amp;gt; &lt;code>대각의 합&lt;/code>&lt;br>
+그래서 정삼각[1]은 =1이 된다.&lt;br>
+다음은 역삼각 [1]이다. 역삼각[1]=정삼각[0]+역삼각[0]으로 구할수 있다. &amp;ndash;&amp;gt; &lt;code>수직의 합&lt;/code>&lt;br>
+즉 배열 두개와 각 배열의 값을 구해주는 함수 두개가 필요하다.&lt;br>
+정삼각은 Up_triangle, 역삼각은 Down_triangle로 만들자.&lt;br>
+그리고 수열의 특성상 int의 범위를 넘겨 버린다. 그래서 각 배열과 함수의 자료형은 long long으로 해준다.&lt;/p></description></item><item><title>Problem.11720</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-11720/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-11720/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_3/11720.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="problem11720httpswwwacmicpcnetproblem11720">&lt;a href="https://www.acmicpc.net/problem/11720" target="_blank" rel="noopener">Problem.11720&lt;/a>&lt;/h2>
 &lt;p>&lt;code>숫자의 합&lt;/code>
@@ -1003,7 +1069,16 @@ N줄의 최대 값은 3072이고, 열의 최대 값은 60143개임&lt;br>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.2908</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2908/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2908/</guid><description>&lt;blockquote>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Problem.2839</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2839/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2839/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_6/2839.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="problem2839httpswwwacmicpcnetproblem2839">&lt;a href="https://www.acmicpc.net/problem/2839" target="_blank" rel="noopener">Problem.2839&lt;/a>&lt;/h2>
+&lt;p>&lt;code>2839번[사칙연산 도전하기]&lt;/code>&lt;/p>
+&lt;p>문제 :상근이는 요즘 설탕공장에서 설탕을 배달하고 있다.&lt;br>
+상근이는 지금 사탕가게에 설탕을 정확하게 N킬로그램을 배달해야 한다. 설탕공장에서 만드는 설탕은 봉지에 담겨져 있다.&lt;br>
+봉지는 3킬로그램 봉지와 5킬로그램 봉지가 있다.&lt;br>
+상근이는 귀찮기 때문에, 최대한 적은 봉지를 들고 가려고 한다.&lt;br>
+예를 들어, 18킬로그램 설탕을 배달해야 할 때, 3킬로그램 봉지 6개를 가져가도 되지만, 5킬로그램 3개와 3킬로그램 1개를 배달하면, 더 적은 개수의 봉지를 배달할 수 있다.&lt;br>
+상근이가 설탕을 정확하게 N킬로그램 배달해야 할 때, 봉지 몇 개를 가져가면 되는지 그 수를 구하는 프로그램을 작성하시오.&lt;/p></description></item><item><title>Problem.2908</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2908/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2908/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://www.acmicpc.net/step/7" target="_blank" rel="noopener">백준 단계별 문제집 문자열&lt;/a>&lt;br>
 &lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_7/2908.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;p>##&lt;a href="https://www.acmicpc.net/problem/2908" target="_blank" rel="noopener">Problem.2908&lt;/a>
