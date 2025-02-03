@@ -1,11 +1,11 @@
 ---
-title: Problem.11719
+title: Problem.9461
 date: 2018-05-18T08:12:43+05:00
 description:
 menu:
   sidebar:
-    name: Problem.11719
-    identifier: backjoon-11719
+    name: Problem.9461
+    identifier: backjoon-9461
     parent: backjoon
     weight: 50
 tags:
