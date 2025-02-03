@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Math on CodeXlog</title><link>https://codex-devlab.github.io/tags/math/</link><description>Recent content in Math on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 18 May 2018 08:12:43 +0500</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/math/index.xml" rel="self" type="application/rss+xml"/><item><title>Problem.1110</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1110/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1110/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Math on CodeXlog</title><link>https://codex-devlab.github.io/tags/math/</link><description>Recent content in Math on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 13 Sep 2018 12:24:25 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/math/index.xml" rel="self" type="application/rss+xml"/><item><title>파스칼의 삼각형</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-pascal-triangle/</link><pubDate>Thu, 13 Sep 2018 12:24:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-pascal-triangle/</guid><description>&lt;h2 id="pascal-triangle">Pascal Triangle&lt;/h2>
+&lt;p>C 언어를 활용해서 &amp;ldquo;파스칼의 삼각형(PascalTriangle)&amp;ldquo;을 출력하는 프로그램을 분석해보려고 합니다.&lt;br>
+파스칼의 삼각형은 수학에서 조합론과 이항계수와 관련이 깊은 구조인데요,&lt;br>
+이를 C 언어로 구현한 코드와 함께 살펴보겠습니다!&lt;/p>
+&lt;h3 id="파스칼의-삼각형이란">파스칼의 삼각형이란?&lt;/h3>
+&lt;p>파스칼의 삼각형은 다음과 같은 규칙을 가지고 있어요.&lt;/p>
+&lt;ul>
+&lt;li>가장 바깥쪽 숫자는 항상 1이다.&lt;/li>
+&lt;li>내부의 각 숫자는 바로 위 행의 양옆 숫자의 합이다.&lt;/li>
+&lt;li>N번째 행에는 (N+1)개의 요소가 존재한다.&lt;/li>
+&lt;/ul>
+&lt;p>예를 들어, N = 5일 때 파스칼의 삼각형은 이렇게 출력됩니다.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-txt" data-lang="txt">&lt;span style="display:flex;">&lt;span> 1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 1 1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 1 1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 1 1 1 1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>1 1 1
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="파스칼의-삼각형-구현">파스칼의 삼각형 구현&lt;/h3>
+&lt;p>&lt;code>구현 포인트&lt;/code>&lt;/p></description></item><item><title>Problem.1110</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1110/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-1110/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://www.acmicpc.net/step/3" target="_blank" rel="noopener">백준 단계별 문제집 레벨 3&lt;/a>&lt;br>
 &lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_4/1110.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="1110번더하기-사이클httpswwwacmicpcnetproblem1110">&lt;a href="https://www.acmicpc.net/problem/1110" target="_blank" rel="noopener">1110번[더하기 사이클]&lt;/a>&lt;/h2>
@@ -140,5 +158,4 @@ start: 26 [2+6=8 =&amp;gt;(68) 6+8=14 =&amp;gt;(84) 8+4=12 =&amp;gt;(42) 4+2=6 =
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">free&lt;/span>(arr);
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="pascal-triangle">Pascal Triangle&lt;/h3>
-&lt;p>&lt;code>파스칼 삼각형&lt;/code>&lt;/p></description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/tree/master/Code_Interview_Prep_Platform/backjoon/Math_prob" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p></description></item></channel></rss>

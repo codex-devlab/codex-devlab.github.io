@@ -36,36 +36,25 @@ Go 개발시에 로컬 모듈을 go.mod에 추가하여 개발하는 방식과 �
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">1&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">2&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">2&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>우리가 1을 입력후 엔터를 치면 1이 출력되고 그다음 2를 입력하면 2가 출력 될것이라고 예상할것이다.&lt;/p></description></item><item><title>Data Structure</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/data-structure/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/data-structure/</guid><description>&lt;h2 id="algorithms">&lt;a href="https://codex-devlab.github.io/tag/algorithms/">Algorithms&lt;/a>&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>우리가 1을 입력후 엔터를 치면 1이 출력되고 그다음 2를 입력하면 2가 출력 될것이라고 예상할것이다.&lt;/p></description></item><item><title>Data Structure</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/data-structure/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/data-structure/</guid><description/></item><item><title>파스칼의 삼각형</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-pascal-triangle/</link><pubDate>Thu, 13 Sep 2018 12:24:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-pascal-triangle/</guid><description>&lt;h2 id="pascal-triangle">Pascal Triangle&lt;/h2>
+&lt;p>C 언어를 활용해서 &amp;ldquo;파스칼의 삼각형(PascalTriangle)&amp;ldquo;을 출력하는 프로그램을 분석해보려고 합니다.&lt;br>
+파스칼의 삼각형은 수학에서 조합론과 이항계수와 관련이 깊은 구조인데요,&lt;br>
+이를 C 언어로 구현한 코드와 함께 살펴보겠습니다!&lt;/p>
+&lt;h3 id="파스칼의-삼각형이란">파스칼의 삼각형이란?&lt;/h3>
+&lt;p>파스칼의 삼각형은 다음과 같은 규칙을 가지고 있어요.&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;p>&lt;a href="https://codex-devlab.github.io/category/algospot/">Algospot Problem&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://codex-devlab.github.io/category/backjoon-category/">Backjoon Problem&lt;/a> &amp;mdash;backjoon 문제모음&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://codex-devlab.github.io/tag/backjoon-level/">단계별 문제풀이&lt;/a>(backjoon Level)&lt;/li>
-&lt;li>&lt;a href="https://codex-devlab.github.io/tag/backjoon-classification/">알고리즘 분류별 문제풀이&lt;/a> &amp;ndash;Algorithms Categories&lt;/li>
+&lt;li>가장 바깥쪽 숫자는 항상 1이다.&lt;/li>
+&lt;li>내부의 각 숫자는 바로 위 행의 양옆 숫자의 합이다.&lt;/li>
+&lt;li>N번째 행에는 (N+1)개의 요소가 존재한다.&lt;/li>
 &lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="../_featured_categories/personalcode/personalcode.md">Personal Problem&lt;/a> &amp;mdash;personal code&lt;/p>
-&lt;p>{:.related-posts.faded}&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://codex-devlab.github.io/tag/datastructure/">Data Structure&lt;/a> &amp;mdash;C로 구현한 자료구조&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://codex-devlab.github.io/tag/c-coding-tip/">Coding Tip&lt;/a> &amp;mdash;C Coding에 대한 고찰&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="git-끝내기">&lt;a href="https://codex-devlab.github.io/tag/git/">Git 끝내기&lt;/a>&lt;/h2>
-&lt;h2 id="linux">&lt;a href="https://codex-devlab.github.io/category/linux/">Linux&lt;/a>&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://codex-devlab.github.io/tag/etc/">etc&lt;/a> &amp;mdash;etc&amp;hellip;setiing and installation&lt;/li>
-&lt;li>&lt;a href="https://codex-devlab.github.io/tag/jekyll/">jekyll&lt;/a> &amp;mdash;Jekyll for blog&lt;/li>
-&lt;/ul>
-&lt;div style="margin-top: rem;">&lt;/div></description></item><item><title>Prob 달팽이 배열</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-snail/</link><pubDate>Fri, 10 Aug 2018 12:24:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-snail/</guid><description>&lt;h1 id="달팽이-배열">달팽이 배열&lt;/h1>
+&lt;p>예를 들어, N = 5일 때 파스칼의 삼각형은 이렇게 출력됩니다.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-txt" data-lang="txt">&lt;span style="display:flex;">&lt;span> 1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 1 1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 1 1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 1 1 1 1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>1 1 1
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="파스칼의-삼각형-구현">파스칼의 삼각형 구현&lt;/h3>
+&lt;p>&lt;code>구현 포인트&lt;/code>&lt;/p></description></item><item><title>Prob 달팽이 배열</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-snail/</link><pubDate>Fri, 10 Aug 2018 12:24:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-snail/</guid><description>&lt;h1 id="달팽이-배열">달팽이 배열&lt;/h1>
 &lt;blockquote>
 &lt;p>윤성우의 열혈강의 C 도전프로그래밍3 -도전 2&lt;/p>&lt;/blockquote>
 &lt;pre tabindex="0">&lt;code>문제 : 숫자 N을 입력받아 N by N의 배열을 다음과 같은 규칙으로 만드시오
@@ -724,44 +713,7 @@ start: 26 [2+6=8 =&amp;gt;(68) 6+8=14 =&amp;gt;(84) 8+4=12 =&amp;gt;(42) 4+2=6 =
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>풀이 : &lt;a href="https://www.acmicpc.net/problem/11718" target="_blank" rel="noopener">11718번&lt;/a>과 동일.&lt;br>
-입력시 한 글자씩 입력을 받고 받은 그대로 출력하기 때문에 공백, 빈칸, 대 소 문자, 숫자 뭐든지 입력 그대로 출력 됨.&lt;/p></description></item><item><title>Problem.11719</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-9461/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-9461/</guid><description>&lt;blockquote>
-&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Dynamic/9461.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
-&lt;h2 id="9461번httpswwwacmicpcnetproblem9461">&lt;a href="https://www.acmicpc.net/problem/9461" target="_blank" rel="noopener">9461번&lt;/a>&lt;/h2>
-&lt;p>파도반 수열은 간단하다.&lt;br>
-처음 배열 1 1 1 1 2 2 를 시작으로&lt;br>
-PD[n]=PD[n-1]+PD[n-5]의 식이 성립되지만 처음에 이렇게 접근하지 않았다.&lt;br>
-파도반은 정삼각형과 역삼각형으로 이루어져있음&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: center">&lt;/th>
-&lt;th style="text-align: center">0&lt;/th>
-&lt;th style="text-align: center">1&lt;/th>
-&lt;th style="text-align: center">2&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: center">정삼각&lt;/td>
-&lt;td style="text-align: center">1&lt;/td>
-&lt;td style="text-align: center">1&lt;/td>
-&lt;td style="text-align: center">2&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">역삼각&lt;/td>
-&lt;td style="text-align: center">1&lt;/td>
-&lt;td style="text-align: center">2&lt;/td>
-&lt;td style="text-align: center">3&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>위의 표를 잘 보자 문제에서 처음 시작은 정삼각형 1부터 시작 그다음은 역삼각 1이다.&lt;br>
-그럼 다음 차례 정삼각[1]의 값을 찾아야 하는데 이건 정삼각[1]=정삼각[0]+역삼각[-1]이다. &amp;ndash;&amp;gt; &lt;code>대각의 합&lt;/code>&lt;br>
-그래서 정삼각[1]은 =1이 된다.&lt;br>
-다음은 역삼각 [1]이다. 역삼각[1]=정삼각[0]+역삼각[0]으로 구할수 있다. &amp;ndash;&amp;gt; &lt;code>수직의 합&lt;/code>&lt;br>
-즉 배열 두개와 각 배열의 값을 구해주는 함수 두개가 필요하다.&lt;br>
-정삼각은 Up_triangle, 역삼각은 Down_triangle로 만들자.&lt;br>
-그리고 수열의 특성상 int의 범위를 넘겨 버린다. 그래서 각 배열과 함수의 자료형은 long long으로 해준다.&lt;/p></description></item><item><title>Problem.11720</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-11720/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-11720/</guid><description>&lt;blockquote>
+입력시 한 글자씩 입력을 받고 받은 그대로 출력하기 때문에 공백, 빈칸, 대 소 문자, 숫자 뭐든지 입력 그대로 출력 됨.&lt;/p></description></item><item><title>Problem.11720</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-11720/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-11720/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_3/11720.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="problem11720httpswwwacmicpcnetproblem11720">&lt;a href="https://www.acmicpc.net/problem/11720" target="_blank" rel="noopener">Problem.11720&lt;/a>&lt;/h2>
 &lt;p>&lt;code>숫자의 합&lt;/code>
@@ -1010,8 +962,7 @@ PD[n]=PD[n-1]+PD[n-5]의 식이 성립되지만 처음에 이렇게 접근하지
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">free&lt;/span>(arr);
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="pascal-triangle">Pascal Triangle&lt;/h3>
-&lt;p>&lt;code>파스칼 삼각형&lt;/code>&lt;/p></description></item><item><title>Problem.2257</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2257/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2257/</guid><description>&lt;blockquote>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/tree/master/Code_Interview_Prep_Platform/backjoon/Math_prob" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p></description></item><item><title>Problem.2257</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2257/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-2257/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Level_6/2257.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="problem2257httpswwwacmicpcnetproblem2577">&lt;a href="https://www.acmicpc.net/problem/2577" target="_blank" rel="noopener">Problem.2257&lt;/a>&lt;/h2>
 &lt;p>&lt;code>2257번[숫자의 개수]&lt;/code>&lt;/p>
@@ -1451,4 +1402,41 @@ N줄의 최대 값은 3072이고, 열의 최대 값은 60143개임&lt;br>
 scanf로 입력 받았을때는 버퍼의 마지막에 &amp;lsquo;\n&amp;rsquo; 이 있는 상태이고
 그다음에 바로 getchar를 쓴다면 버퍼 마지막의 &amp;lsquo;\n&amp;rsquo;을 가져 오게 된다
 그래서 첫번째 케이스의 첫 글자가 입력이 안되서,
-scanf로 입력 받고 버퍼를 비워줘야함.&lt;/p></description></item></channel></rss>
+scanf로 입력 받고 버퍼를 비워줘야함.&lt;/p></description></item><item><title>Problem.9461</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-9461/</link><pubDate>Fri, 18 May 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/online-judge/backjoon/step-prob/prob-9461/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://github.com/ehdwn1991/Coding-Interview/blob/master/Code_Interview_Prep_Platform/backjoon/Dynamic/9461.c" target="_blank" rel="noopener">모든 내용은 Git Hub에도있습니다.&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="9461번httpswwwacmicpcnetproblem9461">&lt;a href="https://www.acmicpc.net/problem/9461" target="_blank" rel="noopener">9461번&lt;/a>&lt;/h2>
+&lt;p>파도반 수열은 간단하다.&lt;br>
+처음 배열 1 1 1 1 2 2 를 시작으로&lt;br>
+PD[n]=PD[n-1]+PD[n-5]의 식이 성립되지만 처음에 이렇게 접근하지 않았다.&lt;br>
+파도반은 정삼각형과 역삼각형으로 이루어져있음&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">&lt;/th>
+&lt;th style="text-align: center">0&lt;/th>
+&lt;th style="text-align: center">1&lt;/th>
+&lt;th style="text-align: center">2&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">정삼각&lt;/td>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;td style="text-align: center">2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">역삼각&lt;/td>
+&lt;td style="text-align: center">1&lt;/td>
+&lt;td style="text-align: center">2&lt;/td>
+&lt;td style="text-align: center">3&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>위의 표를 잘 보자 문제에서 처음 시작은 정삼각형 1부터 시작 그다음은 역삼각 1이다.&lt;br>
+그럼 다음 차례 정삼각[1]의 값을 찾아야 하는데 이건 정삼각[1]=정삼각[0]+역삼각[-1]이다. &amp;ndash;&amp;gt; &lt;code>대각의 합&lt;/code>&lt;br>
+그래서 정삼각[1]은 =1이 된다.&lt;br>
+다음은 역삼각 [1]이다. 역삼각[1]=정삼각[0]+역삼각[0]으로 구할수 있다. &amp;ndash;&amp;gt; &lt;code>수직의 합&lt;/code>&lt;br>
+즉 배열 두개와 각 배열의 값을 구해주는 함수 두개가 필요하다.&lt;br>
+정삼각은 Up_triangle, 역삼각은 Down_triangle로 만들자.&lt;br>
+그리고 수열의 특성상 int의 범위를 넘겨 버린다. 그래서 각 배열과 함수의 자료형은 long long으로 해준다.&lt;/p></description></item></channel></rss>
