@@ -8,9 +8,5 @@ menu:
     name: Dev
     identifier: dev
     weight: 3
-tags:
-- Development
-- Environment
-- Manual
 categories: ["Dev"]
 ---

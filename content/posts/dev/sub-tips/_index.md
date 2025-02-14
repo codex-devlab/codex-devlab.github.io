@@ -8,7 +8,4 @@ menu:
     identifier: sub-tips
     parent: dev
     weight: 10
-tags:
-- Tips
-- Notes
 ---

@@ -9,8 +9,4 @@ menu:
     parent: algorithms-problem
     weight: 40
 hero: images/forest.jpg
-tags:
-- Algorithms
-- Backjoon
-- Online Judge
 ---

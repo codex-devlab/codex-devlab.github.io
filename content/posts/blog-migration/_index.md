@@ -8,11 +8,5 @@ menu:
     name: Blog-Migration
     identifier: blog-migration
     weight: 1
-tags:
-- Blog-Migration
-- Hugo-toha
-- Manual
-- Jekyll
-- Hydejack Theme
-categories: ["Hugo"]
+categories: ["Blog"]
 ---
