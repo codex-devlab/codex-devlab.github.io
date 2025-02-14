@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Computer Science on CodeXlog</title><link>https://codex-devlab.github.io/posts/study/sub-computer-science/</link><description>Recent content in Computer Science on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 10 Aug 2018 10:25:23 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/posts/study/sub-computer-science/index.xml" rel="self" type="application/rss+xml"/><item><title>시스템프로그래밍 FTW 구현</title><link>https://codex-devlab.github.io/posts/study/sub-computer-science/system-programming-ftw-implementation/</link><pubDate>Fri, 10 Aug 2018 10:25:23 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-computer-science/system-programming-ftw-implementation/</guid><description>&lt;h2 id="ftw-란">FTW() 란?&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Computer Science on CodeXlog</title><link>https://codex-devlab.github.io/posts/study/sub-computer-science/</link><description>Recent content in Computer Science on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 10 Aug 2018 10:25:23 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/posts/study/sub-computer-science/index.xml" rel="self" type="application/rss+xml"/><item><title>시스템프로그래밍 FTW 구현</title><link>https://codex-devlab.github.io/posts/study/sub-computer-science/embedded-system/</link><pubDate>Fri, 10 Aug 2018 10:25:23 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-computer-science/embedded-system/</guid><description>&lt;h2 id="embedded-system">Embedded System?&lt;/h2>
+&lt;blockquote>
+&lt;p>An embedded system is a computer system &amp;mdash; 작은 컴퓨터 라고 생각하자.&lt;/p>
+&lt;p>Dedicated function &amp;mdash; 시스템에 맞춰 특정 동작을 한다.&lt;/p>
+&lt;p>Within a lager mechanical or electronical system&lt;/p>
+&lt;p>더 큰 시스템의 일부로 내장(embedded)된다.&lt;/p>
+&lt;p>큰 시스템 안에 여러개의 임베디드 시스템이 동시에 존재할 수 있다.&lt;/p>&lt;/blockquote>
+&lt;ul>
+&lt;li>Characteristic of Embedded system
+&lt;ul>
+&lt;li>특정 기능을 수행&lt;/li>
+&lt;li>하드웨어 + 소프트웨어로 구성&lt;/li>
+&lt;li>하드웨어 변경 쉽지 않음&lt;/li>
+&lt;li>제한적인 자원&lt;/li>
+&lt;li>고 신뢰성, 실시간성의 요구&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="soc">SoC&lt;/h2>
+&lt;blockquote>
+&lt;p>SoC(System on chip) 은&lt;/p></description></item><item><title>시스템프로그래밍 FTW 구현</title><link>https://codex-devlab.github.io/posts/study/sub-computer-science/system-programming-ftw-implementation/</link><pubDate>Fri, 10 Aug 2018 10:25:23 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-computer-science/system-programming-ftw-implementation/</guid><description>&lt;h2 id="ftw-란">FTW() 란?&lt;/h2>
 &lt;p>ftw함수는 해당 경로안의 모든 디렉토리들을 탐색하여 보여준다.&lt;/p>
 &lt;h2 id="synopsis">SYNOPSIS&lt;/h2>
 &lt;p>&lt;code>#include &amp;lt;ftw.h&amp;gt;&lt;/code>&lt;/p>

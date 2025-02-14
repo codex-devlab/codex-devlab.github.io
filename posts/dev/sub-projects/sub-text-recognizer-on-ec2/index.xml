@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AWS text recognizer on CodeXlog</title><link>https://codex-devlab.github.io/posts/dev/sub-projects/sub-text-recognizer-on-ec2/</link><description>Recent content in AWS text recognizer on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 08 Oct 2018 08:06:25 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/posts/dev/sub-projects/sub-text-recognizer-on-ec2/index.xml" rel="self" type="application/rss+xml"/><item><title>AWS project 진행 과정</title><link>https://codex-devlab.github.io/posts/dev/sub-projects/sub-text-recognizer-on-ec2/text-recognizer-on-ec2-dev-history/</link><pubDate>Tue, 31 Jul 2018 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/dev/sub-projects/sub-text-recognizer-on-ec2/text-recognizer-on-ec2-dev-history/</guid><description>&lt;h2 id="gui-변경">gui 변경&lt;/h2>
+&lt;blockquote>
+&lt;p>사전에 맥에 vncviewer를 설치해 줬다.&lt;/p>
+&lt;p>아마 대부분 유저들이 사용하는 팀뷰어 같은 앱이라고 생각하면 편하다.&lt;/p>&lt;/blockquote>
+&lt;p>설치하면서 &lt;a href="https://stackoverflow.com/questions/25657596/how-to-set-up-gui-on-amazon-ec2-ubuntu-server" target="_blank" rel="noopener">stackoverflow&lt;/a>를 참고 하였다.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># aws 우분투 서버 접속후&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ sudo apt-get update
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ sudo apt-get install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ sudo apt-get install ubuntu-desktop
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ sudo apt-get install vnc4server
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ubuntu@ip-172-31-19-48:~$ vncserver
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>You will require a password to access your desktops.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Password:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Password must be at least &lt;span style="color:#ae81ff">6&lt;/span> characters - try again
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Password:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Password must be at least &lt;span style="color:#ae81ff">6&lt;/span> characters - try again
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Password:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Verify:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>xauth: file /home/ubuntu/.Xauthority does not exist
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>New &lt;span style="color:#e6db74">&amp;#39;ip-172-31-19-48:1 (ubuntu)&amp;#39;&lt;/span> desktop is ip-172-31-19-48:1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Creating default startup script /home/ubuntu/.vnc/xstartup
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Starting applications specified in /home/ubuntu/.vnc/xstartup
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Log file is /home/ubuntu/.vnc/ip-172-31-19-48:1.log
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ vncserver -kill :1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ exit
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 우분투 서버 재접속&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd /vnc
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo vi xstartup
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#insert this script-------------------------------------#&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>export XKL_XMODMAP_DISABLE&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>unset SESSION_MANAGER
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>unset DBUS_SESSION_BUS_ADDRESS
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> -x /etc/vnc/xstartup &lt;span style="color:#f92672">]&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> exec /etc/vnc/xstartup
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">[&lt;/span> -r $HOME/.Xresources &lt;span style="color:#f92672">]&lt;/span> &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> xrdb $HOME/.Xresources
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>xsetroot -solid grey
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>vncconfig -iconic &amp;amp;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>gnome-panel &amp;amp;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>gnome-settings-daemon &amp;amp;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>metacity &amp;amp;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nautilus &amp;amp;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>gnome-terminal &amp;amp;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#-------------------------------------------------------#&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 이후 서버에 접속 할때마다&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="연결-주소-확인">연결 주소 확인&lt;/h3>
+&lt;p>&lt;img src="../../assets/img/post/S_2018-07-27_10.46.24.png" alt="img">&lt;/p></description></item><item><title>Django 따라해보기!!</title><link>https://codex-devlab.github.io/posts/dev/sub-projects/sub-text-recognizer-on-ec2/text-recognizer-on-ec2-django/</link><pubDate>Tue, 31 Jul 2018 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/dev/sub-projects/sub-text-recognizer-on-ec2/text-recognizer-on-ec2-django/</guid><description>&lt;h2 id="djangoframework">Django(Framework)&lt;/h2>
+&lt;blockquote>
+&lt;p>Django(&lt;em>/dʒæŋɡoʊ/ jang-goh/쟁고/장고&lt;/em>)는 파이썬으로 만들어진 무료 오픈소스 웹 애플리케이션 프레임워크(web application framework)입니다. 쉽고 빠르게 웹사이트를 개발할 수 있도록 돕는 구성요소로 이루어진 웹 프레임워크랍니다.&lt;/p>&lt;/blockquote>
+&lt;h3 id="installation">Installation&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>$ pip3 install Django
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ python3
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;gt;&amp;gt;import django
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;gt;&amp;gt;django.VERSION
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;gt;&amp;gt;&lt;span style="color:#f92672">(&lt;/span>2.0.1&lt;span style="color:#f92672">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="가상환경을-프로젝트-폴더에-적용">가상환경을 프로젝트 폴더에 적용&lt;/h3>
+&lt;p>pyenv 를 이용하여 가상환경을 적용해 줄겁니다.&lt;/p>
+&lt;p>&lt;a href="https://github.com/pyenv/pyenv-installer" target="_blank" rel="noopener">pyenv-installer&lt;/a> 를 이용해서 설치하면 다른 플러그인도 같이 설치 됩니다.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>$ curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ pyenv update
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 현재 사용하고 있는 버전들&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ pyenv versions
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>* system &lt;span style="color:#f92672">(&lt;/span>set by /Users/Edwardson/.pyenv/version&lt;span style="color:#f92672">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 3.6.5
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ pyenv virtualenv 3.6.5 myenv
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ pyenv versions
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>* system &lt;span style="color:#f92672">(&lt;/span>set by /Users/Edwardson/.pyenv/version&lt;span style="color:#f92672">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 3.6.5
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 3.6.5/envs/myenv
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> myenv
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ mkdir project
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># project 폴더로 이동후&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ pyenv local project
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">(&lt;/span>myenv&lt;span style="color:#f92672">)&lt;/span>$ python3 --version
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Python 3.6.5
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">(&lt;/span>myenv&lt;span style="color:#f92672">)&lt;/span>$ pip --version
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pip 9.0.3 from /Users/Edwardson/.pyenv/versions/3.6.5/envs/myenv/lib/python3.6/site-packages &lt;span style="color:#f92672">(&lt;/span>python 3.6&lt;span style="color:#f92672">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 버전이 너무 낮아서 업글 해줘야댐&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">(&lt;/span>myenv&lt;span style="color:#f92672">)&lt;/span>$ pip install --upgrade pip
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">(&lt;/span>myenv&lt;span style="color:#f92672">)&lt;/span>$ pip install Django
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="django-project-생성">django project 생성&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">(&lt;/span>myenv&lt;span style="color:#f92672">)&lt;/span>$ django-admin startproject project
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>└── project
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ├── project
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> │   ├── __init__.py
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> │   ├── __pycache__
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> │   │   ├── __init__.cpython-36.pyc
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> │   │   ├── settings.cpython-36.pyc
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> │   │   ├── urls.cpython-36.pyc
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> │   │   └── wsgi.cpython-36.pyc
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> │   ├── settings.py
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> │   ├── urls.py
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> │   └── wsgi.py
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ├── db.sqlite3
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> └── manage.py
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 프로젝트 폴더 명도 project 이고 그안에 시작 폴더 이름도 project가 되버린다.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 때문에 프로젝트 폴더 안의 project를 config로 바꿀것이다.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 하지만 폴더 명을 바꿔 버리면 영향을 미치는 파일들이 있는데&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># manage.py wsgi.py settings.py 이 세개의 파일이다.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 들어가서 project로 되어있는 부분들을 전부 config로 바꾸자&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>└── project
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ├── config
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> │   ├── __init__.py
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> │   ├── __pycache__
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> │   │   ├── __init__.cpython-36.pyc
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> │   │   ├── settings.cpython-36.pyc
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> │   │   ├── urls.cpython-36.pyc
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> │   │   └── wsgi.cpython-36.pyc
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> │   ├── settings.py
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> │   ├── urls.py
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> │   └── wsgi.py
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ├── db.sqlite3
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> └── manage.py
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># 아마 이렇게 되어있을것이다.&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="실습-1">실습-1&lt;/h3>
+&lt;blockquote>
+&lt;p>django 시작부터 글 모델 데이터 베이스 생성&lt;/p></description></item><item><title>AWS 이미지속 글자 추출</title><link>https://codex-devlab.github.io/posts/dev/sub-projects/sub-text-recognizer-on-ec2/text-recognizer-on-ec2-main/</link><pubDate>Mon, 30 Jul 2018 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/dev/sub-projects/sub-text-recognizer-on-ec2/text-recognizer-on-ec2-main/</guid><description>&lt;blockquote>
+&lt;p>모든 내용은 &lt;a href="https://github.com/ehdwn1991/AWS_text_recognizer" target="_blank" rel="noopener">Github-AWS_text_recognizer&lt;/a> 에 업로드 되어 있습니다.&lt;/p>&lt;/blockquote>
+&lt;h1 id="handwritten-text-recognition">Handwritten Text Recognition&lt;/h1>
+&lt;blockquote>
+&lt;p>Tensorflow 를 이용하여, 사진속의 글자(Alphabet) 인식후 추출&lt;/p>&lt;/blockquote>
+&lt;p>&lt;img src="https://codex-devlab.github.io/posts/dev/sub-projects/sub-text-recognizer-on-ec2/text-recognizer-on-ec2-main/images/1*6cEKOYqHG27tYwhQVvJqPQ.png" alt="img">&lt;/p>
+&lt;p>&lt;img src="https://codex-devlab.github.io/posts/dev/sub-projects/sub-text-recognizer-on-ec2/text-recognizer-on-ec2-main/images/1*P4UW-wqOMSpi82KIcq11Pw.png" alt="img">&lt;/p>
+&lt;h2 id="intro">Intro&lt;/h2>
+&lt;p>Deep learning Project의 일환으로 정적 이미지 처리에 대한 이해도를 높이는데 주안점을 두었습니다.&lt;/p>
+&lt;p>프로젝트를 진행하면서 Tensorflow, Deep learning, Image processing, Open CV,&lt;/p>
+&lt;p>Text Classification, AWS 등을 대한 활용합니다.&lt;/p>
+&lt;p>&lt;img src="https://codex-devlab.github.io/posts/dev/sub-projects/sub-text-recognizer-on-ec2/text-recognizer-on-ec2-main/images/image-20180730011739242.png" alt="image-20180730011739242">&lt;/p>
+&lt;p>이미지속에 있는 문자를 하나의 객체로 추출해내는것이 목표입니다.&lt;/p>
+&lt;blockquote>
+&lt;p>해당 프로젝트는 Full Stack Development 를 어느정도 체험해 보고 한발짝 다가가는 계기로써 진행하려 합니다.&lt;/p></description></item></channel></rss>

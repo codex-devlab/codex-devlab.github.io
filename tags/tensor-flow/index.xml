@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tensor-Flow on CodeXlog</title><link>https://codex-devlab.github.io/tags/tensor-flow/</link><description>Recent content in Tensor-Flow on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 08 Oct 2018 08:06:25 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/tensor-flow/index.xml" rel="self" type="application/rss+xml"/><item><title>AWS 이미지속 글자 추출</title><link>https://codex-devlab.github.io/posts/dev/sub-projects/sub-text-recognizer-on-ec2/text-recognizer-on-ec2-main/</link><pubDate>Mon, 30 Jul 2018 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/dev/sub-projects/sub-text-recognizer-on-ec2/text-recognizer-on-ec2-main/</guid><description>&lt;blockquote>
+&lt;p>모든 내용은 &lt;a href="https://github.com/ehdwn1991/AWS_text_recognizer" target="_blank" rel="noopener">Github-AWS_text_recognizer&lt;/a> 에 업로드 되어 있습니다.&lt;/p>&lt;/blockquote>
+&lt;h1 id="handwritten-text-recognition">Handwritten Text Recognition&lt;/h1>
+&lt;blockquote>
+&lt;p>Tensorflow 를 이용하여, 사진속의 글자(Alphabet) 인식후 추출&lt;/p>&lt;/blockquote>
+&lt;p>&lt;img src="https://codex-devlab.github.io/posts/dev/sub-projects/sub-text-recognizer-on-ec2/text-recognizer-on-ec2-main/images/1*6cEKOYqHG27tYwhQVvJqPQ.png" alt="img">&lt;/p>
+&lt;p>&lt;img src="https://codex-devlab.github.io/posts/dev/sub-projects/sub-text-recognizer-on-ec2/text-recognizer-on-ec2-main/images/1*P4UW-wqOMSpi82KIcq11Pw.png" alt="img">&lt;/p>
+&lt;h2 id="intro">Intro&lt;/h2>
+&lt;p>Deep learning Project의 일환으로 정적 이미지 처리에 대한 이해도를 높이는데 주안점을 두었습니다.&lt;/p>
+&lt;p>프로젝트를 진행하면서 Tensorflow, Deep learning, Image processing, Open CV,&lt;/p>
+&lt;p>Text Classification, AWS 등을 대한 활용합니다.&lt;/p>
+&lt;p>&lt;img src="https://codex-devlab.github.io/posts/dev/sub-projects/sub-text-recognizer-on-ec2/text-recognizer-on-ec2-main/images/image-20180730011739242.png" alt="image-20180730011739242">&lt;/p>
+&lt;p>이미지속에 있는 문자를 하나의 객체로 추출해내는것이 목표입니다.&lt;/p>
+&lt;blockquote>
+&lt;p>해당 프로젝트는 Full Stack Development 를 어느정도 체험해 보고 한발짝 다가가는 계기로써 진행하려 합니다.&lt;/p></description></item></channel></rss>

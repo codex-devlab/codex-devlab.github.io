@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on CodeXlog</title><link>https://codex-devlab.github.io/posts/study/sub-programming-language/sub-python/</link><description>Recent content in Python on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 11 Jun 2018 04:22:12 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/posts/study/sub-programming-language/sub-python/index.xml" rel="self" type="application/rss+xml"/><item><title>Python 기초</title><link>https://codex-devlab.github.io/posts/study/sub-programming-language/sub-python/basic-python/</link><pubDate>Mon, 11 Jun 2018 04:22:12 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-programming-language/sub-python/basic-python/</guid><description>&lt;h2 id="파이썬-basic">파이썬 basic&lt;/h2>
+&lt;blockquote>
+&lt;p>플랫폼 독립적이며 인터프리터식, 객체지향적, 동적 타이핑(Dynamically typed) 대화형 언어 이다.&lt;/p>
+&lt;p>파이썬이 유지보수가 쉬운 이유는 &lt;code>가독성이 좋아서 &lt;/code> 이다.&lt;/p>
+&lt;p>파이썬으로 프로그래밍시 주의할 점은 Name Space 이다.&lt;/p>
+&lt;p>이미 존재하는 라이브러리와 같은 이름으로 저장시 overiiding의 문제가 발생할수도 있다.&lt;/p>
+&lt;p>다중 패러다임(함수형, 명령형, 객체지향- 클래스 기반) 프로그래밍 언어 이다.&lt;/p>&lt;/blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>언어의 종류&lt;/p>
+&lt;p>C - python&lt;/p>
+&lt;p>Java - jython&lt;/p>
+&lt;p>.net - Iron python&lt;/p>
+&lt;p>python - pypi(속도 향상을 위해 파이썬 기반으로 제작)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>주의 사항&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Name space 주의&lt;/p></description></item></channel></rss>
