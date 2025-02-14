@@ -5,7 +5,7 @@ description: C언어 관련 이론 정리
 menu:
   sidebar:
     name: C언어 스터디
-    # identifier: study-c-language
+    identifier: study-c-language
     parent: sub-programming-language
     weight: 30
 tags:
