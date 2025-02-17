@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo-Toha Theme on CodeXlog</title><link>https://codex-devlab.github.io/tags/hugo-toha-theme/</link><description>Recent content in Hugo-Toha Theme on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 08:06:25 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/hugo-toha-theme/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo</title><link>https://codex-devlab.github.io/posts/blog-migration/sub-hugo/</link><pubDate>Wed, 01 Jan 2025 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/blog-migration/sub-hugo/</guid><description>&lt;h3 id="development">Development&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo-Toha Theme on CodeXlog</title><link>https://codex-devlab.github.io/tags/hugo-toha-theme/</link><description>Recent content in Hugo-Toha Theme on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 01 Jan 2025 08:06:25 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/hugo-toha-theme/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo</title><link>https://codex-devlab.github.io/posts/blog-migration/sub-hugo/</link><pubDate>Wed, 01 Jan 2025 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/blog-migration/sub-hugo/</guid><description>&lt;h2 id="development">Development&lt;/h2>
 &lt;details>
 &lt;summary>Running the forked theme against your own site&lt;/summary>
-&lt;h4 id="running-the-forked-theme-against-your-own-site">Running the forked theme against your own site&lt;/h4>
+&lt;h3 id="running-the-forked-theme-against-your-own-site">Running the forked theme against your own site&lt;/h3>
 &lt;p>&lt;a href="https://toha-guides.netlify.app/posts/contributing/#running-the-forked-theme-against-your-own-site" target="_blank" rel="noopener">참고&lt;/a>&lt;/p>
 &lt;blockquote>
 &lt;p>원활한 커스텀을 위해, 테마를 Fork하여 별도의 저장소로 관리.&lt;/p>&lt;/blockquote>
@@ -12,8 +12,4 @@ Go 개발시에 로컬 모듈을 go.mod에 추가하여 개발하는 방식과 �
 &lt;ol>
 &lt;li>
 &lt;p>toha의 테마 원격 저장소를 Fork 하여 본인의 Github로 가져 옵니다.&lt;br>
-&lt;img src="https://codex-devlab.github.io/posts/blog-migration/sub-hugo/images/toha-fork.png" alt="alt text">&lt;/p>
-&lt;/li>
-&lt;li>&lt;/li>
-&lt;/ol>
-&lt;p>혹시나 하는 에러 사태를 방지하기 위해 pre-commit을 통해 go 모듈의 경로를 로컬에서 리모트로 바꿔는 명령을 실행하게 하는게 좋습니다.&lt;/p></description></item></channel></rss>
+저는 저장소를 Fork하면서 이름을 &lt;a href="github.com/codex-devlab/customs_theme">customs_theme&lt;/a> 로 변경했습니다.&lt;/p></description></item></channel></rss>
