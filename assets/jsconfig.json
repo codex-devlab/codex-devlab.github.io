@@ -3,7 +3,7 @@
   "baseUrl": ".",
   "paths": {
    "*": [
-    "../../customs_theme/assets/*"
+    "../../../../root/.cache/hugo_cache/modules/filecache/modules/pkg/mod/github.com/codex-devlab/customs_theme/v4@v4.7.1/assets/*"
    ]
   }
  }
