@@ -32,7 +32,35 @@ Go 개발시에 로컬 모듈을 go.mod에 추가하여 개발하는 방식과 �
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">1&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">2&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">2&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>우리가 1을 입력후 엔터를 치면 1이 출력되고 그다음 2를 입력하면 2가 출력 될것이라고 예상할것이다.&lt;/p></description></item><item><title>파스칼의 삼각형</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-pascal-triangle/</link><pubDate>Thu, 13 Sep 2018 12:24:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-pascal-triangle/</guid><description>&lt;h2 id="pascal-triangle">Pascal Triangle&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>우리가 1을 입력후 엔터를 치면 1이 출력되고 그다음 2를 입력하면 2가 출력 될것이라고 예상할것이다.&lt;/p></description></item><item><title>CentOS 7</title><link>https://codex-devlab.github.io/posts/os/sub-linux/rhel-based/centos-7-setting/</link><pubDate>Sat, 21 Mar 2020 09:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/os/sub-linux/rhel-based/centos-7-setting/</guid><description>&lt;h1 id="centos-7-dvd">CentOS 7 DVD&lt;/h1>
+&lt;h2 id="partion--setting">Partion &amp;amp; Setting&lt;/h2>
+&lt;h3 id="partioning">Partioning&lt;/h3>
+&lt;blockquote>
+&lt;p>RedHat 권고 파티션 설정을 보고 해도 상관 없음.&lt;/p>&lt;/blockquote>
+&lt;ol>
+&lt;li>
+&lt;p>/boot&lt;/p>
+&lt;p>500M(장치유형 : 표준 파티션, 파일시스템 : ext4)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>swap&lt;/p>
+&lt;p>16G(해당 PC는 16G Ram 장착, 장치유형 : 표준 파티션, 파일시스템 : swap)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>/home&lt;/p>
+&lt;p>100G(라이브리러등 이것저것 설치하다 보면 귀찮아서 걍 100G, 장치유형 : LVM, 파일시스템 : ext4)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>/&lt;/p>
+&lt;p>나머지 용량 전부 때려 박는다(장치유형 : LVM, 파일시스템 : ext4)&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="setting">Setting&lt;/h3>
+&lt;p>&lt;img src="http://img1.daumcdn.net/thumb/R1920x0/?fname=http%3A%2F%2Fcfile7.uf.tistory.com%2Fimage%2F2437A64F58A55A5622FAD7" alt="setting">&lt;/p>
+&lt;p>&amp;lt;출처 : &lt;a href="http://img1.daumcdn.net/thumb/R1920x0/?fname=http%3A%2F%2Fcfile7.uf.tistory.com%2Fimage%2F2437A64F58A55A5622FAD7%3e" target="_blank" rel="noopener">http://img1.daumcdn.net/thumb/R1920x0/?fname=http%3A%2F%2Fcfile7.uf.tistory.com%2Fimage%2F2437A64F58A55A5622FAD7>&lt;/a>&lt;/p>
+&lt;h3 id="network-setting">Network setting&lt;/h3>
+&lt;blockquote>
+&lt;p>Centos는 ubuntu 와는 다르게 네트워크 초기 설정을 직접 해줘야 한다. 하지만 본인은 특정 ip를 수동으로 잡아줬다.&lt;/p></description></item><item><title>파스칼의 삼각형</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-pascal-triangle/</link><pubDate>Thu, 13 Sep 2018 12:24:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-pascal-triangle/</guid><description>&lt;h2 id="pascal-triangle">Pascal Triangle&lt;/h2>
 &lt;p>C 언어를 활용해서 &amp;ldquo;파스칼의 삼각형(PascalTriangle)&amp;ldquo;을 출력하는 프로그램을 분석해보려고 합니다.&lt;br>
 파스칼의 삼각형은 수학에서 조합론과 이항계수와 관련이 깊은 구조인데요,&lt;br>
 이를 C 언어로 구현한 코드와 함께 살펴보겠습니다!&lt;/p>
@@ -691,35 +719,7 @@ In 6X6
 &lt;p>주의 사항&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>Name space 주의&lt;/p></description></item><item><title>CentOS 7</title><link>https://codex-devlab.github.io/posts/os/sub-linux/rhel-based/centos-7-setting/</link><pubDate>Fri, 01 Jun 2018 09:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/os/sub-linux/rhel-based/centos-7-setting/</guid><description>&lt;h1 id="centos-7-dvd">CentOS 7 DVD&lt;/h1>
-&lt;h2 id="partion--setting">Partion &amp;amp; Setting&lt;/h2>
-&lt;h3 id="partioning">Partioning&lt;/h3>
-&lt;blockquote>
-&lt;p>RedHat 권고 파티션 설정을 보고 해도 상관 없음.&lt;/p>&lt;/blockquote>
-&lt;ol>
-&lt;li>
-&lt;p>/boot&lt;/p>
-&lt;p>500M(장치유형 : 표준 파티션, 파일시스템 : ext4)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>swap&lt;/p>
-&lt;p>16G(해당 PC는 16G Ram 장착, 장치유형 : 표준 파티션, 파일시스템 : swap)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>/home&lt;/p>
-&lt;p>100G(라이브리러등 이것저것 설치하다 보면 귀찮아서 걍 100G, 장치유형 : LVM, 파일시스템 : ext4)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>/&lt;/p>
-&lt;p>나머지 용량 전부 때려 박는다(장치유형 : LVM, 파일시스템 : ext4)&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;h3 id="setting">Setting&lt;/h3>
-&lt;p>&lt;img src="http://img1.daumcdn.net/thumb/R1920x0/?fname=http%3A%2F%2Fcfile7.uf.tistory.com%2Fimage%2F2437A64F58A55A5622FAD7" alt="setting">&lt;/p>
-&lt;p>&amp;lt;출처 : &lt;a href="http://img1.daumcdn.net/thumb/R1920x0/?fname=http%3A%2F%2Fcfile7.uf.tistory.com%2Fimage%2F2437A64F58A55A5622FAD7%3e" target="_blank" rel="noopener">http://img1.daumcdn.net/thumb/R1920x0/?fname=http%3A%2F%2Fcfile7.uf.tistory.com%2Fimage%2F2437A64F58A55A5622FAD7>&lt;/a>&lt;/p>
-&lt;h3 id="network-setting">Network setting&lt;/h3>
-&lt;blockquote>
-&lt;p>Centos는 ubuntu 와는 다르게 네트워크 초기 설정을 직접 해줘야 한다. 하지만 본인은 특정 ip를 수동으로 잡아줬다.&lt;/p></description></item><item><title>Ubuntu &amp; OSX setting</title><link>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</link><pubDate>Fri, 01 Jun 2018 09:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</guid><description>&lt;ul>
+&lt;p>Name space 주의&lt;/p></description></item><item><title>Ubuntu &amp; OSX setting</title><link>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</link><pubDate>Fri, 01 Jun 2018 09:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</guid><description>&lt;ul>
 &lt;li>&lt;a href="#root">root&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#fire-fox-update">Fire Fox Update&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#git-installation-and-setting">GIT Installation and Setting&lt;/a>&lt;/li>
