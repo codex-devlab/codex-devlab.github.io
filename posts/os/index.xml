@@ -19,7 +19,35 @@
 &lt;p>저도 처음 접할때는 어떻게 동작하는지도 모르고 무작정 맨땅에 헤딩&amp;hellip;&lt;/p>
 &lt;p>아무튼 지금쯤 검색하셔서 들어오신거면, 깃허브에 가입은 완료 했고&lt;/p>
 &lt;p>아마 repository 까지는 생성 하셨을거 같아요.&lt;/p>
-&lt;p>이제 본격적으로 로컬에서 깃허브에 파일을 업로드 하는 방법을 포스팅 하려고 합니다.&lt;/p></description></item><item><title>Ubuntu &amp; OSX setting</title><link>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</link><pubDate>Fri, 01 Jun 2018 09:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</guid><description>&lt;ul>
+&lt;p>이제 본격적으로 로컬에서 깃허브에 파일을 업로드 하는 방법을 포스팅 하려고 합니다.&lt;/p></description></item><item><title>CentOS 7</title><link>https://codex-devlab.github.io/posts/os/sub-linux/rhel-based/centos-7-setting/</link><pubDate>Fri, 01 Jun 2018 09:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/os/sub-linux/rhel-based/centos-7-setting/</guid><description>&lt;h1 id="centos-7-dvd">CentOS 7 DVD&lt;/h1>
+&lt;h2 id="partion--setting">Partion &amp;amp; Setting&lt;/h2>
+&lt;h3 id="partioning">Partioning&lt;/h3>
+&lt;blockquote>
+&lt;p>RedHat 권고 파티션 설정을 보고 해도 상관 없음.&lt;/p>&lt;/blockquote>
+&lt;ol>
+&lt;li>
+&lt;p>/boot&lt;/p>
+&lt;p>500M(장치유형 : 표준 파티션, 파일시스템 : ext4)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>swap&lt;/p>
+&lt;p>16G(해당 PC는 16G Ram 장착, 장치유형 : 표준 파티션, 파일시스템 : swap)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>/home&lt;/p>
+&lt;p>100G(라이브리러등 이것저것 설치하다 보면 귀찮아서 걍 100G, 장치유형 : LVM, 파일시스템 : ext4)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>/&lt;/p>
+&lt;p>나머지 용량 전부 때려 박는다(장치유형 : LVM, 파일시스템 : ext4)&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="setting">Setting&lt;/h3>
+&lt;p>&lt;img src="http://img1.daumcdn.net/thumb/R1920x0/?fname=http%3A%2F%2Fcfile7.uf.tistory.com%2Fimage%2F2437A64F58A55A5622FAD7" alt="setting">&lt;/p>
+&lt;p>&amp;lt;출처 : &lt;a href="http://img1.daumcdn.net/thumb/R1920x0/?fname=http%3A%2F%2Fcfile7.uf.tistory.com%2Fimage%2F2437A64F58A55A5622FAD7%3e" target="_blank" rel="noopener">http://img1.daumcdn.net/thumb/R1920x0/?fname=http%3A%2F%2Fcfile7.uf.tistory.com%2Fimage%2F2437A64F58A55A5622FAD7>&lt;/a>&lt;/p>
+&lt;h3 id="network-setting">Network setting&lt;/h3>
+&lt;blockquote>
+&lt;p>Centos는 ubuntu 와는 다르게 네트워크 초기 설정을 직접 해줘야 한다. 하지만 본인은 특정 ip를 수동으로 잡아줬다.&lt;/p></description></item><item><title>Ubuntu &amp; OSX setting</title><link>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</link><pubDate>Fri, 01 Jun 2018 09:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</guid><description>&lt;ul>
 &lt;li>&lt;a href="#root">root&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#fire-fox-update">Fire Fox Update&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#git-installation-and-setting">GIT Installation and Setting&lt;/a>&lt;/li>
