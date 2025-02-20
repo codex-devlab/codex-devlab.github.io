@@ -1,6 +1,6 @@
 ---
 title: CentOS 7
-date: 2018-06-01T09:12:43+05:00
+date: 2020-03-21T09:12:43+05:00
 description: Ubuntu & OSX 간단한 기본 설정. 해당 문서는 예전 markdown inline link 방식으로 작성됨.
 menu:
   sidebar:
