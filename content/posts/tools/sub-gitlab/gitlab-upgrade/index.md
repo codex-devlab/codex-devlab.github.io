@@ -2,6 +2,7 @@
 title: GitLab Upgrade
 date: 2023-03-22T08:12:43+05:00
 description:
+hero : /images/posts/gitlab_logo.png
 menu:
   sidebar:
     name: GitLab Upgrade
