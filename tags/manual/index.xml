@@ -12,7 +12,11 @@ Go 개발시에 로컬 모듈을 go.mod에 추가하여 개발하는 방식과 �
 &lt;ol>
 &lt;li>
 &lt;p>toha의 테마 원격 저장소를 Fork 하여 본인의 Github로 가져 옵니다.&lt;br>
-저는 저장소를 Fork하면서 이름을 &lt;a href="github.com/codex-devlab/customs_theme">customs_theme&lt;/a> 로 변경했습니다.&lt;/p></description></item><item><title>Jekyll</title><link>https://codex-devlab.github.io/posts/blog-migration/sub-jekyll/</link><pubDate>Mon, 11 Jun 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/blog-migration/sub-jekyll/</guid><description>&lt;h1 id="working-in-hydejack">Working in Hydejack&lt;/h1>
+저는 저장소를 Fork하면서 이름을 &lt;a href="github.com/codex-devlab/customs_theme">customs_theme&lt;/a> 로 변경했습니다.&lt;/p></description></item><item><title>GitLab Upgrade</title><link>https://codex-devlab.github.io/posts/tools/sub-gitlab/gitlab-upgrade/</link><pubDate>Wed, 22 Mar 2023 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/tools/sub-gitlab/gitlab-upgrade/</guid><description>&lt;h1 id="gitlab-upgrade-history">Gitlab Upgrade History&lt;/h1>
+&lt;p>Gitlab의 업그레이드 과정은 하단의 Upgrade Path(&lt;a href="https://docs.gitlab.com/ee/update/#upgrade-paths" target="_blank" rel="noopener">https://docs.gitlab.com/ee/update/#upgrade-paths&lt;/a>)를 준수 하며 진행해야 합니다.&lt;/p>
+&lt;p>위 경로대로 업그레이드를 진행하지 않으면, 하위 호완성의 문제로 구동이 불가능 하거나 데이터 베이스 오류등 다양한 에러가 발생 할 수 있습니다.&lt;/p>
+&lt;p>None Stop 업그레이드는 이중화 구성이 되어있지 않은 인스턴스에서는 불가능 하기에, 업그레이드 과정중에는 반드시 서비스의 중단을 공지한 후 진행하시기 바랍니다.&lt;/p>
+&lt;p>마지막으로 업그레이드 과정에서 Gitlab Rails에서 Background Migration 작업을 진행 하게 되는데, 해당 과정은 Major 버전이 올라가거나, 업그레이드 경로 상 마지막 과정에서 상당 시간이 소요 됩니다.&lt;/p></description></item><item><title>Jekyll</title><link>https://codex-devlab.github.io/posts/blog-migration/sub-jekyll/</link><pubDate>Mon, 11 Jun 2018 08:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/blog-migration/sub-jekyll/</guid><description>&lt;h1 id="working-in-hydejack">Working in Hydejack&lt;/h1>
 &lt;ul>
 &lt;li>
 &lt;p>_config.yml, Gemfile 의 초기 설정&lt;/p>
