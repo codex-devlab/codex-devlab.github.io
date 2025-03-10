@@ -3,4 +3,4 @@ Disallow: /admin/
 Allow: /
 
 Sitemap: https://codex-devlab.github.io/sitemap.xml
-#DaumWebMasterTool:864ef41a935b40ae1d2f0ec6fa21173cf6f80861f5f1b438da8fe78af1cdbf32:9DmEr1ocRWQIwy/vZTlx2A==
+#DaumWebMasterTool:864ef41a935b40ae1d2f0ec6fa21173cf6f80861f5f1b438da8fe78af1cdbf32:CiwiPXL+RZ4ZDHiaPjIyiQ==
