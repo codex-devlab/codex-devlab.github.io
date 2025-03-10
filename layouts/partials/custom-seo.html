@@ -42,6 +42,7 @@
   "image": "{{ .Params.image | default site.Params.logo.main }}",
   "author": {
     "@type": "Person",
+    "url": "{{ replaceRE "/$" "" site.BaseURL }}/#about",
     "name": "{{ (index site.Data site.Language.Lang).author.nickname }}"
   },
   "publisher": {
@@ -52,7 +53,7 @@
       "url": "{{ site.Params.logo.main }}"
     }
   },
-  "datePublished": "{{ .Date.Format "2006-01-02" }}",
-  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}"
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}"
 }
 </script>

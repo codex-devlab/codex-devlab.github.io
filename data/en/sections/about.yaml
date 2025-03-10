@@ -2,7 +2,7 @@
 section:
   name: About
   id: about
-  enable: false
+  enable: true
   weight: 1
   showOnNavbar: true
   template: sections/about.html
@@ -12,7 +12,8 @@ designation: Software Engineer
 # your company information
 
 # a summary about you
-summary: ''
+summary: '**CodeXlog is a technology blog** focused on real-world experiences in **DevOps and Cloud**, offering practical guides and insights for professional developers and engineers.
+Built from hands-on experience, **CodeXlog** shares **engineering knowledge**, **actionable solutions**, and technical deep dives to help software engineers, system architects, and DevOps practitioners tackle **complex challenges in modern infrastructure and software development environments**.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
