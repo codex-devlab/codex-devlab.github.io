@@ -1,0 +1,42 @@
+# 모든 검색 엔진이 사이트의 모든 페이지에 접근 가능하도록 허용
+User-agent: *
+Allow: /
+
+# 검색에서 제외할 경로
+Disallow: /drafts/
+
+
+# 페이지 수집 빈도 제한 (과도한 크롤링 방지)
+Crawl-delay: 10
+
+# 악성 및 원치 않는 봇 차단
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12Bot
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: SeekportBot
+Disallow: /
+
+User-agent: Sogou
+Disallow: /
+
+# 검색 엔진에게 사이트맵 위치 명시 (Hugo가 자동 생성하는 sitemap.xml 사용)
+Sitemap: https://codex-devlab.github.io/sitemap.xml
+#DaumWebMasterTool:864ef41a935b40ae1d2f0ec6fa21173cf6f80861f5f1b438da8fe78af1cdbf32:CiwiPXL+RZ4ZDHiaPjIyiQ==
