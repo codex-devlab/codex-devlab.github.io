@@ -1,0 +1,58 @@
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<!-- Canonical URL (중복 방지) -->
+<link rel="canonical" href="{{ .Permalink }}">
+
+<!-- SEO 관련 메타태그 추가 -->
+<meta name="title" content="{{ .Title }}">
+<meta name="description" content="{{ .Params.description | default (.Content | plainify | truncate 300) }}">
+<meta name="author" content="{{ (index site.Data site.Language.Lang).author.nickname }}">
+
+<!-- Naver SEO -->
+<meta name="naver-site-verification" content="{{ .Site.Params.naver_verification }}">
+
+<!-- Google SEO -->
+<meta name="google-site-verification" content="{{ .Site.Params.google_verification }}">
+
+<!-- TechBlog 정보 (로고 포함) -->
+<!-- Organization 정보 (로고 포함) -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "{{ site.Title }}",
+    "url": "{{ site.BaseURL }}",
+    "logo": "{{ site.Params.logo.main }}"
+  }
+</script>
+  
+<!-- Google 권장 Article 구조화 데이터 (Tech Blog 최적화) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+  "headline": "{{ .Title }}",
+  "description": "{{ .Params.og_description | default .Params.description | default site.Params.description }}",
+  "image": "{{ .Params.image | default site.Params.logo.main }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ (index site.Data site.Language.Lang).author.nickname }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.Title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.Params.logo.main }}"
+    }
+  },
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}"
+}
+</script>

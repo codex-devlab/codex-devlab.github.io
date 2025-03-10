@@ -57,6 +57,11 @@ sitemap:
 
 enableRobotsTXT: true
 
+frontmatter:
+  lastmod:
+    - lastmod
+    - date
+
 # Site parameters
 params:
 
@@ -64,6 +69,8 @@ params:
   # 검색엔진 등록용 메타 태그 (네이버/구글)
   naver_verification: "b2524fe501f608ead516ec8070aeb765b091b2f1"
   google_verification: "EKpWUHeRAlcAGBCXOjr_mjGQb7GKLHDq4MjEIBbrfUc"
+  seoTemplate: "custom-seo.html"  # 사이트에서 사용하고 싶은 SEO 템플릿, 없으면 fallback
+
   ################# For SEO####################
   # Background image of the landing page
   background: /images/site/background.jpg
