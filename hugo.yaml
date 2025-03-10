@@ -49,8 +49,20 @@ outputs:
 # Enable global emoji support
 enableEmoji: true
 
+# FOR SEO
+sitemap:
+  changefreq: "weekly"      # 크롤링 빈도 설정 (always, hourly, daily, weekly, monthly, yearly, never)
+  priority: 0.5             # 페이지 중요도 (0.0 ~ 1.0, 기본값: 0.5)
+  filename: "sitemap.xml"   # 생성될 파일명
+
 # Site parameters
 params:
+
+  ################# For SEO####################
+  # 검색엔진 등록용 메타 태그 (네이버/구글)
+  naver_verification: "b2524fe501f608ead516ec8070aeb765b091b2f1"
+  google_verification: "EKpWUHeRAlcAGBCXOjr_mjGQb7GKLHDq4MjEIBbrfUc"
+  ################# For SEO####################
   # Background image of the landing page
   background: /images/site/background.jpg
 
