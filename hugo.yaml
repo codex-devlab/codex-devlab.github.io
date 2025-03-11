@@ -50,8 +50,11 @@ outputs:
 # Enable global emoji support
 enableEmoji: true
 
-
+# For Robots
 enableRobotsTXT: true
+
+# For Sitemap
+enableGitInfo: true
 
 frontmatter:
   lastmod:
