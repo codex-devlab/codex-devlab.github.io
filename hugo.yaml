@@ -45,15 +45,11 @@ outputs:
     - HTML
     - RSS
     - JSON
+    - Sitemap
 
 # Enable global emoji support
 enableEmoji: true
 
-# FOR SEO
-sitemap:
-  changefreq: "weekly"      # 크롤링 빈도 설정 (always, hourly, daily, weekly, monthly, yearly, never)
-  priority: 0.5             # 페이지 중요도 (0.0 ~ 1.0, 기본값: 0.5)
-  filename: "sitemap.xml"   # 생성될 파일명
 
 enableRobotsTXT: true
 
