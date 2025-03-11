@@ -46,6 +46,9 @@ outputs:
     - RSS
     - JSON
     - Sitemap
+    - SitemapPosts
+    - SitemapTags
+    - SitemapCategories
 
 # Enable global emoji support
 enableEmoji: true
@@ -55,6 +58,24 @@ enableRobotsTXT: true
 
 # For Sitemap
 enableGitInfo: true
+outputFormats:
+  SitemapPosts:
+    mediaType: "application/xml"
+    baseName: "sitemap-posts"
+    isPlainText: true
+    notAlternative: true
+
+  SitemapTags:
+    mediaType: "application/xml"
+    baseName: "sitemap-tags"
+    isPlainText: true
+    notAlternative: true
+
+  SitemapCategories:
+    mediaType: "application/xml"
+    baseName: "sitemap-categories"
+    isPlainText: true
+    notAlternative: true
 
 frontmatter:
   lastmod:
