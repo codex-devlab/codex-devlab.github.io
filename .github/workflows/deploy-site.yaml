@@ -56,7 +56,7 @@ jobs:
 
     # Build Hugo site with minification
     - name: Build
-      run: hugo --minify --ignoreCache
+      run: hugo --minify
 
     # push the generated content into the `gh-pages` branch.
     - name: Deploy
