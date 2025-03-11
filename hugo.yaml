@@ -1,4 +1,4 @@
-baseURL: https://codex-devlab.github.io
+baseURL: https://codex-devlab.github.io/
 languageCode: en
 title: "CodeXlog"
 
@@ -58,6 +58,7 @@ enableRobotsTXT: true
 
 # For Sitemap
 enableGitInfo: true
+
 outputFormats:
   SitemapPosts:
     mediaType: "application/xml"
