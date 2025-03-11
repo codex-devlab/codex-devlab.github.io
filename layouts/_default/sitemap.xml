@@ -2,11 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>{{ "sitemap-posts.xml" | absURL }}</loc>
+    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
   </sitemap>
   <sitemap>
     <loc>{{ "sitemap-tags.xml" | absURL }}</loc>
+    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
   </sitemap>
   <sitemap>
     <loc>{{ "sitemap-categories.xml" | absURL }}</loc>
+    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
   </sitemap>
 </sitemapindex>
