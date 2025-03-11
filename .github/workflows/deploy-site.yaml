@@ -10,28 +10,51 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    # checkout to the commit that has been pushed
+    # Checkout with full git history (required for .GitInfo and accurate lastmod)
     - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Fetch entire git history (mandatory for SEO/lastmod)
 
+    # Cache Hugo resources to improve build speed
+    - name: Cache Hugo resources
+      uses: actions/cache@v3
+      with:
+        path: |
+          ~/.cache/hugo
+          resources/_gen
+        key: ${{ runner.os }}-hugo-${{ hashFiles('**/hugo.yaml') }}
+    
+    # Cache Node.js modules to speed up npm install
+    - name: Cache node modules
+      uses: actions/cache@v3
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+
+    # Hugo Install
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
       with:
         hugo-version: 'latest'
         extended: true
 
+    # Update Hugo modules and tidy up dependencies
     - name: Update Hugo Modules
       run: hugo mod tidy
 
+    # Setup Node.js for using npm modules required by Hugo
     - name: Setup Node
       uses: actions/setup-node@v4
       with:
         node-version: 20
 
+    # Install npm modules (using cached data if available)
     - name: Install node modules
       run: |
         hugo mod npm pack
-        npm install        
+        npm install       
 
+    # Build Hugo site with minification
     - name: Build
       run: hugo --minify
 

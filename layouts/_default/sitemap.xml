@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {{ range .Data.Pages }}
-  <url>
-    <loc>{{ .Permalink }}</loc>
-    <lastmod>{{ .Lastmod | default .GitInfo.AuthorDate | dateFormat "2006-01-02T15:04:05Z07:00" }}</lastmod>
-  </url>
+    {{- if not (in .Permalink "/search/") }} <!-- search 제외 -->
+    <url>
+      <loc>{{ .Permalink }}</loc>
+      <lastmod>{{ .Lastmod | default .GitInfo.AuthorDate | dateFormat "2006-01-02T15:04:05Z07:00" }}</lastmod>
+    </url>
+    {{- end }}
   {{ end }}
 </urlset>
