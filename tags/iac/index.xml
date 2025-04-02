@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IaC on CodeXlog</title><link>https://codex-devlab.github.io/tags/iac/</link><description>Recent content in IaC on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 28 Mar 2025 08:06:25 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/iac/index.xml" rel="self" type="application/rss+xml"/><item><title>[DevOps] Terraform vs Ansible 뭐가 다르죠?</title><link>https://codex-devlab.github.io/posts/dev/sub-devops/difference_of_terraform_and_ansible/</link><pubDate>Fri, 28 Mar 2025 08:06:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/dev/sub-devops/difference_of_terraform_and_ansible/</guid><description>&lt;h2 id="terraform-vs-ansible-기술적으로-완벽-정리한-차이점-비교-분석">Terraform vs Ansible: 기술적으로 완벽 정리한 차이점 비교 분석&lt;/h2>
+&lt;p>클라우드와 DevOps 분야에서 인프라 자동화는 필수입니다. 대표적인 IaC(Infrastructure as Code) 도구로 Terraform과 Ansible이 있는데요, 두 도구는 비슷해 보이지만 명확한 차이점이 있습니다. 이번 포스팅에서는 두 도구를 기술적인 관점에서 상세히 비교하고, 명확한 예시를 통해 각각 언제 사용하는 것이 효과적인지 설명하겠습니다.&lt;/p>
+&lt;hr>
+&lt;h3 id="terraform과-ansible의-개념적-차이">Terraform과 Ansible의 개념적 차이&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>항목&lt;/th>
+&lt;th>Terraform&lt;/th>
+&lt;th>Ansible&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>목적&lt;/td>
+&lt;td>인프라 리소스 프로비저닝 및 상태 관리&lt;/td>
+&lt;td>서버 구성 관리, 애플리케이션 배포 및 자동화&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>지향 방식&lt;/td>
+&lt;td>선언적(Declarative)&lt;/td>
+&lt;td>절차적(Procedural), 일부 선언적 방식&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>상태 관리&lt;/td>
+&lt;td>상태 파일(.tfstate) 유지&lt;/td>
+&lt;td>상태 파일 없이 실행마다 실시간 체크&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>멱등성(Idempotency)&lt;/td>
+&lt;td>기본적으로 제공&lt;/td>
+&lt;td>모듈 수준에서 제공, 상황에 따라 달라짐&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ul>
+&lt;li>&lt;strong>Terraform&lt;/strong>은 주로 클라우드 기반 인프라의 전체 생명주기를 관리하는 데 효과적입니다.&lt;/li>
+&lt;li>&lt;strong>Ansible&lt;/strong>은 서버의 세부 구성 및 애플리케이션의 배포, 관리 자동화에 더 적합합니다.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="기술적-실행-방식-비교">기술적 실행 방식 비교&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>항목&lt;/th>
+&lt;th>Terraform&lt;/th>
+&lt;th>Ansible&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>사용 언어&lt;/td>
+&lt;td>HCL(HashiCorp Configuration Language)&lt;/td>
+&lt;td>YAML + Jinja2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>실행 방식&lt;/td>
+&lt;td>Provider 기반 API 호출&lt;/td>
+&lt;td>SSH/WinRM 원격 명령 실행&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>에이전트(Agent) 여부&lt;/td>
+&lt;td>불필요&lt;/td>
+&lt;td>불필요(Agentless)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Terraform은 클라우드 제공자의 API와 직접 상호작용하며, Ansible은 SSH 또는 WinRM을 통해 서버에 직접 접속하여 구성 작업을 수행합니다.&lt;br>
+하지만 Terraform은 On-Prem 환경에서 클라우드 서버를 다루는건 적절한 Provider가 있다면 문제없지만, 어플리케이션을 베포하기 위한 설정 부터 패키지 설치를 수행해야 한다면 Ansible 처럼 SSH로 접속 해야 합니다.&lt;/p></description></item></channel></rss>
