@@ -1,11 +1,9 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
 <!-- Canonical URL (중복 방지) -->
 <link rel="canonical" href="{{ .Permalink }}">
 
 <!-- SEO 관련 메타태그 추가 -->
-<meta name="description" content="{{ .Params.description | default (.Content | plainify | truncate 300) }}">
 <meta name="author" content="{{ (index site.Data site.Language.Lang).author.nickname }}">
 
 <!-- Naver SEO -->
@@ -36,7 +34,7 @@
     "@id": "{{ .Permalink }}"
   },
   "headline": "{{ .Title }}",
-  "description": "{{ .Params.og_description | default .Params.description | default site.Params.description }}",
+  "description": "{{ .Params.og_description | default (.Content | plainify | truncate 160) }}",
   "image": "{{ .Params.image | default site.Params.logo.main }}",
   "author": {
     "@type": "Person",
