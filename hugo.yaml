@@ -1,5 +1,5 @@
 baseURL: https://codex-devlab.github.io/
-languageCode: en
+languageCode: ko
 title: "CodeXlog"
 
 # Use Hugo modules to add theme
@@ -18,14 +18,14 @@ module:
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
-languages:
-  en:
-    languageCode: en
-    languageName: English
-    title: "CodeXlog"
-    weight: 1
+# languages:
+#   en:
+#     languageCode: en
+#     languageName: English
+#     title: "CodeXlog"
+#     weight: 1
 # default language for the content
-defaultContentLanguage: en
+defaultContentLanguage: ko
 
 
 # Allow raw html in markdown file
