@@ -21,11 +21,20 @@
             gcc \
             nodejs-current \
             npm \
-            go
-    RUN apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/community hugo
-    EXPOSE 8081
-    ENV HUGO_BIND=0.0.0.0 HUGO_DESTINATION=public HUGO_ENV=DEV HUGO_EDITION=extended
+            wget
 
+    WORKDIR ~/
+    RUN wget https://go.dev/dl/go1.23.1.linux-amd64.tar.gz
+    RUN rm -rf /usr/local/go
+    RUN tar -C /usr/local -xzf go1.23.1.linux-amd64.tar.gz && rm -rf go1.23.1.linux-amd64.tar.gz
+    ENV PATH="${PATH}:/usr/local/go/bin"
+    RUN apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/community hugo
+    ENV HUGO_BIND=0.0.0.0 HUGO_DESTINATION=public HUGO_ENV=DEV HUGO_EDITION=extended
+    WORKDIR ~/
+    RUN git clone https://github.com/gohugoio/hugo.git
+    WORKDIR ~/hugo
+    RUN CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
+    RUN hugo version && rm -rf ~/hugo
     RUN mkdir /app
     ADD entrypoint.sh /app/entrypoint.sh
     RUN chmod 777 /app/entrypoint.sh
@@ -35,19 +44,24 @@
             && echo "Removing apk cache" \
             && rm -rf /var/cache/apk/
     RUN mkdir -p /data/public && cd /data/public
+    EXPOSE 8081
     ENTRYPOINT ["/app/entrypoint.sh"]
     ```
 
   * Entrypoint.sh  
     ```shell
     #!/bin/sh
-    #
+    # Resolve Git "dubious ownership" error caused by volume mount
+    git config --global --add safe.directory /data/public
     echo "Hugo Start!"
-    cd /data/public; 
+    cd /data/public;
     hugo mod tidy
     hugo mod npm pack
     npm install
+    # Build the site with minified HTML/CSS/JS for production deployment
+    # OR the site and launch a local static server to verify SEO-related files (e.g., sitemap.xml, robots.txt)
     hugo --minify
+    # Run Hugo development server with drafts enabled for live preview
     hugo  server -N -w -D --bind 0.0.0.0  --port 8001 --baseURL http://localhost:8001/
     ```
 
@@ -56,7 +70,7 @@
     ```yaml
     services:
     web:
-        image: 'hugo:1.3'
+        image: 'hugo:1.4'
         restart: always
         hostname: 'hugo'
         container_name: hugo
@@ -70,5 +84,5 @@
 
 * Docker run  
     ```shell
-    docker run -itd -p 8001:8001 --name hugo -v /home/codex/git/personal/blog:/data/public --entrypoint /bin/sh hugo:1.3
+    docker run -itd -p 8001:8001 --name hugo -v /home/hugo/blog:/data/public --entrypoint /bin/sh hugo:1.4
     ```
