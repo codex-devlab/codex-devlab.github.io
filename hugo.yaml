@@ -45,7 +45,7 @@ outputs:
     - HTML
     - RSS
     - JSON
-    - Sitemap
+    - SitemapIndex
     - SitemapPosts
     - SitemapTags
     - SitemapCategories
@@ -60,12 +60,13 @@ enableRobotsTXT: true
 enableGitInfo: true
 
 outputFormats:
-  SitemapPosts:
+  SitemapIndex:
     mediaType: "application/xml"
     baseName: "sitemap"
     isPlainText: true
     notAlternative: true
 
+  SitemapPosts:
     mediaType: "application/xml"
     baseName: "sitemap-posts"
     isPlainText: true

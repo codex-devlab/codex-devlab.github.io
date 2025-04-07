@@ -1,4 +1,4 @@
-{{- printf "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" | safeHTML }}
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {{ $latest := first 1 (sort .Site.RegularPages "Lastmod" "desc") }}
   <sitemap>
