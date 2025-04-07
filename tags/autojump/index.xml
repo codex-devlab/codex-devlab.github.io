@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Autojump on CodeXlog</title><link>https://codex-devlab.github.io/tags/autojump/</link><description>Recent content in Autojump on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 10 Aug 2018 09:12:43 +0500</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/autojump/index.xml" rel="self" type="application/rss+xml"/><item><title>Mac Autojump 설치및 사용법</title><link>https://codex-devlab.github.io/posts/os/sub-macos/mac-autojump/</link><pubDate>Fri, 10 Aug 2018 09:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/os/sub-macos/mac-autojump/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Autojump on CodeXlog</title><link>https://codex-devlab.github.io/tags/autojump/</link><description>Recent content in Autojump on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>ko</language><lastBuildDate>Fri, 10 Aug 2018 09:12:43 +0500</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/autojump/index.xml" rel="self" type="application/rss+xml"/><item><title>Mac Autojump 설치및 사용법</title><link>https://codex-devlab.github.io/posts/os/sub-macos/mac-autojump/</link><pubDate>Fri, 10 Aug 2018 09:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/os/sub-macos/mac-autojump/</guid><description>&lt;blockquote>
 &lt;p>OSX에서 autojump 설치 방법입니다.&lt;br>
 &lt;a href="https://github.com/wting/autojump" target="_blank" rel="noopener">autojump git을 참고해 주세요&lt;/a>&lt;/p>&lt;/blockquote>
 &lt;h2 id="autojump">autojump?&lt;/h2>
@@ -7,9 +7,9 @@
 &lt;p>이걸 바로 해결해 줄수있는게 autojump입니다.&lt;/p>
 &lt;h2 id="어떻게-동작하는건가요">어떻게 동작하는건가요?&lt;/h2>
 &lt;p>바로 실행 스샷 들어갑니다.&lt;/p>
-&lt;p>&lt;img src="https://codex-devlab.github.io/posts/os/sub-macos/mac-autojump/images/27793D4158997ABD0B.png" alt="img">&lt;/p>
+&lt;p>&lt;img src="./images/27793D4158997ABD0B.png" alt="img">&lt;/p>
 &lt;p>요런식으로 바로 이동이 가능해요!! 절대 경로나 cd같은 시스템 함수를 쓰지 않아도 바로 해당 디렉토리로 이동가능!!!!&lt;/p>
-&lt;p>&lt;img src="https://codex-devlab.github.io/posts/os/sub-macos/mac-autojump/images/2753D64158997ABE2D.png" alt="img">&lt;/p></description></item><item><title>Ubuntu &amp; OSX setting</title><link>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</link><pubDate>Fri, 01 Jun 2018 09:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</guid><description>&lt;ul>
+&lt;p>&lt;img src="./images/2753D64158997ABE2D.png" alt="img">&lt;/p></description></item><item><title>Ubuntu &amp; OSX setting</title><link>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</link><pubDate>Fri, 01 Jun 2018 09:12:43 +0500</pubDate><guid>https://codex-devlab.github.io/posts/os/sub-linux/debian-bases/ubuntu-setting/</guid><description>&lt;ul>
 &lt;li>&lt;a href="#root">root&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#fire-fox-update">Fire Fox Update&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#git-installation-and-setting">GIT Installation and Setting&lt;/a>&lt;/li>

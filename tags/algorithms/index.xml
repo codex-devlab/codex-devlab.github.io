@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Algorithms on CodeXlog</title><link>https://codex-devlab.github.io/tags/algorithms/</link><description>Recent content in Algorithms on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 13 Sep 2018 12:24:25 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>파스칼의 삼각형</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-pascal-triangle/</link><pubDate>Thu, 13 Sep 2018 12:24:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-pascal-triangle/</guid><description>&lt;h2 id="pascal-triangle">Pascal Triangle&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Algorithms on CodeXlog</title><link>https://codex-devlab.github.io/tags/algorithms/</link><description>Recent content in Algorithms on CodeXlog</description><generator>Hugo -- gohugo.io</generator><language>ko</language><lastBuildDate>Thu, 13 Sep 2018 12:24:25 +0600</lastBuildDate><atom:link href="https://codex-devlab.github.io/tags/algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>파스칼의 삼각형</title><link>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-pascal-triangle/</link><pubDate>Thu, 13 Sep 2018 12:24:25 +0600</pubDate><guid>https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-pascal-triangle/</guid><description>&lt;h2 id="pascal-triangle">Pascal Triangle&lt;/h2>
 &lt;p>C 언어를 활용해서 &amp;ldquo;파스칼의 삼각형(PascalTriangle)&amp;ldquo;을 출력하는 프로그램을 분석해보려고 합니다.&lt;br>
 파스칼의 삼각형은 수학에서 조합론과 이항계수와 관련이 깊은 구조인데요,&lt;br>
 이를 C 언어로 구현한 코드와 함께 살펴보겠습니다!&lt;/p>
@@ -43,7 +43,7 @@ In 6X6
 &lt;h2 id="문제">문제&lt;/h2>
 &lt;ul>
 &lt;li>임의의 수를 입력 받아 큰수와 작은수로 정렬한후 덧셈을 함.
-&lt;img src="https://codex-devlab.github.io/posts/study/sub-algorithms/etc-problems/prob-bigandsmall/images/99EEBF3359FC027D32.png" alt="img">&lt;/li>
+&lt;img src="./images/99EEBF3359FC027D32.png" alt="img">&lt;/li>
 &lt;/ul>
 &lt;h2 id="필요-자료구조-및-알고리즘">필요 자료구조 및 알고리즘&lt;/h2>
 &lt;ul>
