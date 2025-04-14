@@ -7,44 +7,63 @@
 
 
 * Dockerfile  
+    CPU arch에 따른 빌드 이슈(M2 arm64, Intel amd64)
     ```dockerfile
-    # specify the node base image with your desired version node:<version>
-
     FROM alpine:3.20
     MAINTAINER codex <codex@innogrid.com>
 
     ARG EXPOSE_PORT=8081
+    WORKDIR /tmp
 
-    RUN apk update
-    RUN apk add --no-cache build-base \
-            git \
-            gcc \
-            nodejs-current \
-            npm \
-            wget
+    # 필수 패키지 설치
+    RUN apk update && apk add --no-cache \
+        build-base \
+        git \
+        gcc \
+        nodejs-current \
+        npm \
+        wget \
+        curl
 
-    WORKDIR ~/
-    RUN wget https://go.dev/dl/go1.23.1.linux-amd64.tar.gz
-    RUN rm -rf /usr/local/go
-    RUN tar -C /usr/local -xzf go1.23.1.linux-amd64.tar.gz && rm -rf go1.23.1.linux-amd64.tar.gz
+    # go 설치 (호스트 아키텍처 감지 및 동적 다운로드)
+    RUN ARCH=$(uname -m) && \
+        if [ "$ARCH" = "x86_64" ]; then \
+        GO_ARCH="amd64"; \
+        elif [ "$ARCH" = "aarch64" ]; then \
+        GO_ARCH="arm64"; \
+        else \
+        echo "Unsupported architecture: $ARCH"; exit 1; \
+        fi && \
+        wget https://go.dev/dl/go1.23.1.linux-${GO_ARCH}.tar.gz && \
+        rm -rf /usr/local/go && \
+        tar -C /usr/local -xzf go1.23.1.linux-${GO_ARCH}.tar.gz && \
+        rm -f go1.23.1.linux-${GO_ARCH}.tar.gz
+
     ENV PATH="${PATH}:/usr/local/go/bin"
+
+    # Hugo 설치 (alpine 패키지로 설치, extended 포함)
     RUN apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/community hugo
+
     ENV HUGO_BIND=0.0.0.0 HUGO_DESTINATION=public HUGO_ENV=DEV HUGO_EDITION=extended
-    WORKDIR ~/
+
+    # Hugo 소스 빌드
+    WORKDIR /root
     RUN git clone https://github.com/gohugoio/hugo.git
-    WORKDIR ~/hugo
+    WORKDIR /root/hugo
     RUN CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
-    RUN hugo version && rm -rf ~/hugo
+    RUN hugo version && rm -rf /root/hugo
+
+    # 기타 앱 설정
     RUN mkdir /app
     ADD entrypoint.sh /app/entrypoint.sh
-    RUN chmod 777 /app/entrypoint.sh
+    RUN chmod +x /app/entrypoint.sh
+
     RUN echo "Installing base packages" \
-            && apk add --update --no-cache \
-                    socat \
-            && echo "Removing apk cache" \
-            && rm -rf /var/cache/apk/
-    RUN mkdir -p /data/public && cd /data/public
-    EXPOSE 8081
+        && apk add --update --no-cache socat \
+        && rm -rf /var/cache/apk/
+
+    RUN mkdir -p /data/public
+    EXPOSE ${EXPOSE_PORT}
     ENTRYPOINT ["/app/entrypoint.sh"]
     ```
 
